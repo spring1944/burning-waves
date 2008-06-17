@@ -9,7 +9,7 @@
 
 	name=Zhelezniakov-class monitor;
 	description= Fire Support Ship;
-	maxdamage=10000;
+	maxdamage=30000;
 	buildcostmetal=100;
 	buildcostenergy=0;
 	buildtime=375;

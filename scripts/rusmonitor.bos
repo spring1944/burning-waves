@@ -121,7 +121,6 @@ Create()
 {
 	bMoving = FALSE;
 	call-script InitTurrets();
-	turn flag1 to y-axis <180> now;
 	call-script WaitForConstructionToFinish();
 	start-script DamageSmoke();
 	start-script WorkingLoop();
