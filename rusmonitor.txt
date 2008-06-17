@@ -1,0 +1,21 @@
+Weapons:
+1 x 40-K 45mm gun turret
+1 x 41-K twin 45mm guns turret (the same guns as in 40-K, but 2 of them in a turret)
+2 x 70-K 37mm AA gun in open mount (the same as 61-K light AA gun)
+1 x MK-2-4 102mm gun turret (main turret, 2 guns in it)
+4 x 12.7mm MG - 2 in armored turrets, 2 in open mounts
+
+45mm guns are basically the same as in T-70, but they can elevate high enough to provide AA fire.
+Main guns can elevate to +60 degrees and so can also fire AA
+In fact all the weapons can be used for air defence, though 102mm and 45mm guns aren't particularly good at it.
+
+Weapon arrangement for script:
+Weapon1 - main guns
+Weapon2 - forward 45mm turret (2-gun one)
+Weapon3 - rear 45mm turret
+Weapon4 - forward MG turret
+Weapon5 - rear MG turret
+Weapon6 - first AA gun
+Weapon7 - second AA gun
+Weapon8 - top AA MG
+Weapon9 - rear AA MG
