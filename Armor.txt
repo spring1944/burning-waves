@@ -233,6 +233,7 @@
 	GERSdkfz9=99;
 	GERMarder=99;
 	GERWespe=99;
+	GERAFP=99;
 
 	//US//
 	USM8Greyhound=99;

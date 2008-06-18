@@ -1,21 +1,21 @@
 [unitinfo]
 {
-	unitname=RUSMonitor;
-	objectname=RUSMonitor;
-	corpse=RUSMonitor_dead;
+	unitname=GERAFP;
+	objectname=GERAFP;
+	corpse=GERAFP_dead;
 	icontype=pontoon;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 
-	name=Zhelezniakov-class monitor;
-	description= Fire Support Ship;
-	maxdamage=30000;
+	name=Artilleriefahrprahm;
+	description= Landing Fire Support Ship;
+	maxdamage=20000;
 	buildcostmetal=100;
 	buildcostenergy=0;
 	buildtime=375;
 	footprintx=8;
 	footprintz=8;
-	mass=240000;
+	mass=100000;
 	floater=1;
 	minwaterdepth=6;
 	shownanoframe=0;
@@ -38,39 +38,34 @@
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
-	Weapon1=mk_2_4;
-	Weapon2=41k45mmhe;
-	Weapon3=40k45mmhe;
-	Weapon4=m2browning;
-	Weapon5=m2browning;
-	Weapon6=61k37mmaa;
-	Weapon7=61k37mmaa;
-	Weapon8=m2browning;
-	Weapon9=m2browning;
+	Weapon1=88mmskc30;
+	Weapon2=88mmskc30;
+	Weapon3=37mmflak43;
+	Weapon4=flak3820mmaa; //20mmflakvierling;
+	Weapon5=flak3820mmaa; //20mmflakvierling;
+	Weapon6=20mmc38;
+	Weapon7=20mmc38;
 
-	WeaponMainDir1=0 -1 0;
-	MaxAngleDif1=300;
+	WeaponMainDir1=0 0 1;
+	MaxAngleDif1=270;
 
-	WeaponMainDir2=0 0 1;
-	MaxAngleDif2=300;
+	WeaponMainDir2=0 0 -1;
+	MaxAngleDif2=270;
 
-	WeaponMainDir3=0 0 -1;
-	MaxAngleDif3=300;
+	WeaponMainDir3=0 0 1;
+	MaxAngleDif3=270;
 
 	WeaponMainDir4=0 0 1;
 	MaxAngleDif4=270;
 
 	WeaponMainDir5=0 0 -1;
-	MaxAngleDif5=300;
+	MaxAngleDif5=270;
 
-	WeaponMainDir6=0 0 -1;
+	WeaponMainDir6=1 0 0;
 	MaxAngleDif6=270;
 
-	WeaponMainDir7=0 0 -1;
-	MaxAngleDif7=300;
-
-	WeaponMainDir9=0 0 -1;
-	MaxAngleDif9=300;
+	WeaponMainDir7=-1 0 0;
+	MaxAngleDif7=270;
 
 	[sfxtypes]
 	{
