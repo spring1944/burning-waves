@@ -114,33 +114,3 @@
 		flags=0;
 	}
 }
-[20k45mmhefear]
-{
-	id=301;
-	name=Supression;
-	rendertype=1;
-	turret=1;
-	tolerance=600;
-
-	ballistic=1;
-	firestarter=0;
-
-	range=1310;
-	reloadtime=3.2;
-	weaponvelocity=1584;
-	areaofeffect=150;
-	edgeeffectiveness=1;
-
-	collidefriendly=0;
-	noselfdamage=1;
-
-	color=255;
-
-	size=0.000001;
-	collisionsize=4;
-
-	[damage]
-	{
-		default=0.0001;
-	}
-}

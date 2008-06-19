@@ -1,0 +1,8 @@
+Raumboot (minesweeper boat)
+Since we have no naval mines atm, this will serve as a light patrol boat.
+
+Weapons:
+1 x 3.7 cm/57 (1.5") Flak M43 (Rheinmetall 108 MK103 aircraft cannon modified for ship use)
+2 x 2 cm/65 (0.79") C/38 AA MG (single mount)
+
+All of the weapon crew work unprotected, and there is no armor at all since this is a seagoing vessel unlikely to encounter small arms fire (IRL at least) and any medium or larger caliber shell won't be affected by light armor at all. The boat is speedy however and should be quite cheap (cheaper than a Soviet subchaser for ex.). Should be a threat to torpedo craft and low-flying planes. Maybe we can use that to lay and remove naval mines if we add them.

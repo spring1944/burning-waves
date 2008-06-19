@@ -234,6 +234,7 @@
 	GERMarder=99;
 	GERWespe=99;
 	GERAFP=99;
+	GERRBoot=99;
 
 	//US//
 	USM8Greyhound=99;
@@ -245,6 +246,7 @@
 	RUSM5Halftrack=99;
 	RUSSU76=99;
 	RUSMonitor=99;
+	RUSBMO=99;
 
 	//Britain//
 	GBRDaimler=99;

@@ -41,12 +41,12 @@
 	Weapon1=mk_2_4;
 	Weapon2=41k45mmhe;
 	Weapon3=40k45mmhe;
-	Weapon4=m2browning;
-	Weapon5=m2browning;
+	Weapon4=dshk;
+	Weapon5=dshk;
 	Weapon6=61k37mmaa;
 	Weapon7=61k37mmaa;
-	Weapon8=m2browning;
-	Weapon9=m2browning;
+	Weapon8=dshk;
+	Weapon9=dshk;
 
 	WeaponMainDir1=0 -1 0;
 	MaxAngleDif1=300;

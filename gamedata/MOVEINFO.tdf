@@ -89,3 +89,12 @@
 	minwaterdepth=6;
 	crushstrength=10;
 }
+
+[CLASS11]
+{
+	name=BOAT_LightPatrol;
+	footprintx=8;
+	footprintz=8;
+	minwaterdepth=10;
+	crushstrength=10;
+}
