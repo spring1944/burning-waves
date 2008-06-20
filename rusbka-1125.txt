@@ -1,0 +1,8 @@
+Project 1125 river armored boats were smaller versions of pr.1124 boats. They were designed to be as simple and easy to build as possible (often at the expence of such things like speed, operating range and crew comfort). This allowed to produce them on shipyards that never built warships before. Main turret was taken from T-34-76 tank (first series were built using T-28 turrets, both main and secondary, but T-28 production ended in 1939) and retained F-34 gun of said tank. Secondary turrets were either the ones from T-28 tanks or built from scratch, in any case they housed 12.7mm HMG (of varied types). Sometimes the boats were equipped with WW1 era 3-inch Lender guns instead of the main turret (due to tank turret shortage) or even a M-8-M Katyusha rocket launcher instead of rear MG turret (should I model that version?).
+
+Weapons:
+1 x F-34 gun (in standard T-34-76 turret)
+3 x 12.7mm MG (in fully armored turrets)
+
+Generally ALL the crew works in armored compartments or turrets, so the unit is NOT vulnerable to small arms AT ALL. As the boat is quite low over the water, it isn't an easy target for anti-tank weapons. Main turret has the standard tank armor, hull is amored against heavy MG fire. Fuel tank has a system that fills empty space in it with engine exhaust gases so it's not going to cause a fire if hit.
+This unit's role is a river tank - it does what tanks usually do, but on water. It's NOT intended for combat against other ships or for entering sea at all (any kind of bad weather will be very hard for this low-board boat). Its speed is too low to catch up with fast seagoing craft.

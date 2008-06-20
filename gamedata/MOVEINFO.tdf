@@ -98,3 +98,12 @@
 	minwaterdepth=10;
 	crushstrength=10;
 }
+
+[CLASS12]
+{
+	name=BOAT_Destroyer;
+	footprintx=8;
+	footprintz=8;
+	minwaterdepth=20;
+	crushstrength=10;
+}

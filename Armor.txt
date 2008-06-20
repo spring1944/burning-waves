@@ -247,6 +247,8 @@
 	RUSSU76=99;
 	RUSMonitor=99;
 	RUSBMO=99;
+	RUSBKA-1125=99;
+	RUSPSK=99;
 
 	//Britain//
 	GBRDaimler=99;

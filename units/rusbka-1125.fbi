@@ -1,0 +1,65 @@
+[unitinfo]
+{
+	unitname=RUSBKA-1125;
+	objectname=RUSBKA-1123;
+	corpse=RUSBKA-1125_dead;
+	icontype=pontoon;
+	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
+	tedclass=SHIP;
+
+	name=Pr.1125 Armored Boat;
+	description= armored river gunboat;
+	maxdamage=20000;
+	buildcostmetal=100;
+	buildcostenergy=0;
+	buildtime=375;
+	footprintx=8;
+	footprintz=8;
+	mass=75000;
+	floater=1;
+	minwaterdepth=6;
+	shownanoframe=0;
+	smoothanim=0;
+
+	energymake=0;
+	energyuse=0;
+	SeismicSignature=0;
+	sightdistance=900;
+	airsightdistance=1500;
+	stealth=0;
+
+	canmove=1;
+	movementclass=BOAT_Monitor;
+	maxvelocity=1.5;
+	acceleration=0.1;
+	brakerate=0.1;
+	turnrate=300;
+
+	explodeas=Vehicle_Explosion_Sm;
+	selfdestructas=Vehicle_Explosion_Sm;
+
+	Weapon1=F3476mmHE;
+	Weapon2=dshk;
+	Weapon3=dshk;
+	Weapon4=dshk;
+
+	WeaponMainDir1=0 0 1;
+	MaxAngleDif1=300;
+
+	WeaponMainDir2=0 0 1;
+	MaxAngleDif2=270;
+
+	WeaponMainDir3=0 0 1;
+	MaxAngleDif3=358;
+
+	WeaponMainDir4=0 0 -1;
+	MaxAngleDif4=270;
+
+	[sfxtypes]
+	{
+	}
+	[customParams]
+	{
+		dontCount=1;
+	}
+}

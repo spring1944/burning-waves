@@ -1,7 +1,7 @@
-[mk_2_4]
+[102mmL60]
 {
 	id=99;
-	name=MK-2-4 102mm Naval Gun;
+	name=102mm/60 Naval Gun;
 	rendertype=1;
 	turret=1;
 	tolerance=3000;
