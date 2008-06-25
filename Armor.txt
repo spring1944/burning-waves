@@ -249,6 +249,7 @@
 	RUSBMO=99;
 	RUSBKA-1125=99;
 	RUSPSK=99;
+	RUSPr7=99;
 
 	//Britain//
 	GBRDaimler=99;

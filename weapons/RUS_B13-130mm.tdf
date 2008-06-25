@@ -1,7 +1,7 @@
-[mk_2_4]
+[130mmB13]
 {
 	id=99;
-	name=MK-2-4 102mm Naval Gun;
+	name=B-13 130mm/55 Naval Gun;
 	rendertype=1;
 	turret=1;
 	tolerance=3000;
@@ -11,11 +11,11 @@
 	ballistic=1;
 	firestarter=0.0;
 
-	range=4250;
-	reloadtime=5; // twice as fast as single 4-inch gun
+	range=5000;
+	reloadtime=8;//5
 	accuracy=470;
 	targetmoveerror=0.1;
-	weaponvelocity=1200;
+	weaponvelocity=1400;
 	areaofeffect=105;
 	edgeeffectiveness=0.25;
 	soundstart=GEN_105mm;
@@ -43,13 +43,13 @@
 
 	[damage]
 	{
-		default=3000;
-		infantry=1240;
-		guns=1120;
+		default=4500;
+		infantry=1860;
+		guns=1680;
 		mines=0;
 		flag=0;
-		tanks=1700;
-		armouredvehicles=4000;
-		unarmouredvehicles=4050;
+		tanks=2550;
+		armouredvehicles=6000;
+		unarmouredvehicles=6075;
 	}
 }

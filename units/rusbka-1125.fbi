@@ -1,7 +1,7 @@
 [unitinfo]
 {
 	unitname=RUSBKA-1125;
-	objectname=RUSBKA-1123;
+	objectname=RUSBKA-1125;
 	corpse=RUSBKA-1125_dead;
 	icontype=pontoon;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
