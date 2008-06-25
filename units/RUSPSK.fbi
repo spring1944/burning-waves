@@ -4,7 +4,7 @@
 	objectname=RUSPSK;
 	corpse=RUSPSK_dead;
 	icontype=pontoon;
-	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
+	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON LARGESHIP;
 	tedclass=SHIP;
 
 	name=Brilliant-class Border Guard Ship;

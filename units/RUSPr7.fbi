@@ -4,7 +4,7 @@
 	objectname=RUSPr7;
 	corpse=RUSPr7_dead;
 	icontype=pontoon;
-	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
+	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON LARGESHIP;
 	tedclass=SHIP;
 
 	name=Project 7 Destroyer;
@@ -55,6 +55,9 @@
 	Weapon14=dshk;
 	Weapon15=triple533mmtorpedo;
 	Weapon16=triple533mmtorpedo;
+
+	OnlyTargetCategory15=LARGESHIP;
+	OnlyTargetCategory16=LARGESHIP;
 
 	WeaponMainDir1=0 0 1;
 	MaxAngleDif1=270;
