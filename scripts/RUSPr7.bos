@@ -794,9 +794,9 @@ Killed(severity, corpsetype)
 		move hull1 to z-axis HULL_MOVE_DIST speed HULL_MOVE_SPEED;
 		move hull2 to z-axis (0-HULL_MOVE_DIST) speed HULL_MOVE_SPEED;
 		turn hull1 to x-axis (0-HULL_LIST_ANGLE) speed HULL_LIST_SPEED;
-		turn hull2_1 to x-axis (0-HULL_LIST_ANGLE) speed HULL_LIST_SPEED;
+		//turn hull2_1 to x-axis (0-HULL_LIST_ANGLE) speed HULL_LIST_SPEED;
 		turn hull2 to x-axis HULL_LIST_ANGLE speed HULL_LIST_SPEED;
-		turn hull2_2 to x-axis HULL_LIST_ANGLE speed HULL_LIST_SPEED;
+		//turn hull2_2 to x-axis HULL_LIST_ANGLE speed HULL_LIST_SPEED;
 		wait-for-move hull1 along z-axis;
 		wait-for-turn hull1 around x-axis;
 		return (TRUE);

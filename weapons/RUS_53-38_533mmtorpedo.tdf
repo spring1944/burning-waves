@@ -15,10 +15,10 @@
 	reloadtime=300;
 	weapontimer=5.5;
 	burnblow=1;
-	weaponvelocity=350;
-	startvelocity=50;
+	weaponvelocity=500;
+	startvelocity=300;
 	weaponacceleration=250;
-	turnrate=0;
+	turnrate=10000;
 	areaofeffect=32;
 	edgeeffectiveness=0.5;
 	metalpershot=0;
@@ -74,10 +74,10 @@
 	sprayangle=100;
 	weapontimer=5.5;
 	burnblow=1;
-	weaponvelocity=350;
-	startvelocity=50;
+	weaponvelocity=500;
+	startvelocity=300;
 	weaponacceleration=250;
-	turnrate=0;
+	turnrate=10000;
 	areaofeffect=32;
 	edgeeffectiveness=0.5;
 	metalpershot=0;
