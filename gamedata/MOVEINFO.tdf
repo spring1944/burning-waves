@@ -107,3 +107,12 @@
 	minwaterdepth=20;
 	crushstrength=10;
 }
+
+[CLASS13]
+{
+	name=BOAT_LandingCraft;
+	footprintx=8;
+	footprintz=8;
+	minwaterdepth=2;
+	crushstrength=10;
+}

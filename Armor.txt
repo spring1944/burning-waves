@@ -240,6 +240,7 @@
 	USM8Greyhound=99;
 	USM3Halftrack=99;
 	USM7Priest=99;
+	USLCT=99;
 
 	//USSR//
 	RUSBA64=99;
