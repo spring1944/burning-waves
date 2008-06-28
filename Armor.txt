@@ -272,6 +272,7 @@
 	USGMCTruck_Eng=99;
 	USGMCEngVehicle=99;
 	USSupplyTruck=99;
+	USDUKW=99;
 
 	//USSR//
 	RUSZiS5=99;
