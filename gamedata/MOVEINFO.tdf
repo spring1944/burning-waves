@@ -117,10 +117,19 @@
 	crushstrength=10;
 }
 [CLASS14]
-	{
+{
 	Name=HOVER_AmphibTruck;
 	FootprintX=3;
 	FootprintZ=3;
 	MaxSlope=17;
 	MaxWaterSlope=255;
-	}
+}
+
+[CLASS15]
+{
+	name=BOAT_Sub;
+	footprintx=8;
+	footprintz=8;
+	minwaterdepth=40;
+	crushstrength=10;
+}
