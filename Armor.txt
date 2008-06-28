@@ -257,6 +257,7 @@
 	GBRM5Halftrack=99;
 	GBRAECMkIII=99;
 	GBRSexton=99;
+	GBRLCT=99;
 	}
 
 [UnarmouredVehicles]
