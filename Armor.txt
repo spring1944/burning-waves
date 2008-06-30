@@ -235,6 +235,7 @@
 	GERWespe=99;
 	GERAFP=99;
 	GERRBoot=99;
+	GERMFP=99;
 
 	//US//
 	USM8Greyhound=99;
