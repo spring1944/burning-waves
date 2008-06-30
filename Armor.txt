@@ -255,6 +255,7 @@
 	RUSTypeM=99;
 	RUSTypeM_surfaced=99;
 	RUSLCT=99;
+	RUSKomsMTB=99;
 
 	//Britain//
 	GBRDaimler=99;

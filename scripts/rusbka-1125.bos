@@ -270,7 +270,7 @@ Killed(severity, corpsetype)
 	{
 		corpsetype = 1;
 		turn hull to x-axis HULL_LIST_ANGLE speed HULL_LIST_SPEED;
-		wait-for-turn hull around z-axis;
+		wait-for-turn hull around x-axis;
 		explode hull type		BITMAPONLY|BITMAP1;
 		return (TRUE);
 	}
