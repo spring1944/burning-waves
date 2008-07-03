@@ -1,0 +1,8 @@
+Type 1939 Flottentorpedoboot.
+An improvement over type 1935 and type 1937 classes.
+In most other countries this would be called an escort destroyer or some such, but not in Germany. This craft is a coastal destroyer (ie it's not designed to sail in the high seas) heavily armed with torpedoes as well as some artillery and depth charges.
+Main artillery is 105mm which roughly corresponds to 4-inch guns (found on most destroyers of all sides during WW1).
+AA artillery is 2 x twin 37mm C30 guns (single shot only, no burst), 5 x 20mm guns and 1 x Flak-Vierling quad 20mm gun
+Torpedoes are contained in 2 3-tube launchers.
+In 1 on 1 fight this ship will likely lose to a full Allied destroyer... unless it can get into position for a torpedo attack, in which case both ships will most probably be dead. It's cheaper than a destroyer however, and nearly as deadly against smaller ships and aircraft.
+Generally German destroyer force was an ORDER OF MAGNITUDE less numerous that British, and German destroyers were notoriously bad at sea-keeping (as in they often took weather damage when in the ocean), yet it was the UK who constantly felt the need for more of them because of U-Boat threat.

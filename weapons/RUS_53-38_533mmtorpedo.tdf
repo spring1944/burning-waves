@@ -71,7 +71,7 @@
 	reloadtime=300;
 	burst=3;
 	burstrate=2;
-	sprayangle=100;
+	sprayangle=500;
 	weapontimer=5.5;
 	burnblow=1;
 	weaponvelocity=500;
