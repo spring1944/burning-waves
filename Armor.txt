@@ -227,6 +227,8 @@
 
 [ArmouredVehicles]
 	{
+	target=99;
+	
 	//**Germany**//
 	GERSdKfz250=99;
 	GERSdKfz251=99;
