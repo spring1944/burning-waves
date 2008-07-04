@@ -12,7 +12,7 @@
 	firestarter=0.0;
 
 	range=1310;
-	reloadtime=3.2;
+	reloadtime=2.4; // 25 rounds per minute, although theoretical RoF should be 30, this was rarely achieved
 	accuracy=354;
 	movingaccuracy=600;
 	targetmoveerror=0.075;

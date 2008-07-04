@@ -30,7 +30,7 @@
 
 	canmove=1;
 	movementclass=BOAT_Destroyer;
-	maxvelocity=5;
+	maxvelocity=4.8; //48 knots
 	acceleration=0.2;
 	brakerate=0.2;
 	turnrate=500;

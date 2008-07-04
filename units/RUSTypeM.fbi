@@ -30,7 +30,7 @@
 
 	canmove=1;
 	movementclass=BOAT_Sub;
-	maxvelocity=0.7;
+	maxvelocity=0.82; // 8.2 knots submerged
 	acceleration=0.2;
 	brakerate=0.20;
 	turnrate=350;

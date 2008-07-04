@@ -12,7 +12,7 @@
 	firestarter=0.0;
 
 	range=1310;
-	reloadtime=2.1;
+	reloadtime=1.6; // 1.5 times as fast as the single gun
 	accuracy=354;
 	movingaccuracy=600;
 	targetmoveerror=0.075;

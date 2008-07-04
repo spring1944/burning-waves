@@ -30,7 +30,7 @@
 
 	canmove=1;
 	movementclass=BOAT_Monitor;
-	maxvelocity=1.7;
+	maxvelocity=1.02; //10.2 kn
 	acceleration=0.15;
 	brakerate=0.14;
 	turnrate=350;

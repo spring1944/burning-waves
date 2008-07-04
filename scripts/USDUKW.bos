@@ -134,7 +134,7 @@ Create()
 {
 //	spin tow_point around y-axis speed <100>;
 	LandSpeed = get MAX_SPEED;
-	WaterSpeed = LandSpeed / 3;
+	WaterSpeed = LandSpeed * 0.12; // land speed: 50 mph, water speed: 6 mph
 	start-script SmokeUnit();
 	bFloating = FALSE;
 	skip = 0;

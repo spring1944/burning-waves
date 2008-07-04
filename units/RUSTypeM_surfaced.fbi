@@ -31,7 +31,7 @@
 	canmove=1;
 	// Use the destroyer movetype while surfaced - this way we can get through shallow places
 	movementclass=BOAT_Destroyer;
-	maxvelocity=1.1;
+	maxvelocity=1.41; // 14.1 knots surfaced
 	acceleration=0.3;
 	brakerate=0.20;
 	turnrate=350;

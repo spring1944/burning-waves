@@ -30,7 +30,7 @@
 
 	canmove=1;
 	movementclass=BOAT_LightPatrol;
-	maxvelocity=2.0;
+	maxvelocity=2.2; // 22 knots
 	acceleration=0.2;
 	brakerate=0.15;
 	turnrate=425;

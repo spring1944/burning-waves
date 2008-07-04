@@ -37,7 +37,7 @@
 
 	canmove=1;
 	movementclass=BOAT_LandingCraft;
-	maxvelocity=1.0;
+	maxvelocity=0.8; // 8 knots...
 	acceleration=0.2;
 	brakerate=0.15;
 	turnrate=425;
