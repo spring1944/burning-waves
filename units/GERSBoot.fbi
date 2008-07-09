@@ -1,21 +1,21 @@
 [unitinfo]
 {
-	unitname=RUSBMO;
-	objectname=RUSBMO;
-	corpse=RUSBMO_dead;
+	unitname=GERSBoot;
+	objectname=GERSBoot;
+	corpse=GERSBoot_dead;
 	icontype=pontoon;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 
-	name=BMO class Subchaser;
-	description= armored light patrol ship;
-	maxdamage=20000;
+	name=Schnellboot;
+	description= Torpedo boat;
+	maxdamage=5000;
 	buildcostmetal=100;
 	buildcostenergy=0;
 	buildtime=375;
 	footprintx=8;
 	footprintz=8;
-	mass=75000;
+	mass=50000;
 	floater=1;
 	minwaterdepth=10;
 	shownanoframe=0;
@@ -30,32 +30,35 @@
 
 	canmove=1;
 	movementclass=BOAT_LightPatrol;
-	maxvelocity=2.2; // 22 knots
-	acceleration=0.2;
-	brakerate=0.15;
-	turnrate=425;
+	maxvelocity=3.9; // 39 knots
+	acceleration=0.3;
+	brakerate=0.3;
+	turnrate=550;
 
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
 	canAttack=1;
 
-	Weapon1=61k37mmaa;
-	Weapon2=40k45mmhe;
-	Weapon3=twin_dshk;
-	Weapon4=twin_dshk;
+	Weapon1=g7a533mmtorpedo;
+	Weapon2=g7a533mmtorpedo;
+	Weapon3=20mmc38;
+	Weapon4=20mmc38;
+
+	OnlyTargetCategory1=LARGESHIP;
+	OnlyTargetCategory2=LARGESHIP;
 
 	WeaponMainDir1=0 0 1;
-	MaxAngleDif1=270;
+	MaxAngleDif1=40;
 
-	WeaponMainDir2=0 0 -1;
-	MaxAngleDif2=300;
+	WeaponMainDir2=0 0 1;
+	MaxAngleDif2=40;
 
-	WeaponMainDir3=0 0 -1;
-	MaxAngleDif3=358;
+	WeaponMainDir3=0 0 1;
+	MaxAngleDif3=270;
 
 	WeaponMainDir4=0 0 -1;
-	MaxAngleDif4=270;
+	MaxAngleDif3=270;
 
 	[sfxtypes]
 	{

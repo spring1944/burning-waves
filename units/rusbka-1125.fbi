@@ -38,6 +38,8 @@
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
+	canAttack=1;
+
 	Weapon1=F3476mmHE;
 	Weapon2=dshk;
 	Weapon3=dshk;
