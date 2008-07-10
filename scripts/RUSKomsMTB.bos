@@ -15,9 +15,12 @@ piece base, hull, tower, turret1, gun1, flare1_1, flare1_2, turret2, gun2, flare
 #define HULL_LIST_ANGLE		<20>
 
 //*********************Cruise mode
-#define CRUISE_MODE_DELAY	5000
 #define CRUISE_MODE_ANGLE	<-5>
 #define CRUISE_MODE_RAISE_SPEED	<2>
+#define CRUISE_MODE_START_DIVIDER	4
+#define CRUISE_MODE_START_MULTIPLIER	3
+#define CRUISE_MODE_PERIOD	250
+
 
 #define RESTORE_PERIOD		2500
 
@@ -33,7 +36,7 @@ piece base, hull, tower, turret1, gun1, flare1_1, flare1_2, turret2, gun2, flare
 #include "exptype.h"
 #include "sfxtype.h"
 #include "damageSmoke.h"
-static-var					CurrentSpeed, bMoving, bDying, flare1, flare2;
+static-var					CruiseTriggerSpeed, MaxSpeed, bMoving, flare1, flare2;
 
 WorkingLoop()
 {
@@ -65,14 +68,34 @@ WaitForConstructionToFinish()
 	}
 }
 
+CruiseControl()
+{
+	var CurrentSpeed;
+	set-signal-mask SIG_DEATH;
+	while(TRUE)
+	{
+		CurrentSpeed = get CURRENT_SPEED;
+		if(CurrentSpeed > CruiseTriggerSpeed)
+		{
+			turn hull to x-axis CRUISE_MODE_ANGLE speed CRUISE_MODE_RAISE_SPEED;		
+		} else
+		{
+			turn hull to x-axis <0> speed CRUISE_MODE_RAISE_SPEED;
+		}
+		sleep CRUISE_MODE_PERIOD;
+	}
+}
+
 Create()
 {
 	bMoving = FALSE;
-	bDying = FALSE;
+	MaxSpeed = get MAX_SPEED;
+	CruiseTriggerSpeed = MaxSpeed * CRUISE_MODE_START_MULTIPLIER / CRUISE_MODE_START_DIVIDER;
 	call-script InitTurrets();
 	call-script WaitForConstructionToFinish();
 	start-script DamageSmoke();
 	start-script WorkingLoop();
+	start-script CruiseControl();
 }
 
 SweetSpot(piecenum)
@@ -97,8 +120,6 @@ StartMoving()
 	signal SIG_MOVE;
 	start-script EmitWakes();
 	bMoving = TRUE;
-	sleep CRUISE_MODE_DELAY;
-	turn hull to x-axis CRUISE_MODE_ANGLE speed CRUISE_MODE_RAISE_SPEED;
 }
 
 StopMoving()
@@ -108,10 +129,6 @@ StopMoving()
 	// We don't want this to trigger on VERY short stops
 	sleep 300;
 	bMoving = FALSE;
-	if(!bDying)
-	{
-		turn hull to x-axis <0> speed CRUISE_MODE_RAISE_SPEED*5;
-	}
 }
 
 RestoreTurret()
@@ -260,7 +277,6 @@ FireWeapon4()
 Killed(severity, corpsetype)
 {
 	signal SIG_DEATH;
-	bDying = TRUE;
 	if (severity<99)
 	{
 		corpsetype = 1;
