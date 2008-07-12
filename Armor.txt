@@ -240,6 +240,8 @@
 	GERMFP=99;
 	GERFlottenTorpBoot=99;
 	GERSBoot=99;
+	GERSeehund=99;
+	GERSeehund_surfaced=99;
 
 	//US//
 	USM8Greyhound=99;
