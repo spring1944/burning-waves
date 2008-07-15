@@ -132,4 +132,5 @@
 	footprintz=8;
 	minwaterdepth=40;
 	crushstrength=10;
+	submarine=1;
 }
