@@ -45,9 +45,8 @@
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
-	// FIXME using German weapons for now, until someone finds the stats for an Oerlikon
-	Weapon1=20mmc38; //oerlikon20mm;
-	Weapon2=20mmc38; //oerlikon20mm;
+	Weapon1=20mmOerlikon; //oerlikon20mm;
+	Weapon2=20mmOerlikon; //oerlikon20mm;
 
 	WeaponMainDir1=1 0 0;
 	MaxAngleDif1=240;

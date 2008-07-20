@@ -48,8 +48,8 @@
 	Weapon5=6pdr57mmap;
 	Weapon6=6pdr57mmap;
 
-	Weapon7=20mmc38;
-	Weapon8=20mmc38;
+	Weapon7=20mmOerlikon;
+	Weapon8=20mmOerlikon;
 	WeaponSlaveTo8=7;
 
 	Weapon9=twin05calVickers;
