@@ -271,6 +271,7 @@
 	GBRSexton=99;
 	GBRLCT=99;
 	GBRFairmileD=99;
+	GBRHuntII=99;
 	}
 
 [UnarmouredVehicles]
