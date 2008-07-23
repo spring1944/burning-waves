@@ -49,12 +49,12 @@
 	dyndamagerange=5250;
 	[damage]
 	{
-		default=7575; //10100
-		infantry=2500;
-		guns=1900;
-		lightbuildings=750;
-		bunkers=50;
-		sandbags=250;
+		default=2500; //10100
+		infantry=1000;
+		guns=1100;
+		lightbuildings=250;
+		bunkers=15;
+		sandbags=100;
 		mines=0;
 		flag=0;
 	}
