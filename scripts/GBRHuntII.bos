@@ -398,7 +398,7 @@ FireWeapon4()
 	pom_flare = pom_flare + 1;
 	if(pom_flare>4)
 	{
-		pom_flare = 4;
+		pom_flare = 1;
 	}
 }
 
