@@ -272,6 +272,7 @@
 	GBRLCT=99;
 	GBRFairmileD=99;
 	GBRHuntII=99;
+	GBRFlower=99;
 	}
 
 [UnarmouredVehicles]
