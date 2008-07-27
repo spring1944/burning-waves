@@ -12,8 +12,7 @@
 	firestarter=0.0;
 
 	range=4250;
-	// the book says 15 rpm, which is a bit too high %)
-	reloadtime=6;//5
+	reloadtime=4; // 15 rpm it is
 	accuracy=470;
 	targetmoveerror=0.1;
 	weaponvelocity=1200;

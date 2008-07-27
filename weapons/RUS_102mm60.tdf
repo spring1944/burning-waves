@@ -12,7 +12,7 @@
 	firestarter=0.0;
 
 	range=4250;
-	reloadtime=10;//5
+	reloadtime=5; // 12 rpm
 	accuracy=470;
 	targetmoveerror=0.1;
 	weaponvelocity=1200;

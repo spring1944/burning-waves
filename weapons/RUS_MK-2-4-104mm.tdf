@@ -12,7 +12,7 @@
 	firestarter=0.0;
 
 	range=4250;
-	reloadtime=5; // twice as fast as single 4-inch gun
+	reloadtime=5; // 4-6 rpm for a single gun, and we have 2 here
 	accuracy=470;
 	targetmoveerror=0.1;
 	weaponvelocity=1200;
