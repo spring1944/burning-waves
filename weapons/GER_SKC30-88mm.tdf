@@ -12,7 +12,7 @@
 	firestarter=0.0;
 
 	range=2110;
-	reloadtime=9.15;
+	reloadtime=4; // 15 rpm
 	accuracy=125;
 	movingaccuracy=600;
 	targetmoveerror=0.075;

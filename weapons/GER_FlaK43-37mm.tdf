@@ -49,8 +49,9 @@
 	dyndamagerange=5250;
 	[damage]
 	{
-		default=7575; //10100
+		default=7575;
 		infantry=2500;
+		armouredvehicles=375;
 		guns=1900;
 		lightbuildings=750;
 		bunkers=50;

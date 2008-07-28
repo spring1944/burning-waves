@@ -54,6 +54,7 @@
 	{
 		default=7575; //10100
 		infantry=2500;
+		armouredvehicles=400;
 		guns=1900;
 		lightbuildings=750;
 		bunkers=50;
