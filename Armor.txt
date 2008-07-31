@@ -243,6 +243,7 @@
 	GERSeehund=99;
 	GERSeehund_surfaced=99;
 	GERVorpostenBoot=99;
+	GERType1934=99;
 
 	//US//
 	USM8Greyhound=99;
