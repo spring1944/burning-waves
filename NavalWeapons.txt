@@ -32,6 +32,13 @@ Explosive mass		varies
 
 Germany
 
+12.7cm/L45 SC C/34
+Muzzle velocity		830 mps
+RoF			15-18 rpm (I don't believe that, too much for a 5-inch gun)
+Max.Range		17400 m at 30 degrees (max elevation the mount could provide)
+Shell mass		28 kg
+Explosive mass		8.5 kg HE
+
 10.5cm/45 SK C/32
 Muzzle velocity		780 mps
 RoF			15 rpm

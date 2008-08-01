@@ -11,7 +11,7 @@
 	ballistic=1;
 	firestarter=0.0;
 
-	range=5000;
+	range=4000;
 	reloadtime=7; // I don't believe in 15 rpm for this gun
 	accuracy=470;
 	targetmoveerror=0.1;
