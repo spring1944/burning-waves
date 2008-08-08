@@ -276,6 +276,7 @@
 	GBRFairmileD=99;
 	GBRHuntII=99;
 	GBRFlower=99;
+	GBROClass=99;
 	}
 
 [UnarmouredVehicles]

@@ -59,15 +59,15 @@
 	MaxAngleDif3=270;
 
 	// pom-pom AA
-	WeaponMainDir4=1 0 0;
-	MaxAngleDif5=270;
+	WeaponMainDir4=0 0 -1;
+	MaxAngleDif4=270;
 
 	// 20mm AA
 	WeaponMainDir5=1 0 0;
-	MaxAngleDif8=200;
+	MaxAngleDif5=200;
 
 	WeaponMainDir6=-1 0 0;
-	MaxAngleDif9=200;
+	MaxAngleDif6=200;
 
 	[sfxtypes]
 	{
