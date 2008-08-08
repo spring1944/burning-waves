@@ -1,6 +1,6 @@
-[18inchtorpedo]
+[quad_gbr21inchtorpedo]
 	{
-	name=Mk.XV 18inch torpedo;
+	name=Quadruple Mk.IX 21inch torpedo launcher;
 	rendertype=1;
 	lineofsight=1;
 	noautorange=1;
@@ -9,12 +9,14 @@
 	turret=1;
 	waterweapon=1;
 
-	model=GBR18inchtorpedo;
+	model=GBRmkIXTorpedo;
 
 	range=1300;
 	reloadtime=300;
 	weapontimer=5.5;
-	burst=1;
+	burst=2;
+	projectiles=2;
+	burstrate=1;
 	sprayangle=1300;
 	burnblow=1;
 	weaponvelocity=450;
@@ -46,13 +48,13 @@
 
 	[damage]
 	{
-		default=8000;
-		infantry=4000;
-		guns=4000;
+		default=10000;
+		infantry=5000;
+		guns=5000;
 		mines=0;
 		flag=0;
-		tanks=8000;
-		armouredvehicles=12000;
-		unarmouredvehicles=12000;
+		tanks=10000;
+		armouredvehicles=15000;
+		unarmouredvehicles=15000;
 	}
 }
