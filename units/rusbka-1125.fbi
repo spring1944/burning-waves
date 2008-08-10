@@ -34,6 +34,7 @@
 	acceleration=0.1;
 	brakerate=0.1;
 	turnrate=300;
+	turninplace=0;
 
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;

@@ -35,6 +35,7 @@
 	brakerate=0.45;
 	turnrate=440;
 	maxslope=10;
+	turninplace=0;
 
 	leavetracks=1;
 	trackwidth=15;

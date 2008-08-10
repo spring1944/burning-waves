@@ -34,6 +34,7 @@
 	//transportcapacity=5;
 	transportmass=12000;
 	holdsteady=1;
+	turninplace=0;
 
 	canmove=1;
 	movementclass=BOAT_LandingCraft;
