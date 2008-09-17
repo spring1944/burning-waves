@@ -138,16 +138,16 @@ RestoreTurret()
 	turn turret_37_1 to y-axis <0> speed AA37_TURRET_TURN;
 	turn sleeve_37_1 to x-axis <0> speed AA37_TURRET_PITCH;
 
-	turn turret_37_2 to y-axis <0> speed AA37_TURRET_TURN;
+	turn turret_37_2 to y-axis <180> speed AA37_TURRET_TURN;
 	turn sleeve_37_2 to x-axis <0> speed AA37_TURRET_PITCH;
 
 	turn turret_20_1 to y-axis <0> speed AA20_TURRET_TURN;
 	turn sleeve_20_1 to x-axis <0> speed AA20_TURRET_PITCH;
 	turn turret_20_2 to y-axis <0> speed AA20_TURRET_TURN;
 	turn sleeve_20_2 to x-axis <0> speed AA20_TURRET_PITCH;
-	turn turret_20_3 to y-axis <0> speed AA20_TURRET_TURN;
+	turn turret_20_3 to y-axis <180> speed AA20_TURRET_TURN;
 	turn sleeve_20_3 to x-axis <0> speed AA20_TURRET_PITCH;
-	turn turret_20_4 to y-axis <0> speed AA20_TURRET_TURN;
+	turn turret_20_4 to y-axis <180> speed AA20_TURRET_TURN;
 	turn sleeve_20_4 to x-axis <0> speed AA20_TURRET_PITCH;
 }
 
