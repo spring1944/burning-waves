@@ -136,6 +136,7 @@
 	RUSSupplyDepot=99;
 	RUSTruckSupplies=99;
 	RUSSPYard=99;
+	RUSBoatyard=99;
 
 	//Britain//
 	GBRResource=99;
