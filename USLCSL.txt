@@ -1,0 +1,9 @@
+Landing Craft, Support (Large) (US version)
+This thing is a gunboat built on the (heavily modified) LCI(L) hull. Internal structure is completely reworked, a new superstructure is installed, troop carrying capacity removed and much heavier armament fitted.
+The craft is able to beach and generally can go anywhere other landing crafts go to provide fire support. Can perform both ground fire support as well and AA support roles.
+Mainly used on the Pacific.
+Do not confuse with the British LCS(L), which is a completely different craft (much smaller and fitted with different weapons).
+
+Weapons: a 3-inch gun, 2x2 40mm Bofors guns, 4 20mm Oerlikons, sometimes some rocket launch racks.
+Armor: splinter protection only
+Speed: 12 knots (some sources say 16kn, I don't think an LCI(L) based thing is capable of that though)

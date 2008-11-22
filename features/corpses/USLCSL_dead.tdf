@@ -1,7 +1,7 @@
-[USLCSL_dead]
+[USLCT_dead]
 {
-	object=USLCSL_dead;
-	description=Sunk LCS(L);
+	object=USLCT_dead;
+	description=Sunk LCT(5);
 	energy=5000;
 	damage=15000;
 	footprintx=8;
