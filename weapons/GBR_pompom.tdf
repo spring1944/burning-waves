@@ -16,7 +16,7 @@
 	movingaccuracy=800;
 	targetmoveerror=0.09;
 	firestarter=0.0;
-	weaponvelocity=1200; // quaite a slow projectile
+	weaponvelocity=1200; // quite a slow projectile
 	areaofeffect=10;
 	edgeeffectiveness=0.1;
 	canattackground=1;

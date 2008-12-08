@@ -280,6 +280,7 @@
 	GBRHuntII=99;
 	GBRFlower=99;
 	GBROClass=99;
+	GBRMonitor=99;
 	}
 
 [UnarmouredVehicles]
