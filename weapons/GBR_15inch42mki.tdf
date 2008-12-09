@@ -18,7 +18,7 @@
 	weaponvelocity=1500;
 	areaofeffect=512;
 	edgeeffectiveness=0.25;
-	soundstart=GEN_105mm;
+	soundstart=16inch;
 	soundhit=GEN_Explo_4;
 
 	noselfdamage=0; // if we are stupid enough to hit something close with THAT, then we deserved it
