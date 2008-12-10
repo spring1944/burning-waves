@@ -204,6 +204,11 @@
 		canbuild3=USP51DMustangGA;
 		canbuild4=USP47Thunderbolt;
 	}
+	[USBoatyard]
+	{
+		canbuild1=USDUKW;
+		canbuild2=USPT103;
+	}
 
 				////////////////////
 				// GERMAN UNITS   //
@@ -354,6 +359,11 @@
 		canbuild3=GERFw190;
 		canbuild4=GERJu87G;
 		canbuild5=GERFw190G;
+	}
+	[GERBoatyard]
+	{
+		canbuild1=GERRBoot;
+		canbuild2=GERSBoot;
 	}
 
 				//////////////////////
@@ -523,6 +533,10 @@
 		canbuild2=GBRSpitfireMkXIV;
 		canbuild3=GBRTyphoon;
 		canbuild4=GBRSpitfireMkIX;
+	}
+	[GBRBoatyard]
+	{
+		canbuild1=GBRFairmileD;
 	}
 
 				////////////////////

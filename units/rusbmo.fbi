@@ -13,8 +13,8 @@
 	buildcostmetal=100;
 	buildcostenergy=0;
 	buildtime=375;
-	footprintx=8;
-	footprintz=8;
+	footprintx=4;
+	footprintz=4;
 	mass=75000;
 	floater=1;
 	minwaterdepth=10;

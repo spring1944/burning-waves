@@ -111,6 +111,7 @@
 	GERSupplyDepot=99;
 	GERTruckSupplies=99;
 	GERSPYard=99;
+	GERBoatyard=99;
 
 	//US//
 	USHQ=99;
@@ -124,6 +125,7 @@
 	USSupplyDepot=99;
 	USTruckSupplies=99;
 	USSPYard=99;
+	USBoatyard=99;
 
 	//USSR//
 	RUSBarracks=99;
@@ -150,7 +152,7 @@
 	GBRSupplyDepot=99;
 	GBRTruckSupplies=99;
 	GBRSPYard=99;
-
+	GBRBoatyard=99;
 	}
 
 [Bunkers]

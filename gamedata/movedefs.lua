@@ -60,14 +60,20 @@ local moveDefs 	=	 {
 		crushStrength	=	10,
 	},
 	{
-		name					=	"BOAT_Monitor",
+		name					=	"BOAT_RiverSmall",
+		footprintX		=	4,
+		minWaterDepth	=	6,
+		crushStrength	=	10,
+	},
+	{
+		name					=	"BOAT_River",
 		footprintX		=	8,
 		minWaterDepth	=	6,
 		crushStrength	=	10,
 	},
 	{
 		name					=	"BOAT_LightPatrol",
-		footprintX		=	8,
+		footprintX		=	4,
 		minWaterDepth	=	10,
 		crushStrength	=	10,
 	},

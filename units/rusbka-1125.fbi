@@ -13,8 +13,8 @@
 	buildcostmetal=100;
 	buildcostenergy=0;
 	buildtime=375;
-	footprintx=8;
-	footprintz=8;
+	footprintx=4;
+	footprintz=4;
 	mass=75000;
 	floater=1;
 	minwaterdepth=6;
@@ -29,7 +29,7 @@
 	stealth=0;
 
 	canmove=1;
-	movementclass=BOAT_Monitor;
+	movementclass=BOAT_RiverSmall;
 	maxvelocity=1.8; // 18 knots
 	acceleration=0.1;
 	brakerate=0.1;
