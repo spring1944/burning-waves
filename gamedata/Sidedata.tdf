@@ -206,8 +206,10 @@
 	}
 	[USBoatyard]
 	{
-		canbuild1=USDUKW;
-		canbuild2=USPT103;
+		canbuild1=RubberDingy;
+		canbuild2=PontoonRaft;
+		canbuild3=USDUKW;
+		canbuild4=USPT103;
 	}
 
 				////////////////////
@@ -362,8 +364,10 @@
 	}
 	[GERBoatyard]
 	{
-		canbuild1=GERRBoot;
-		canbuild2=GERSBoot;
+		canbuild1=GERSturmboot;
+		canbuild2=PontoonRaft;
+		canbuild3=GERRBoot;
+		canbuild4=GERSBoot;
 	}
 
 				//////////////////////
@@ -536,7 +540,9 @@
 	}
 	[GBRBoatyard]
 	{
-		canbuild1=GBRFairmileD;
+		canbuild1=RubberDingy;
+		canbuild2=PontoonRaft;
+		canbuild3=GBRFairmileD;
 	}
 
 				////////////////////
@@ -724,8 +730,9 @@
 	[RUSBoatyard]
 	{
 		canbuild1=RUSPG117;
-		canbuild2=RUSBKA-1125;
-		canbuild3=RUSBMO;
-		canbuild4=RUSKomsMTB;
+		canbuild2=PontoonRaft;
+		canbuild3=RUSBKA-1125;
+		canbuild4=RUSBMO;
+		canbuild5=RUSKomsMTB;
 	}
 }
