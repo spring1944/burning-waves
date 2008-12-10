@@ -3,7 +3,7 @@
 	unitname=USBoatyard;
 	objectname=USBoatyard;
 	corpse=USBoatyard_dead;
-	icontype=factory;
+	icontype=shipyard;
 	soundcategory=USYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;

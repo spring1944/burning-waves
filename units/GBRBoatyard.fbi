@@ -3,7 +3,7 @@
 	unitname=GBRBoatyard;
 	objectname=GBRBoatyard;
 	corpse=GBRBoatyard_dead;
-	icontype=factory;
+	icontype=shipyard;
 	soundcategory=GBRYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;

@@ -3,7 +3,7 @@
 	unitname=RUSBoatyard;
 	objectname=RUSBoatyard;
 	corpse=RUSBoatyard_dead;
-	icontype=factory;
+	icontype=shipyard;
 	soundcategory=RUSYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;
