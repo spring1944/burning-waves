@@ -5,6 +5,9 @@
 
 #define SMOKE_DELAY 500
 
+#define BARGE_MOVE_DIST		[2]
+#define BARGE_MOVE_SPEED	[1]
+
 #define BASE_SMOKE_PERIOD	40
 #define MIN_SMOKE_PERIOD	240
 #define SMOKEPIECE		barge1
@@ -68,6 +71,10 @@ Create()
 
 OpenYard()
 {
+	move barge1 to x-axis 0-BARGE_MOVE_DIST speed BARGE_MOVE_SPEED;
+	move barge2 to x-axis BARGE_MOVE_DIST speed BARGE_MOVE_SPEED;
+	wait-for-move barge1 along x-axis;
+	wait-for-move barge2 along x-axis;
 	set YARD_OPEN to 1;
 	while( !get YARD_OPEN )
 	{
@@ -80,6 +87,8 @@ OpenYard()
 
 CloseYard()
 {
+	move barge1 to x-axis 0 speed BARGE_MOVE_SPEED;
+	move barge2 to x-axis 0 speed BARGE_MOVE_SPEED;
 	set YARD_OPEN to 0;
 	while( get YARD_OPEN )
 	{

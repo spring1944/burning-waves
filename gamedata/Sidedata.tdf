@@ -542,7 +542,8 @@
 	{
 		canbuild1=RubberDingy;
 		canbuild2=PontoonRaft;
-		canbuild3=GBRFairmileD;
+		canbuild3=GBRLCA;
+		canbuild4=GBRFairmileD;
 	}
 
 				////////////////////
