@@ -257,6 +257,7 @@
 	USPT103=99;
 	USFletcher=99;
 	USTacoma=99;
+	USLCVP=99;
 
 	//USSR//
 	RUSBA64=99;
@@ -271,6 +272,7 @@
 	RUSTypeM_surfaced=99;
 	RUSLCT=99;
 	RUSKomsMTB=99;
+	RUSTender15t=99;
 
 	//Britain//
 	GBRDaimler=99;

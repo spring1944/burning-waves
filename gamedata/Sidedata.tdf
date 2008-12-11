@@ -209,7 +209,8 @@
 		canbuild1=RubberDingy;
 		canbuild2=PontoonRaft;
 		canbuild3=USDUKW;
-		canbuild4=USPT103;
+		canbuild4=USLCVP;
+		canbuild5=USPT103;
 	}
 
 				////////////////////
@@ -732,8 +733,9 @@
 	{
 		canbuild1=RUSPG117;
 		canbuild2=PontoonRaft;
-		canbuild3=RUSBKA-1125;
-		canbuild4=RUSBMO;
-		canbuild5=RUSKomsMTB;
+		canbuild3=RUSTender15t;
+		canbuild4=RUSBKA-1125;
+		canbuild5=RUSBMO;
+		canbuild6=RUSKomsMTB;
 	}
 }
