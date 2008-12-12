@@ -46,6 +46,11 @@
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
+	Weapon1=bren;
+	WeaponMainDir1=0 0 1;
+	MaxAngleDif1=270;
+	OnlyTargetCategory1=INFTARG;
+
 	[sfxtypes]
 	{
 	}

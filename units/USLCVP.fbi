@@ -46,6 +46,16 @@
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
 
+	Weapon1=m1919a4browning;
+	Weapon2=m1919a4browning;
+
+	WeaponMainDir1=1 0 0;
+	MaxAngleDif1=200;
+	WeaponMainDir2=-1 0 0;
+	MaxAngleDif2=200;
+	OnlyTargetCategory1=INFTARG;
+	OnlyTargetCategory2=INFTARG;
+
 	[sfxtypes]
 	{
 	}

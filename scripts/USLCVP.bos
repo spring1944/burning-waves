@@ -1,10 +1,15 @@
 #define TAK
 
 piece base, hull, ramp, turret, grabber, link,
+	  mount1, sleeve1, gun1, flare1, mount2, sleeve2, gun2, flare2,
 	  wake1, wake2, wake3;
 
 #define BASE_SMOKE_PERIOD	40
 #define MIN_SMOKE_PERIOD	240
+
+//********************Guns
+#define MG_TURN_SPEED		<45>
+#define MG_PITCH_SPEED		<45>
 
 //********************Ramp
 #define RAMP_OPEN_ANGLE		<90>
@@ -15,6 +20,8 @@ piece base, hull, ramp, turret, grabber, link,
 #define SIG_DEATH			1
 #define SIG_MOVE			2
 #define SIG_LOAD			4
+#define SIG_AIM1			8
+#define SIG_AIM2			16
 
 #define SMOKEPIECE	hull
 
@@ -120,7 +127,8 @@ TransportPickup(unitid)
 	}
 	set BUSY to 1;
 	attach-unit unitid to (0-1);
-	sleep 500;
+	//sleep 500;
+	sleep 50;
 	set BUSY to 0;
 	sleep 2500;
 	start-script CloseRamp();
@@ -146,7 +154,8 @@ TransportDrop(unitid, position)
 	sleep 50;
 	drop-unit unitid;
 	call-script ReturnLink();
-	sleep 1000;
+	//sleep 1000;
+	sleep 50;
 	set BUSY to 0;
 	sleep 1500;
 	start-script CloseRamp();
@@ -183,6 +192,74 @@ StopMoving()
 	// We don't want this to trigger on VERY short stops
 	sleep 300;
 	bMoving = FALSE;
+}
+
+RestoreTurrets()
+{
+	set-signal-mask SIG_DEATH|SIG_AIM1|SIG_AIM2;
+	sleep 2500;
+	turn mount1 to y-axis 0 speed MG_TURN_SPEED;
+	turn mount2 to y-axis 0 speed MG_TURN_SPEED;
+	turn sleeve1 to x-axis 0 speed MG_TURN_SPEED;
+	turn sleeve2 to x-axis 0 speed MG_TURN_SPEED;
+}
+
+QueryWeapon1(piecenum)
+{
+	piecenum = flare1;
+}
+
+AimFromWeapon1(piecenum)
+{
+	piecenum = mount1;
+}
+
+AimWeapon1(heading, pitch)
+{
+	signal SIG_AIM1;
+	set-signal-mask SIG_AIM1;
+	turn mount1 to y-axis heading speed MG_TURN_SPEED;
+	turn gun1 to x-axis (0-pitch) speed MG_PITCH_SPEED;
+	wait-for-turn mount1 around y-axis;
+	wait-for-turn gun1 around x-axis;
+	start-script RestoreTurrets();
+	return TRUE;
+}
+
+FireWeapon1()
+{
+	show flare1;
+	sleep 200;
+	hide flare1;
+}
+
+QueryWeapon2(piecenum)
+{
+	piecenum = flare2;
+}
+
+AimFromWeapon2(piecenum)
+{
+	piecenum = mount2;
+}
+
+AimWeapon2(heading, pitch)
+{
+	signal SIG_AIM2;
+	set-signal-mask SIG_AIM2;
+	turn mount2 to y-axis heading speed MG_TURN_SPEED;
+	turn gun2 to x-axis (0-pitch) speed MG_PITCH_SPEED;
+	wait-for-turn mount2 around y-axis;
+	wait-for-turn gun2 around x-axis;
+	start-script RestoreTurrets();
+	return TRUE;
+}
+
+FireWeapon2()
+{
+	show flare2;
+	sleep 200;
+	hide flare2;
 }
 
 Killed(severity, corpsetype)
