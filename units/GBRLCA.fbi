@@ -50,9 +50,14 @@
 	WeaponMainDir1=0 0 1;
 	MaxAngleDif1=270;
 	OnlyTargetCategory1=INFTARG;
+	Weapon2=BrenFear;
+	WeaponSlaveTo2=1;
+
+	Weapon3=Small_Tracer;
 
 	[sfxtypes]
 	{
+		explosiongenerator0=custom:MG_MUZZLEFLASH;
 	}
 	[customParams]
 	{
