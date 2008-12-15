@@ -228,6 +228,16 @@ local iconTypes = {
 		bitmap		=	"icons/anchor.png",
 		size			=	5,
 		distance	=	0.3,
+	},
+	destroyer = {
+		bitmap		=	"icons/destroyer.png",
+		size			=	5,
+		distance	=	0.3,
+	},
+	transportship = {
+		bitmap		=	"icons/transportship.png",
+		size			=	5,
+		distance	=	0.3,
 	}
 }
 

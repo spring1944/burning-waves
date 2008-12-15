@@ -3,7 +3,7 @@
 	unitname=GBRLCT;
 	objectname=GBRLCT;
 	corpse=GBRLCT_dead;
-	icontype=pontoon;
+	icontype=transportship;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

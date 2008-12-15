@@ -3,7 +3,7 @@
 	unitname=GBRMonitor;
 	objectname=GBRMonitor;
 	corpse=GBRMonitor_dead;
-	icontype=pontoon;
+	icontype=destroyer;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON LARGESHIP;
 	tedclass=SHIP;
 

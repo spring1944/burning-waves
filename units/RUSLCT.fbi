@@ -3,7 +3,7 @@
 	unitname=RUSLCT;
 	objectname=RUSLCT;
 	corpse=RUSLCT_dead;
-	icontype=pontoon;
+	icontype=transportship;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 
