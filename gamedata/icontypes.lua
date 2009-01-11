@@ -234,6 +234,16 @@ local iconTypes = {
 		size			=	5,
 		distance	=	0.3,
 	},
+	torpboat = {
+		bitmap		=	"icons/t-boat.png",
+		size			=	4,
+		distance	=	0.3,
+	},
+	gunboat = {
+		bitmap		=	"icons/g-boat.png",
+		size			=	4,
+		distance	=	0.3,
+	},
 	transportship = {
 		bitmap		=	"icons/transportship.png",
 		size			=	5,

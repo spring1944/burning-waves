@@ -3,7 +3,7 @@
 	unitname=GERRBoot;
 	objectname=GERRBoot;
 	corpse=GERRBoot_dead;
-	icontype=pontoon;
+	icontype=gunboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

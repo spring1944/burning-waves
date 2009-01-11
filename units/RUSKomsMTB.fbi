@@ -3,7 +3,7 @@
 	unitname=RUSKomsMTB;
 	objectname=RUSKomsMTB;
 	corpse=RUSKomsMTB_dead;
-	icontype=pontoon;
+	icontype=torpboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

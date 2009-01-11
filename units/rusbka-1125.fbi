@@ -3,7 +3,7 @@
 	unitname=RUSBKA-1125;
 	objectname=RUSBKA-1125;
 	corpse=RUSBKA-1125_dead;
-	icontype=pontoon;
+	icontype=gunboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

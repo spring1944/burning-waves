@@ -3,7 +3,7 @@
 	unitname=USPT103;
 	objectname=USPT103;
 	corpse=USPT103_dead;
-	icontype=pontoon;
+	icontype=torpboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

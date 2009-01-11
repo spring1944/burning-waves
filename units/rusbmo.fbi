@@ -3,7 +3,7 @@
 	unitname=RUSBMO;
 	objectname=RUSBMO;
 	corpse=RUSBMO_dead;
-	icontype=pontoon;
+	icontype=gunboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

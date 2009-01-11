@@ -3,7 +3,7 @@
 	unitname=GBRFairmileD;
 	objectname=GBRFairmileD;
 	corpse=GBRFairmileD_dead;
-	icontype=pontoon;
+	icontype=torpboat;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 
