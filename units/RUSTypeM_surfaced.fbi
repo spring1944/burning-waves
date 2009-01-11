@@ -34,7 +34,7 @@
 	maxvelocity=1.41; // 14.1 knots surfaced
 	acceleration=0.3;
 	brakerate=0.20;
-	turnrate=350;
+	turnrate=35;
 	turninplace=0;
 
 	explodeas=Vehicle_Explosion_Sm;

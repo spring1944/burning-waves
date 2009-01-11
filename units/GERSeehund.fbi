@@ -33,7 +33,7 @@
 	maxvelocity=0.6; // 6 knots submerged
 	acceleration=0.2;
 	brakerate=0.20;
-	turnrate=350;
+	turnrate=35;
 	turninplace=0;
 
 	explodeas=Vehicle_Explosion_Sm;

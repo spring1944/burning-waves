@@ -33,7 +33,7 @@
 	maxvelocity=3.5; // 35 kn
 	acceleration=0.15;
 	brakerate=0.14;
-	turnrate=250;
+	turnrate=25;
 	activatewhenbuilt=1;
 	turninplace=0;
 

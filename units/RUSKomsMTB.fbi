@@ -33,7 +33,7 @@
 	maxvelocity=4.8; //48 knots
 	acceleration=0.2;
 	brakerate=0.2;
-	turnrate=500;
+	turnrate=50;
 	turninplace=0;
 
 	explodeas=Vehicle_Explosion_Sm;

@@ -34,7 +34,7 @@
 	maxvelocity=2;
 	acceleration=0.2;
 	brakerate=0.15;
-	turnrate=425;
+	turnrate=42.5;
 
 	explodeas=Vehicle_Explosion_Sm;
 	selfdestructas=Vehicle_Explosion_Sm;
