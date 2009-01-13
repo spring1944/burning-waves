@@ -3,7 +3,7 @@
 	unitname=USLCVP;
 	objectname=USLCVP;
 	corpse=USLCVP_dead;
-	icontype=pontoon;
+	icontype=landingship;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

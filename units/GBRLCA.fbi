@@ -3,7 +3,7 @@
 	unitname=GBRLCA;
 	objectname=GBRLCA;
 	corpse=GBRLCA_dead;
-	icontype=pontoon;
+	icontype=landingship;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 

@@ -244,6 +244,11 @@ local iconTypes = {
 		size			=	4,
 		distance	=	0.3,
 	},
+	landingship = {
+		bitmap		=	"icons/l-boat.png",
+		size			=	4,
+		distance	=	0.3,
+	}
 	transportship = {
 		bitmap		=	"icons/transportship.png",
 		size			=	5,

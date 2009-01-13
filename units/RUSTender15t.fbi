@@ -3,7 +3,7 @@
 	unitname=RUSTender15t;
 	objectname=RUSTender15t;
 	corpse=RUSTender15t_dead;
-	icontype=pontoon;
+	icontype=landingship;
 	category=NFLAGNAIR TPORT INFTARG NFLAG NWEAPON;
 	tedclass=SHIP;
 
