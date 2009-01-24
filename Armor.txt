@@ -248,6 +248,7 @@
 	GERVorpostenBoot=99;
 	GERType1934=99;
 	GERSiebelFahre=99;
+	GERKarl=99;
 
 	//US//
 	USM8Greyhound=99;

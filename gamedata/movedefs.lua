@@ -42,6 +42,12 @@ local moveDefs 	=	 {
 		maxSlope			=	18,
 	},
 	{
+		name					=	"TANK_VeryLarge",
+		footprintX		=	5,
+		maxWaterDepth	=	15,
+		maxSlope			=	10,
+	},
+	{
 		name					=	"KBOT_Gun",
 		footprintX		=	2,
 		maxWaterDepth	=	5,
