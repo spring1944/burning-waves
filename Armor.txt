@@ -287,6 +287,9 @@
 	GBROClass=99;
 	GBRMonitor=99;
 	GBRLCA=99;
+
+	//Italy//
+	ITNavigatori=99;
 	}
 
 [UnarmouredVehicles]
