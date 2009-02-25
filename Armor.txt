@@ -290,6 +290,7 @@
 
 	//Italy//
 	ITNavigatori=99;
+	ITOrsa=99;
 	}
 
 [UnarmouredVehicles]
