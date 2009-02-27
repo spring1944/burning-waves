@@ -291,6 +291,7 @@
 	//Italy//
 	ITNavigatori=99;
 	ITOrsa=99;
+	ITMAS=99;
 	}
 
 [UnarmouredVehicles]

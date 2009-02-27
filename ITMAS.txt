@@ -1,0 +1,11 @@
+MAS - Motoscafi anti sommergibili
+Type 500, 4th serie
+
+Armament: 2x450mm torpedoes, 1x20mm Breda AA gun (facing backward)
+Speed: 43 knots
+Role: light torpedo craft (despite the name saying it's a subchaser, it's actually not)
+
+MAS boats were famous right from their first appearance during WW1. Italy achieved some remarkable success with them, sinking Austro-Hungarian battleship and forcing the rest of enemy fleet to spend most of the war in ports.
+In interwar period new boat designs were evaluated and a number of them built.
+During WW2 the boats were in action once again, opposing the fleets of Great Britain on the Mediterrannean and the Soviet Union on the Black Sea and (surprise!) on the northern Ladoga Lake near Leningrad (later those boats were given to Finland).
+Main strength of the boat lies in its high speed, allowing it to close in with a large ship, unleash the torpedoes and escape unharmed (well, relatively). Defencive armament is present by a single 20mm gun, which is only enough to trade shots with other similar torpedo craft (German S-Boot, Soviet Komsomolets, etc.), with a great chance of being outgunned. Bad thing is, those boats WILL NOT protect your fleet from enemy torpedo craft, but at least they can give you early warning of incoming attacks.
