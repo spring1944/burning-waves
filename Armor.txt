@@ -292,6 +292,7 @@
 	ITNavigatori=99;
 	ITOrsa=99;
 	ITMAS=99;
+	ITMS=99;
 	}
 
 [UnarmouredVehicles]
