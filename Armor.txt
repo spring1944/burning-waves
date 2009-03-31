@@ -316,6 +316,7 @@
 	RUSGAZAAA=99;
 	RUSBM13N=99;
 	RUSSupplyTruck=99;
+	RUSBoatTruck=99;
 
 	//Britain//
 	GBRBedfordTruck=99;

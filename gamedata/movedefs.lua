@@ -109,6 +109,12 @@ local moveDefs 	=	 {
 		minWaterDepth	=	40,
 		crushStrength	=	10,
 		submarine	=	1,
+	},
+	{
+		name					=	"TANK_Truck_deep",
+		footprintX		=	3,
+		maxWaterDepth	=	15,
+		maxSlope			=	17,
 	}
 }
 
