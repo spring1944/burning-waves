@@ -1,16 +1,16 @@
 [unitinfo]
 {
-	unitname=RUSBoatTruck;
-	objectname=RUSBoatTruck;
-	corpse=RUSBoatTruck_Destroyed;
+	unitname=GERPontoonTruck;
+	objectname=GERPontoonTruck.s3o;
+	corpse=GERPontoonTruck_Dead;
 	icontype=truck;
-	soundcategory=RUSVeh;
+	soundcategory=GERVeh;
 	category=NFLAGNAIR TANK TPORT INFTARG NFLAG NWEAPON;
 	tedclass=TANK;
 
-	name=ZiS-5 Boat Transport;
+	name=Open Blitz Pontoon Transport;
 	description=Deployable Boatyard Vehicle;
-	side=RUS;
+	side=GER;
 	maxdamage=500;
 	idleautoheal=2;
 	idletime=1000;

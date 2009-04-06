@@ -6,7 +6,7 @@
 #define WHEELS_SPIN		<350.082418>
 #define WHEELS_DECEL	<100.000000>
 
-piece  base, hull, front_wheels, rear_wheels;
+piece  base, wheel1, wheel2, pontoon;
  
 static-var restore_delay, skip;
 
@@ -45,15 +45,15 @@ StartMoving()
 	emit-sfx 257 from exhaust;
 	sleep 50;
 	emit-sfx 257 from exhaust;*/
-	spin front_wheels around x-axis speed WHEELS_SPIN;
-	spin rear_wheels around x-axis speed WHEELS_SPIN;
+	spin wheel1 around x-axis speed WHEELS_SPIN;
+	spin wheel2 around x-axis speed WHEELS_SPIN;
 }
 
 StopMoving()
 {
 	set ACTIVATION to 0;
-	stop-spin front_wheels around x-axis decelerate WHEELS_DECEL;
-	stop-spin rear_wheels around x-axis decelerate WHEELS_DECEL;
+	stop-spin wheel1 around x-axis decelerate WHEELS_DECEL;
+	stop-spin wheel2 around x-axis decelerate WHEELS_DECEL;
 }
 
 Create()
@@ -64,7 +64,7 @@ Create()
 
 SweetSpot(piecenum)
 {
-	piecenum = hull;
+	piecenum = base;
 }
 
 Killed(severity, corpsetype)
@@ -72,13 +72,13 @@ Killed(severity, corpsetype)
 	if( severity <= 999 )
 	{
 		corpsetype = 1;
-		explode front_wheels type SHATTER | EXPLODE_ON_HIT;
-		explode rear_wheels type SHATTER | EXPLODE_ON_HIT;
+		explode wheel1 type SHATTER | EXPLODE_ON_HIT;
+		explode wheel2 type SHATTER | EXPLODE_ON_HIT;
 		
 		return (0);
 	}
 	corpsetype = 1;
-	explode front_wheels type SHATTER | EXPLODE_ON_HIT;
-	explode rear_wheels type SHATTER | EXPLODE_ON_HIT;
+	explode wheel1 type SHATTER | EXPLODE_ON_HIT;
+	explode wheel2 type SHATTER | EXPLODE_ON_HIT;
 	explode base type SHATTER;
 }
