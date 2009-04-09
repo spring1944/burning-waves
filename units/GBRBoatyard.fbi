@@ -4,6 +4,7 @@
 	objectname=GBRBoatyard;
 	corpse=GBRBoatyard_dead;
 	icontype=shipyard;
+	buildpic=GBRBoatyard.png;
 	soundcategory=GBRYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;

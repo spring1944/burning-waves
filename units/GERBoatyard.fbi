@@ -4,6 +4,7 @@
 	objectname=GERBoatyard;
 	corpse=GERBoatyard_dead;
 	icontype=shipyard;
+	buildpic=GERBoatyard.png;
 	soundcategory=GERYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;
