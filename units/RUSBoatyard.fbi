@@ -4,6 +4,7 @@
 	objectname=RUSBoatyard;
 	corpse=RUSBoatyard_dead;
 	icontype=shipyard;
+	buildpic=RUSBoatyard.png;
 	soundcategory=RUSYard;
 	category=NFLAGNAIR PLANT NOWEAPON BUILDING;
 	tedclass=PLANT;
