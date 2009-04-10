@@ -4,6 +4,7 @@
 	objectname=USPontoonTruck.s3o;
 	corpse=USPontoonTruck_Dead;
 	icontype=truck;
+	buildpic=USPontoonTruck.png;
 	soundcategory=USVeh;
 	category=NFLAGNAIR TANK TPORT INFTARG NFLAG NWEAPON;
 	tedclass=TANK;

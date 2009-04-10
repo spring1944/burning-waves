@@ -4,6 +4,7 @@
 	objectname=RUSPontoonTruck.s3o;
 	corpse=RUSPontoonTruck_Dead;
 	icontype=truck;
+	buildpic=RUSPontoonTruck.png;
 	soundcategory=RUSVeh;
 	category=NFLAGNAIR TANK TPORT INFTARG NFLAG NWEAPON;
 	tedclass=TANK;

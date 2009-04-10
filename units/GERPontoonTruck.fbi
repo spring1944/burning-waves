@@ -4,6 +4,7 @@
 	objectname=GERPontoonTruck.s3o;
 	corpse=GERPontoonTruck_Dead;
 	icontype=truck;
+	buildpic=GERPontoonTruck.png;
 	soundcategory=GERVeh;
 	category=NFLAGNAIR TANK TPORT INFTARG NFLAG NWEAPON;
 	tedclass=TANK;

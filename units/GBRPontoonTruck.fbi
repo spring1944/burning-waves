@@ -4,6 +4,7 @@
 	objectname=GBRPontoonTruck.s3o;
 	corpse=GBRPontoonTruck_Dead;
 	icontype=truck;
+	buildpic=GBRPontoonTruck.png;
 	soundcategory=GBRVeh;
 	category=NFLAGNAIR TANK TPORT INFTARG NFLAG NWEAPON;
 	tedclass=TANK;
