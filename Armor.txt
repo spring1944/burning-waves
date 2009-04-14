@@ -256,6 +256,7 @@
 	USM7Priest=99;
 	USLCT=99;
 	USPT103=99;
+	USPT103-bofors=99;
 	USFletcher=99;
 	USTacoma=99;
 	USLCVP=99;
