@@ -1,7 +1,0 @@
-BMO class subchaser
-BMO (Bronirovanny Maly Okhotnik, literally 'Small Armored Hunter') was a submarine chaser and patrol craft. It was armored using plates from damaged tanks so some of those had up to 50mm of armor. Still gun crews were badly protected.
-Weapons:
-1 x 40-K 45mm gun in open mount
-1 x 70-K 37mm AA gun in half-armored turret-like mount (the same as 61-K light AA gun)
-2 x twin 12.7mm MG mount, one in AA turret (top of the command bridge) and one in open mount.
-Slower than a R-Boot, but better armored and armed (although this is debatable - 1 x 37mm, 1 x 45mm and 4 x 12.7mm vs 1 x 37mm and 2 x 20mm). Intended for coastal operations so has some protection against small-arms fire (gun shields). Hull is protected against light guns (20mm and the likes). Should have some depth charges, but as we have no subs, those are not implemented.

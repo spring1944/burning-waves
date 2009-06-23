@@ -1,3 +1,0 @@
-Type 127 (U-Boat XXVIIB) Seehund.
-The most succesfull of German midget submarine designs. While quite slow and with a poor visibility, it was reliable. Small size made it very difficult to detect using radar, diving time of 3-5 seconds made it able to escape aircraft, sturdy design made it highly resistant to depth charges (shockwave rocked the sub, but did no damage to it).
-Weapons: 2 G7e electric torpedoes that leave no bubble trail (I used G7a torps for this one since they are otherwise identical)

@@ -1,4 +1,0 @@
-Komsomolets torpedo boat
-A light torpedo boat with 2 533mm tubes and 2 twin HMG turrets. Some boats had 23mm guns instead of HMGs installed, I'm not sure we want this.
-The boat is virtually unprotected. It uses high-power gasoline engine, which means it's in danger of explosion should some shots penetrate fuel tanks (and if they hit the torpedoes... you get the idea)
-On the bright side, this thing is lightning-fast - speed is it's main protection. And even the largest and heaviest of ships can die to a full salvo of 2 torpedoes, so it's highly dangerous.

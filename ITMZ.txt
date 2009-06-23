@@ -1,5 +1,0 @@
-Italian Motozattera
-
-When Italy entered the war, they had no modern landing craft. Quite soon the need of such became apparent (after the Crete landing and in the light of planned invasion of Malta). It was decided to take the basic design of German MFP and work from there. Resulting Italian design looked a bit less like a floating box and more like a ship.
-Unlike Germans, Italians built no gunboats based on the landing craft, infact Motozattera had quite weak armament compared to the MFP. Yet it still was able to hold its own against Allied coastal craft thanks to its low vulnerability to torpedoes.
-Main 76mm gun was a WW1-era anti-torpedo boat gun, also utilized in AA role. While obsolete, it was readily available and similar designs were still in use by the British RN. 20mm gun was of Fraschini Scotti design (I used the Breda 20mm mount instead, since they only differed visually - gun performance was the same).

@@ -1,7 +1,0 @@
-MS "CRDA 60t" type motor torpedo boat
-
-While Italian MAS boats were definitely a success, they also definitely lacked the ability to stay at sea for any prolonged amount of time, as well as the ability to fight in even the slightly bad weather. All attempts to design a larger, more seaworthly boat resulted in failures - the Stefano Turr experimental boat was too slow, while its cost was slowly approaching that of an escort destroyer.
-In April 1941, Italian troops captured a few ex-Jugoslavian torpedo boats. Those were originally purshased from the Lurssen of Germany and were of S-2 type (early Schnellboot). Italian Navy was impressed by their abilities, and a decision to copy them was taken immediately.
-The shipyard CRDA of Monfalcone built those copies under the designation of CRDA 60t type, the Navy called them MS. Another boat on the same hull was called VAS and was designed for anti-submarine warfare (with reduced speed, but improved anti-sub armament).
-
-Armament: 2x533mm torpedo tubes, 2x20mm AA guns. Some sources also list 6.5 and 12.7mm machineguns, but I wasn't able to find the details on where those weapons were mounted, so they are not included.

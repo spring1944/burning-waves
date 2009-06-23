@@ -1,9 +1,0 @@
-Navigatori class destroyer
-
-Built in the late 1920s as scouts - an intermediate class between destroyers and light cruisers. Reclassified as destroyers shortly before war.
-Initially the ships had shown outstanding results on speed testing. However, the tests were conducted without weapons and most of other equipment, so real service speeds were much lower.
-Because of design deficiencies ships had to undergo some upgrade programs immediately after completion to increase stability and reduce gun scatter. Latter problem was never completely overcome as it was created by the fact guns were too close to each other in their mountings.
-Initially ships had very weak AA armament, this was addressed in 1942-1943 with old AA weapons removed and new 20mm guns installed, and yet still their AA power was much less than other navies destroyers.
-Main 120mm guns were of limited use against aircraft with their max elevation of 45 degrees, but some kind of AA fire was possible with them.
-Torpedo armament was different on ships of this class, with some retaining their initial 2 3-tubes 533mm launchers and others having a mix of 2 and 3-tube launchers, still others having only 1 launcher.
-Radar was uncommon on that class, with only 2 ships out of 12 receiving it (and so it's not shown on the model).
