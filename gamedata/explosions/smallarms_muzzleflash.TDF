@@ -9,8 +9,8 @@
       	{
          	dir = dir;
          	colorMap=1 1 0 0.01	1 0.5 0 0.01	0 0 0 0.01; 
-          	size=1.75;
-          	length=2.25;
+          	size=0.43;
+          	length=0.55;
           	sizeGrowth=1;
           	ttl=4;
           	frontOffset=0.1;
@@ -24,7 +24,7 @@
    count=1;
    /*	[GROUNDFLASH]
 	{
-		flashsize=5;
+		flashsize=1;
 		flashalpha=0.9;
 		circlegrowth=0;
 		circlealpha=1;
@@ -43,8 +43,8 @@
       		{
          	dir = dir;
          	colorMap=1 1 0 0.01	1 0.5 0 0.01	0 0 0 0.01; 
-          	size=2.5;
-          	length=3.5;
+          	size=0.43;
+          	length=0.55;
           	sizeGrowth=-0.5;
           	ttl=4;
           	frontOffset=0.1;
@@ -68,8 +68,8 @@
       		{
          	dir = dir;
          	colorMap=1 1 0 0.01	1 0.5 0 0.01	0 0 0 0.01; 
-          	size=2.5;
-          	length=3.5;
+          	size=0.43;
+          	length=0.55;
           	sizeGrowth=-0.5;
           	ttl=4;
           	frontOffset=0.1;
@@ -131,8 +131,8 @@
       	{
          	dir = dir;
          	colorMap=1 1 0 0.01	1 0.5 0 0.01	0 0 0 0.01; 
-          	size=2.25;
-          	length=3;
+          	size=0.43;
+          	length=0.55;
           	sizeGrowth=1;
           	ttl=3;
           	frontOffset=0.1;
@@ -170,8 +170,8 @@
       	{
          	dir = dir;
          	colorMap=1 1 0 0.01	1 0.5 0 0.01	0 0 0 0.01; 
-          	size=2.6;
-          	length=3.375;
+          	size=0.43;
+          	length=0.55;
           	sizeGrowth=1;
           	ttl=4;
           	frontOffset=0.1;
