@@ -11,6 +11,9 @@
   canAttack=1;
   canMove=1;
   category=SHIP MINETRIGGER;
+  collisionVolumeOffsets=0.0 -1.5 0.0;
+  collisionVolumeScales=5.0 3.5 18.0;
+  collisionVolumeType=box;
   corpse=USPT103_dead;
   [customParams] {
     dontCount=1;
@@ -20,8 +23,8 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=4;
-  footprintZ=4;
+  footprintX=1;
+  footprintZ=1;
   iconType=torpboat;
   mass=5000;
   maxDamage=5000;
