@@ -29,8 +29,8 @@
   iconType=destroyer;
   mass=226800;
   maxDamage=226800;
-  maxReverseVelocity=1.75;
-  maxVelocity=3.5; // 35 kn
+  maxReverseVelocity=0.5;
+  maxVelocity=1.0; // 35 kn
   minWaterDepth=20;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
@@ -46,7 +46,7 @@
   stealth=0;
   TEDClass=SHIP;
   turninplace=0;
-  turnRate=112.5;
+  turnRate=45;
 
   weapon10=twin_bofors40mmaa;
   maxAngleDif10=270;

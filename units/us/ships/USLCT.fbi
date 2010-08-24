@@ -58,7 +58,7 @@
   transportMass=15000;
   transportSize=30;
   turninplace=0;
-  turnRate=140;
+  turnRate=65;
 
   weapon1=20mmOerlikonaa; //oerlikon20mm;
   maxAngleDif1=240;

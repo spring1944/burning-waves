@@ -29,8 +29,8 @@
   iconType=landingship;
   mass=820;
   maxDamage=820;
-  maxReverseVelocity=0.5;
-  maxVelocity=0.9;
+  maxReverseVelocity=0.35;
+  maxVelocity=0.7;
   minWaterDepth=6;
   movementClass=BOAT_LandingCraft;
   noChaseCategory=FLAG AIR MINE;
@@ -58,7 +58,7 @@
   transportMass=8000;
   transportSize=1;
   turninplace=0;
-  turnRate=180;
+  turnRate=80;
 
   weapon1=m1919a4browning;
   maxAngleDif1=200;

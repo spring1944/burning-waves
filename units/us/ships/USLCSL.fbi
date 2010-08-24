@@ -33,8 +33,8 @@
   iconType=gunboat;
   mass=25400;
   maxDamage=25400;
-  maxReverseVelocity=0.6;
-  maxVelocity=1.2; // 12 kn
+  maxReverseVelocity=0.4;
+  maxVelocity=0.8; // 12 kn
   minWaterDepth=10;
   movementClass=BOAT_LandingCraft;
   noChaseCategory=FLAG AIR MINE;
@@ -59,7 +59,7 @@
   stealth=0;
   TEDClass=SHIP;
   turninplace=0;
-  turnRate=140;
+  turnRate=55;
 
   weapon1=3in50mk22;
   maxAngleDif1=270;

@@ -32,8 +32,8 @@
   iconType=torpboat;
   mass=4000;
   maxDamage=4000;
-  maxReverseVelocity=2.15;
-  maxVelocity=4.3; // 43 knots
+  maxReverseVelocity=0.75;
+  maxVelocity=1.5; // 43 knots
   minWaterDepth=10;
   movementClass=BOAT_Medium;
   noChaseCategory=FLAG AIR MINE;
@@ -58,7 +58,7 @@
   stealth=1;
   TEDClass=SHIP;
   turninplace=0;
-  turnRate=300;
+  turnRate=75;
   badTargetCategory=FLAG;
 
   weapon10=KwK3020mmHE;

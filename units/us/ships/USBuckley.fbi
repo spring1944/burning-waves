@@ -29,8 +29,8 @@
   iconType=destroyer;
   mass=157900;
   maxDamage=157900;
-  maxReverseVelocity=0.4;
-  maxVelocity=0.5;
+  maxReverseVelocity=0.5;
+  maxVelocity=1.0;
   minWaterDepth=20;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
@@ -45,7 +45,7 @@
   stealth=0;
   TEDClass=SHIP;
   turninplace=0;
-  turnRate=124;
+  turnRate=50;
 
   weapon10=20mmOerlikonaa;
   maxAngleDif10=200;
