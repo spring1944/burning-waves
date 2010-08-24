@@ -1,0 +1,23 @@
+THIS BE A MOTHERFUCKIN' GAME DESIGN DOCUMENT
+
+--BRIEF OVERVIEW OF GAMEPLAY--
+
+In this multiplayer-focused game, players battle one another utilizing fleets of naval warships, submarines and aircraft of various roles and capabilities.
+
+At the beginning of a game players will be given a lump sum of "aquisition points" or whatever you want to call it to deploy their initial forces. As the game transpires players will continously receive more of these points in order to call in reinforcements.
+
+Most combat will be between surface vessels, with submarines playing a secondary role. Likewise, aircraft, both carrier-borne and "coastal" aircraft will play a part, be it patrol/scouting, surface attack or air defense.
+
+--BRIEF OVERVIEW OF SPECIAL FEATURES THAT MAKE A SHIP RTS COOL--
+
+
+*Torpedos can kill ||ANYTHING||. Even the smallest ships (Patrol Torpedo/Motor Torpedo Boats) can pack a few of these things and all it takes is one good hit to bring down any ship. So even if you're packing the latest ginormous Yamamoto-class battleship, a couple of PT boats could come zipping your way and pwn your face. 
+
+*Ship Damage: Individual guns, turrets and other devices (engines, radar arrays, ammunition stores) can receive damage, knocking them out and potentially causing a massive, catastrophic explosion.
+
+*Aircraft: Two types will be present; carrier and coastal. Carriers will be able to house and deploy wings of aircraft, primarily in the form of interceptors, torpedo bombers and high-level bombers. Coastal aircraft will come in the form of aircraft called in from off map; for factions lacking carriers (Germany, USSR) this will include the same types as Carriers can launch; it will also include others such as anti-submarine bombers, patrol aircraft and etc.
+
+*Radar: Will play the same role it did during the war (and ironically how it works in OTA) by essentially being able to detect all but the smallest ships and aircraft beyond direct line-of-sight distance. Ships so equipped will be able to use this data for gun-laying to fire outside of LOS (if they have weapons with the required range). 
+
+*Good ol' fashioned large fleet fights: Will be had. Battleship duels, massive naval armadas, destroyer flotillas and torpedo boat squadrons. For glory!
+
