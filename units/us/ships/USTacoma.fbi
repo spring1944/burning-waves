@@ -31,6 +31,7 @@
   maxDamage=128400;
   maxReverseVelocity=0.5;
   maxVelocity=1;
+  acceleration=0.01;
   minWaterDepth=20;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
