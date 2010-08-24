@@ -1,5 +1,5 @@
 local modinfo = {
-		name					=	"BURNING WAVES: TERRORS ON THE HIGH SEAS",
+		name					=	"BURNING WAVES: TERRORS ON THE HIGH SEAS: FOR DEATH AND GLORY",
 		shortName				= "S44",
 		game					= "Spring 1944",
 		shortGame				= "S44",
