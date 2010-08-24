@@ -13,8 +13,8 @@
   canAttack=1;
   canMove=1;
   category=SHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 0.0 0.0;
-  collisionVolumeScales=70.0 80.0 280.0;
+  collisionVolumeOffsets=0.0 -7.0 0.0;
+  collisionVolumeScales=10.0 10.0 43.0;
   collisionVolumeType=box;
   corpse=USLCSL_dead;
   [customParams] {
@@ -28,8 +28,8 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=16;
-  footprintZ=16;
+  footprintX=2;
+  footprintZ=2;
   iconType=gunboat;
   mass=25400;
   maxDamage=25400;

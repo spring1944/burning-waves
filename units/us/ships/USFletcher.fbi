@@ -13,7 +13,7 @@
   canMove=1;
   category=LARGESHIP MINETRIGGER;
   collisionVolumeOffsets=0.0 -11 0.0;
-  collisionVolumeScales=13.0 18.0 100.0;//80.0 130.0 520.0;
+  collisionVolumeScales=13.0 20.0 100.0;//80.0 130.0 520.0;
   collisionVolumeType=box;
   corpse=USFletcher_dead;
   [customParams] {
