@@ -322,30 +322,6 @@
 //Medium-sized Muzzle flash for 70-80mm weapons
 [MEDIUM_MUZZLEFLASH]
 {
-	[whiteglow]
-	{
-	class=heatcloud;
-   	
-		[properties]
-      		{
-		texture=laserend;
-      		heat = 10;
-      		maxheat = 15;
-      		heatFalloff = 3.5;
-
-      		size = 1.5;
-			sizeMod=0.25;
-      		sizeGrowth = 25;
-
-         	pos = 0, 0, 0;
-         	speed=0, 0, 0;
-      		}
-	air=1;
-      	water=1;
-      	ground=1;
-      	count=2;
-	} 
-
    [BitmapMuzzleFlame]
    {
 	class = CBitmapMuzzleFlame;
@@ -353,15 +329,16 @@
 	[properties]
       	{
          	dir = dir;
-         	colorMap=1 1 1 0.01	1 0.9 0.7 0.01		0 0 0 0.01; 
-          	size=10;
+         	colorMap=1 1 0.5 0.01	1 0.7 0 0.01	0 0 0 0.01; 
+          	size=0.25;
 			sizeMod=0.25;
-          	length=30;
-          	sizeGrowth=1;
-          	ttl=7;
-          	frontOffset=0.05;
-          	sideTexture=shot;
-          	frontTexture=flash3;
+          	length=0.5;
+          	sizeGrowth=70;
+          	ttl=5;
+          	frontOffset=0.3;
+          	sideTexture=plasma2;
+          	frontTexture=plasma0029;
+			alwaysvisible=0;
       	}
    water=1;
    air=1;
@@ -369,7 +346,6 @@
    ground=1;
    count=1;
    }
-
 	[muzzlesmoke]
 	{
 		class=CSimpleParticleSystem;
