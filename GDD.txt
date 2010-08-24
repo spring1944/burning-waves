@@ -15,9 +15,18 @@ Most combat will be between surface vessels, with submarines playing a secondary
 
 *Ship Damage: Individual guns, turrets and other devices (engines, radar arrays, ammunition stores) can receive damage, knocking them out and potentially causing a massive, catastrophic explosion.
 
-*Aircraft: Two types will be present; carrier and coastal. Carriers will be able to house and deploy wings of aircraft, primarily in the form of interceptors, torpedo bombers and high-level bombers. Coastal aircraft will come in the form of aircraft called in from off map; for factions lacking carriers (Germany, USSR) this will include the same types as Carriers can launch; it will also include others such as anti-submarine bombers, patrol aircraft and etc.
+*Carrier and Land-Based Aircraft: Carriers will be able to directly deploy carrier aircraft in the form of fighters, dive bombers and torpedo bombers. Players will also have access to land-based aircraft sorties; generally land-based fighters have higher performance, and medium bombers and patrol/ASW planes will only be available from land. Some factions such as Germany will rely solely on land-based sorties. Land-based sorties will come with a deployment delay, opposed to carrier-based planes which can be launched immediately.
 
 *Radar: Will play the same role it did during the war (and ironically how it works in OTA) by essentially being able to detect all but the smallest ships and aircraft beyond direct line-of-sight distance. Ships so equipped will be able to use this data for gun-laying to fire outside of LOS (if they have weapons with the required range). 
 
 *Good ol' fashioned large fleet fights: Will be had. Battleship duels, massive naval armadas, destroyer flotillas and torpedo boat squadrons. For glory!
 
+*Submarines will have three states:
+- Submerged: The submarine is slowest submerged, and undetectable, but can not see anything or use any weapons. They will also have a "timer" that determines how long they can stay fully submerged as they must run on battery power as their diesel engines require oxygen.
+- Periscope/Attack Depth: At this depth the submarine can see (through periscope) and attack targets with torpedos, and can also be seen, but not detected on radar; it is invulnerable to surface attack as shells simply detonate on the surface of the water.
+- Surfaced: At this depth the submarine can be seen and detected on radar, and can use deck-mounted guns as well as torpedos against targets. Can be hit by surface guns.
+At all depths submarines can be hit by depth charges, but obviously when fully submerged accurate targeting is next to impossible.
+
+*Carrier and Land-Based Aircraft
+
+*Carriers will be able to 
