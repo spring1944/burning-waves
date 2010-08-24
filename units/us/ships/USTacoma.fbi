@@ -12,8 +12,8 @@
   canAttack=1;
   canMove=1;
   category=LARGESHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -65.0 0.0;
-  collisionVolumeScales=80.0 130.0 520.0;
+  collisionVolumeOffsets=0.0 -11 0.0;
+  collisionVolumeScales=13.0 18.0 85.0;
   collisionVolumeType=box;
   corpse=USTacoma_dead;
   [customParams] {
@@ -24,8 +24,8 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=32;
-  footprintZ=32;
+  footprintX=5;
+  footprintZ=5;
   iconType=destroyer;
   mass=128400;
   maxDamage=128400;

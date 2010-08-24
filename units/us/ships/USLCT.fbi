@@ -11,8 +11,8 @@
   buildTime=1600;
   canMove=1;
   category=SHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -30.0 0.0;
-  collisionVolumeScales=60.0 100.0 220.0;
+  collisionVolumeOffsets=0.0 -1.75 0.0;
+  collisionVolumeScales=10.0 7.0 32.0;
   collisionVolumeType=box;
   corpse=USLCT_dead;
   [customParams] {
@@ -24,8 +24,8 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=14;
-  footprintZ=14;
+  footprintX=2;
+  footprintZ=2;
   holdSteady=1;
   iconType=transportship;
   mass=29100;
