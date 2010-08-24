@@ -14,6 +14,10 @@ Resize all current weapon FX to 25% of their original. Including muzzleflashes, 
 
 -Surfaced: Submarine can be detected by Radar (and LOS ofc). Has full LOS and can shoot torpedos and its deck guns (if any). Can be damaged by all weapons. 
 
+***Interface***
+
+Currently all cursor interface occurs with actual terrain rather than the surface of water, making things confusing when you're using anything but straight top-down camera views due to the angle. 
+
 ***Aircraft Carriers***
 
 Management system for their aircraft. 
