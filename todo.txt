@@ -1,0 +1,19 @@
+***Weapon FX Resizing***
+
+Resize all current weapon FX to 25% of their original. Including muzzleflashes, tracers, and explosions. Also resize weapon AoE and collision, etc, sizes.
+
+***Replace current "water trail" FX with something that doesn't look like ass (no offense to whoever made it).***
+
+***Standardization of scripting (LUA? Compartmentalized script parts? Simplification whenever possible?)***
+
+***Submarines & their Three Stages/Dive Depths***
+
+-Fully Submerged: Submarine undetectable by LOS or radar. Has no LOS, no collision (can pass under ships) and can not shoot. Can be damaged by depth charges but not by bombs, torpedos or surface fire.
+
+-Periscope Depth: Submarine can be detected by sight but not radar. Has full LOS and can shoot torpedos. Can not be damaged by bombs or surface fire, but can be damaged by torpedos and depth charges. 
+
+-Surfaced: Submarine can be detected by Radar (and LOS ofc). Has full LOS and can shoot torpedos and its deck guns (if any). Can be damaged by all weapons. 
+
+***Aircraft Carriers***
+
+Management system for their aircraft. 
