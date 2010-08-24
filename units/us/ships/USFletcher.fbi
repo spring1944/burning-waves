@@ -48,8 +48,8 @@
     explosionGenerator5=custom:SMALL_MUZZLEFLASH;
     explosionGenerator6=custom:SMALL_MUZZLEDUST;
     explosionGenerator7=custom:MG_MUZZLEFLASH;
-    explosionGenerator8=custom:MEDIUMLARGE_MUZZLEFLASH;
-    explosionGenerator9=custom:MEDIUMLARGE_MUZZLEDUST;
+    explosionGenerator8=custom:LARGE_MUZZLEFLASH;
+    explosionGenerator9=custom:LARGE_MUZZLEDUST;
   }
   showNanoFrame=0;
   sightDistance=2000;
