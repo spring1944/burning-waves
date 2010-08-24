@@ -65,14 +65,14 @@ local moveDefs 	=	 {
 	},
 	{
 		name					=	"BOAT_Small",
-		footprintX		=	3,
+		footprintX		=	1,
 		minWaterDepth	=	5,
 		crushStrength	=	10,
 		heatmapping		=	false,
 	},
 	{
 		name					=	"BOAT_Medium",
-		footprintX		=	15,
+		footprintX		=	2,
 		minWaterDepth	=	5,
 		crushStrength	=	10,
 		heatmapping		=	false,
@@ -86,7 +86,7 @@ local moveDefs 	=	 {
 	},
 	{
 		name					=	"BOAT_River",
-		footprintX		=	1,
+		footprintX		=	8,
 		minWaterDepth	=	6,
 		crushStrength	=	10,
 		heatmapping		=	false,
