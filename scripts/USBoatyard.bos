@@ -1,80 +1,27 @@
-#define TAK
+#define TA			// This is a TA script
 
-#include "exptype.h"
-#include "sfxtype.h"
+#include "constants.h"
 
-#define SMOKE_DELAY 500
+piece  base, pad, beam;
 
-#define BARGE_MOVE_DIST		[2]
-#define BARGE_MOVE_SPEED	[1]
+static-var  spray, unitviewer, statechg_DesiredState, statechg_StateChanging;
 
-#define BASE_SMOKE_PERIOD	40
-#define MIN_SMOKE_PERIOD	240
-#define SMOKEPIECE		barge1
+// Signal definitions
+#define SIG_ACTIVATE			2
 
-#define CRANE_TURN_SPEED	<5>
-#define CRANE_RAISE_ANGLE	<-30>
-#define CRANE_MIN_POS		<80>
-#define CRANE_MAX_STEPS		20
-#define CRANE_STEP_VALUE	CRANE_MIN_POS/CRANE_MAX_STEPS
 
-piece base, barge1, barge2, turret, crane, nano, smoke;
-
-#include "damageSmoke.h"
-
-static-var bIsActive;
-
-Funnels()
+activatescr()
 {
-	while(TRUE)
-	{
-		if(bIsActive)
-		{
-			emit-sfx SFXTYPE_BLACKSMOKE from smoke;
-		}
-		sleep SMOKE_DELAY;
-	}
+sleep 100;
 }
 
-CraneMovement()
+deactivatescr()
 {
-	var NextCranePos;
-	while(TRUE)
-	{
-		while (bIsActive)
-		{
-			NextCranePos = rand(0, CRANE_MAX_STEPS);
-			NextCranePos = NextCranePos * CRANE_STEP_VALUE + CRANE_MIN_POS;
-			turn turret to y-axis (0-NextCranePos) speed CRANE_TURN_SPEED;
-			sleep rand(500, 5000);
-		}
-		sleep 250;
-	}
-}
-
-WaitForConstructionToFinish()
-{
-	while(get BUILD_PERCENT_LEFT)
-	{
-		sleep 150;
-	}
-}
-
-Create()
-{
-	move barge2 to z-axis [1]-rand(0, [2]) now;
-	call-script WaitForConstructionToFinish();
-	start-script DamageSmoke();
-	start-script Funnels();
-	start-script CraneMovement();
+sleep 100;
 }
 
 OpenYard()
 {
-	move barge1 to x-axis 0-BARGE_MOVE_DIST speed BARGE_MOVE_SPEED;
-	move barge2 to x-axis BARGE_MOVE_DIST speed BARGE_MOVE_SPEED;
-	wait-for-move barge1 along x-axis;
-	wait-for-move barge2 along x-axis;
 	set YARD_OPEN to 1;
 	while( !get YARD_OPEN )
 	{
@@ -87,8 +34,6 @@ OpenYard()
 
 CloseYard()
 {
-	move barge1 to x-axis 0 speed BARGE_MOVE_SPEED;
-	move barge2 to x-axis 0 speed BARGE_MOVE_SPEED;
 	set YARD_OPEN to 0;
 	while( get YARD_OPEN )
 	{
@@ -99,60 +44,94 @@ CloseYard()
 	set BUGGER_OFF to 0;
 }
 
-Activate()
+Go()
 {
-	bIsActive=TRUE;
-	set ACTIVATION to 1;
+	call-script activatescr();
 	call-script OpenYard();
 	set INBUILDSTANCE to 1;
 }
 
-Deactivate()
+Stop()
 {
-	bIsActive=FALSE;
-	set ACTIVATION to 0;
+	set INBUILDSTANCE to 0;
 	call-script CloseYard();
+	call-script deactivatescr();
+}
+
+InitState()
+{
+	statechg_DesiredState = TRUE;
+	statechg_StateChanging = FALSE;
+}
+
+RequestState(requestedstate, currentstate)
+{
+	if( statechg_StateChanging )
+	{
+		statechg_DesiredState = requestedstate;
+		return (0);
+	}
+	statechg_StateChanging = TRUE;
+	currentstate = statechg_DesiredState;
+	statechg_DesiredState = requestedstate;
+	while( statechg_DesiredState != currentstate )
+	{
+		if( statechg_DesiredState == 0 )
+		{
+			call-script Go();
+			currentstate = 0;
+		}
+		if( statechg_DesiredState == 1 )
+		{
+			call-script Stop();
+			currentstate = 1;
+		}
+	}
+	statechg_StateChanging = FALSE;
+}
+
+Create()
+{
+	spray = base;
+	call-script InitState();
 }
 
 QueryNanoPiece(piecenum)
 {
-	piecenum = nano;
+	piecenum = beam;
+}
+
+Activate()
+{
+	signal SIG_ACTIVATE;
+	start-script RequestState(0);
+}
+
+Deactivate()
+{
+	signal SIG_ACTIVATE;
+	set-signal-mask SIG_ACTIVATE;
+	start-script RequestState(1);
 }
 
 StartBuilding()
 {
-	bIsActive = TRUE;
-	turn crane to x-axis CRANE_RAISE_ANGLE speed CRANE_TURN_SPEED;
 }
 
 StopBuilding()
 {
-	bIsActive = FALSE;
-	turn crane to x-axis <0> speed CRANE_TURN_SPEED;
-	turn turret to y-axis <0> speed CRANE_TURN_SPEED;
 }
 
 QueryBuildInfo(piecenum)
 {
-	piecenum = base;
+	piecenum = pad;
 }
+
 SweetSpot(piecenum)
 {
-	piecenum = barge1;
+	piecenum = base;
 }
 
 Killed(severity, corpsetype)
 {
-	if (severity<50)
-	{
-		corpsetype = 1;
-		explode barge2 type	SHATTER;
-		return (TRUE);
-	}
-	corpsetype = 2;
-	explode barge1 type	SHATTER;
-	explode barge2 type	SHATTER;
-	explode turret type			FALL|SMOKE|BITMAP1;
-	explode crane type			FALL|SMOKE|BITMAP1;
-	return (TRUE);
 }

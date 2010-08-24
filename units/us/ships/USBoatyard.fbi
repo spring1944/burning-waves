@@ -1,49 +1,44 @@
 [unitinfo] {
   unitname=USBoatyard;
-  name=Boat Yard;
-  description=Naval Production Facility;
+  name=Aircraft;
   buildCostEnergy=0;
-  buildCostMetal=5445;
+  buildCostMetal=0;
   builder=1;
-  buildingGroundDecalDecaySpeed=0.05;
-  buildingGroundDecalSizeX=8;
-  buildingGroundDecalSizeY=8;
-  buildingGroundDecalType=Dirt2.dds;
-  buildPic=USBoatyard.png;
-  buildTime=5445;
+  buildPic=;
+  buildTime=0;
   canBeAssisted=0;
-  canMove=1;
+  canMove=0;
   category=FLAG;
-  commander=1;
-  corpse=USBoatyard_dead;
+  collisionVolumeType=ellipsoid;
   [customParams] {
-    ammoSupplier=1;
-    supplyRange=500;
+    ammoSupplier=0;
+    supplyRange=0;
   }
-  energyStorage=0;
+  energyStorage=0.01;
   explodeAs=LARGE_EXPLOSION;
-  floater=1;
-  footprintX=9;
-  footprintZ=9;
-  iconType=shipyard;
+  footprintX=1;
+  footprintZ=1;
+  iconType=factory;
   idleAutoHeal=3;
-  maxDamage=6250;
+  maxDamage=20000;
   maxSlope=10;
-  minWaterDepth=10;
-  objectName=USBoatyard;
+  maxWaterDepth=0;
+  objectName=dummyfactory.S3O;
   selfDestructAs=LARGE_EXPLOSION;
   [sfxtypes] {
   }
   showNanoFrame=0;
   showNanoSpray=0;
   side=US;
-  sightDistance=146;
+  sightDistance=0;
   soundcategory=USYard;
   stealth=1;
   TEDClass=PLANT;
-  useBuildingGroundDecal=1;
-  waterline=0;
-  workerTime=500000;
-  yardmap=oocccccoo oocccccoo oocccccoo oocccccoo oocccccoo oocccccoo oocccccoo oocccccoo oocccccoo;
+  useBuildingGroundDecal=0;
+  workerTime=32;
+  yardmap=c;
+
+  init_cloaked=1;
+  minCloakDistance=0;
 }
 
