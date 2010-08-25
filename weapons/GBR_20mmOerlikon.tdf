@@ -120,7 +120,7 @@
   tolerance=700;
   turret=1;
   weaponTimer=1;
-  weaponVelocity=5000;
+  weaponVelocity=1000;
 }
 
 [twin_20mmOerlikonhe] {
@@ -161,5 +161,5 @@
   tolerance=700;
   turret=1;
   weaponTimer=1;
-  weaponVelocity=5000;
+  weaponVelocity=1000;
 }
