@@ -26,7 +26,7 @@
   intensity=0.9;
   lineofsight=1;
   predictBoost=0.9;
-  range=2250;
+  range=1750;
   reloadTime=1.5;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;
@@ -65,7 +65,7 @@
   impulseFactor=0;
   intensity=0.9;
   lineofsight=1;
-  range=725;
+  range=1750;
   reloadTime=1.625;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;
@@ -110,7 +110,7 @@
   intensity=0.9;
   lineofsight=1;
   predictBoost=0.9;
-  range=1575;
+  range=1750;
   reloadTime=1.125;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;

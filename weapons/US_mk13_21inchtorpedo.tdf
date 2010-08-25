@@ -20,7 +20,7 @@
   model=mk13torpedo;
   noautorange=1;
   propeller=1;
-  range=1100;
+  range=1450;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
@@ -32,8 +32,8 @@
   turnRate=50000;
   turret=1;
   waterWeapon=1;
-  weaponAcceleration=250;
+  weaponAcceleration=75;
   weaponTimer=5.5;
-  weaponVelocity=450;
+  weaponVelocity=150;
 }
 

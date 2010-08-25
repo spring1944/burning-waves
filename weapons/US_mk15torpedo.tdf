@@ -22,14 +22,14 @@
   model=533mmtorpedo;
   noautorange=1;
   propeller=1;
-  range=1100;
+  range=1800;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
   sprayAngle=500;
-  startVelocity=300;
+  startVelocity=50;
   tolerance=9000;
   tracks=1;
   turnRate=50000;
@@ -37,6 +37,6 @@
   waterWeapon=1;
   weaponAcceleration=250;
   weaponTimer=5.5;
-  weaponVelocity=500;
+  weaponVelocity=100;
 }
 

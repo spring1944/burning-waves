@@ -1,6 +1,6 @@
 [20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
-  areaOfEffect=40;
+  areaOfEffect=10;
   burnblow=1;
   burst=5;
   burstRate=0.16;
@@ -26,7 +26,7 @@
   intensity=0.9;
   lineofsight=1;
   predictBoost=0.99;
-  range=1950;
+  range=1500;
   reloadTime=1.5;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;
@@ -42,7 +42,7 @@
 
 [twin_20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
-  areaOfEffect=40;
+  areaOfEffect=10;
   burnblow=1;
   burst=5;
   burstRate=0.16;
@@ -68,7 +68,7 @@
   intensity=0.9;
   lineofsight=1;
   predictBoost=0.99;
-  range=1950;
+  range=1500;
   reloadTime=0.75;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;
@@ -84,7 +84,7 @@
 
 [20mmOerlikonhe] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
-  areaOfEffect=40;
+  areaOfEffect=10;
   burnblow=1;
   burst=5;
   burstRate=0.16;
@@ -110,7 +110,7 @@
   intensity=0.9;
   lineofsight=1;
   predictBoost=0.99;
-  range=750;
+  range=1500;
   reloadTime=1.5;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;

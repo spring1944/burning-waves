@@ -51,7 +51,7 @@
     explosionGenerator9=custom:XSMALL_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=840;
+  sightDistance=1500;
   smoothAnim=0;
   stealth=1;
   TEDClass=SHIP;

@@ -20,7 +20,7 @@
   impulseFactor=0;
   intensity=0.9;
   lineofsight=1;
-  range=1600;
+  range=1400;
   reloadTime=0.12;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;
