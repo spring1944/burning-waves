@@ -5,7 +5,7 @@
   acceleration=0.075;
   activateWhenBuilt=1;
   airSightDistance=1700;
-  brakeRate=0.05;
+  brakeRate=0.01;
   buildCostEnergy=0;
   buildCostMetal=18000;
   buildTime=18000;
@@ -57,7 +57,7 @@
   stealth=0;
   TEDClass=SHIP;
   turninplace=0;
-  turnRate=50;
+  turnRate=67;
 
   weapon10=20mmOerlikonhe;
   maxAngleDif10=270;
