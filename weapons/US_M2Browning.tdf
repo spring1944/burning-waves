@@ -8,7 +8,7 @@
   canAttackGround=1;
   collideFeature=1;
   collideFriendly=0;
-  collisionSize=2.5;
+  collisionSize=1;
   collisionVolumeTest=1;
   [customParams] {
     damagetype=smallarm;
@@ -29,7 +29,7 @@
   reloadTime=4;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1e-21;
+  size=1;
   soundStart=US_50CAL;
   soundTrigger=1;
   sprayAngle=300;
@@ -64,7 +64,7 @@
   reloadTime=1.5;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1e-16;
+  size=1;
   soundStart=US_50CAL;
   soundTrigger=1;
   sprayAngle=250;
@@ -80,7 +80,7 @@
   burnblow=1;
   burst=6;
   burstRate=0.085;
-  collisionSize=2;
+  collisionSize=1;
   collisionVolumeTest=1;
   [customParams] {
     damagetype=smallarm;
@@ -100,7 +100,7 @@
   reloadTime=0.6;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1e-14; //2
+  size=1;
   soundStart=US_50CALAir;
   soundTrigger=1;
   sprayAngle=250;

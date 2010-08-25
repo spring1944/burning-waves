@@ -5,7 +5,7 @@
   burst=5;
   burstRate=0.16;
   canAttackGround=0;
-  collisionSize=4;
+  collisionSize=1;
   craterBoost=0;
   craterMult=0;
   [customParams] {
@@ -29,8 +29,8 @@
   range=1500;
   reloadTime=1.5;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
-  size=0.0001;
+  rgbColor=1.0 0.75 0.0;
+  size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -47,7 +47,7 @@
   burst=5;
   burstRate=0.16;
   canAttackGround=0;
-  collisionSize=4;
+  collisionSize=1;
   craterBoost=0;
   craterMult=0;
   [customParams] {
@@ -71,8 +71,8 @@
   range=1500;
   reloadTime=0.75;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
-  size=0.0001;
+  rgbColor=1.0 0.75 0.0;
+  size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -88,7 +88,7 @@
   burst=5;
   burstRate=0.16;
   canAttackGround=0;
-  collisionSize=4;
+  collisionSize=1;
   craterBoost=0;
   craterMult=0;
   [customParams] {
@@ -112,8 +112,8 @@
   range=1500;
   reloadTime=1.5;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
-  size=0.0001;
+  rgbColor=1.0 0.75 0.0;
+  size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -129,7 +129,7 @@
   burst=5;
   burstRate=0.16;
   canAttackGround=0;
-  collisionSize=4;
+  collisionSize=1;
   craterBoost=0;
   craterMult=0;
   [customParams] {
@@ -153,8 +153,8 @@
   range=1500;
   reloadTime=0.75;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
-  size=0.0001;
+  rgbColor=1.0 0.75 0.0;
+  size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;

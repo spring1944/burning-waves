@@ -60,3 +60,6 @@ At all depths submarines can be hit by depth charges, but obviously when fully s
 
 -Japanese Midget Submarines can remain undetected (cloaked) even at periscope depth, only revealing themselves when they fire one of their two torpedos at an unsuspecting target.
 
+*Capturing Enemy Crew
+
+When ships sink, depending on the manner of their sinking, some of the crew will be able to escape aboard lifecraft. During games in which Victory Points are being used, you can capture enemy crew for some extra points, or rescue your own to prevent the enemy from doing the same to yours.

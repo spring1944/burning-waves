@@ -12,7 +12,7 @@
   canAttack=1;
   canMove=1;
   category=LARGESHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -11 0.0;
+  collisionVolumeOffsets=0.0 0.0 0.0;
   collisionVolumeScales=13.0 18.0 85.0;
   collisionVolumeType=box;
   corpse=USTacoma_dead;
@@ -35,7 +35,7 @@
   minWaterDepth=20;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
-  objectName=USTacoma;
+  objectName=USTacoma.S3O;
   radarDistance=4000;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;

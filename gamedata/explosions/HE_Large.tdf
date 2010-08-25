@@ -1,57 +1,32 @@
 [HE_Large] {
   usedefaultexplosions=0;
   
-  [wreck_light] {
-    class=CExpGenSpawner;
-    [properties]{
-      dir=-1 r2, r1, -1 r2;
-      pos=0, 0, 0;
-      delay=3 r3;
-      explosionGenerator=custom:HE_Large_Wreck_Light;
-    }
-    unit=1;
-    ground=1;
-    count=4;
-  }
-  
-  [wreck_dark] {
-    class=CExpGenSpawner;
-    [properties]{
-      dir=-1 r2, r1, -1 r2;
-      pos=0, 0, 0;
-      delay=3 r3;
-      explosionGenerator=custom:HE_Large_Wreck_Dark;
-    }
-    unit=1;
-    ground=1;
-    count=4;
-  }
-  
   [smoke] {
     class=CSimpleParticleSystem;
     [properties]{
-      sizeGrowth=8 r8;
+      sizeGrowth=2 r1;
       sizeMod=0.5;
       pos=0, 0, 0;
       emitVector=0, 1, 0;
       gravity=0, 0, 0;
       colorMap=0 0 0 0  0.025 0.025 0.025 0.25  0.025 0.025 0.025 0.25  0.025 0.025 0.025 0.25  0 0 0 0;
+      size=0.1;
       Texture=smokesmall;
       airdrag=0.75;
       particleLife=48;
       particleLifeSpread=16;
       numParticles=32;
       particleSpeed=1;
-      particleSpeedSpread=8;
-      particleSize=1;
+      particleSpeedSpread=2;
+      particleSize=0.1;
       particleSizeSpread=0;
       emitRot=0;
       emitRotSpread=90;
       directional=0;
       alwaysVisible=0;
     }
+    unit=1;
     air=1;
-    water=1;
     ground=1;
     count=1;
   }
@@ -59,28 +34,29 @@
   [fire] {
     class=CSimpleParticleSystem;
     [properties]{
-      sizeGrowth=6 r6;
+      sizeGrowth=1 r2;
       sizeMod=0.5;
       pos=0, 0, 0;
       emitVector=0, 1, 0;
       gravity=0, 0, 0;
       colorMap=1 1 1 0.25  0.025 0.025 0.025 0.25  0 0 0 0;
+      size=0.1;
       Texture=fireball;
       airdrag=0.75;
       particleLife=12;
       particleLifeSpread=4;
       numParticles=32;
       particleSpeed=1;
-      particleSpeedSpread=6;
-      particleSize=1;
+      particleSpeedSpread=2;
+      particleSize=0.1;
       particleSizeSpread=0;
       emitRot=0;
       emitRotSpread=90;
       directional=0;
       alwaysVisible=0;
     }
+    unit=1;
     air=1;
-    water=1;
     ground=1;
     count=1;
   }
@@ -90,8 +66,8 @@
     [properties]{
       dir = -0.1 r0.2, 1, -0.1 r0.2;
       colorMap=0.45 0.45 0.5 0.5  0.045 0.045 0.05 0.05; 
-      size=12 r6;
-      length=24 r24;
+      size=4 r4;
+      length=7 r7;
       sizeGrowth=1;
       ttl=24;
       frontOffset=0;
@@ -107,13 +83,13 @@
     [properties]{
       alpha=255;
       alphaFalloff=10;
-      size=12 r24;
+      size=1 r2;
       sizeExpansion=0;
       slowdown=0.95;
       color=0.4 r0.1, 0.3 r0.1, 0.2 r0.1;
       texture=randdots;
       pos=-3 r6, r3, -3 r6;
-      speed=-3 r6, r3, -3 r6;
+      speed=-1 r2, r1, -1 r2;
     }
     ground=1;
     count=12;
@@ -132,11 +108,11 @@
       airdrag=0.95;
       particleLife=48;
       particleLifeSpread=16;
-      numParticles=32;
-      particleSpeed=6;
-      particleSpeedSpread=6;
-      particleSize=2;
-      particleSizeSpread=16;
+      numParticles=18;
+      particleSpeed=1;
+      particleSpeedSpread=2;
+      particleSize=0.1;
+      particleSizeSpread=2;
       emitRot=0;
       emitRotSpread=90;
       directional=1;
@@ -162,10 +138,10 @@
       particleLife=48;
       particleLifeSpread=16;
       numParticles=8;
-      particleSpeed=6;
-      particleSpeedSpread=18;
-      particleSize=1;
-      particleSizeSpread=2;
+      particleSpeed=2;
+      particleSpeedSpread=4;
+      particleSize=0.1;
+      particleSizeSpread=1;
       emitRot=0;
       emitRotSpread=90;
       directional=1;
@@ -178,7 +154,7 @@
   [sphere] {
     class=CSpherePartSpawner;
     [properties] {
-      expansionSpeed=4;
+      expansionSpeed=1;
       ttl=12;
       alpha=0.05;
       color=1,1,1;
@@ -193,10 +169,10 @@
     class=CExploSpikeProjectile;
     [properties] {
       dir= -4 r8, -4 r8, -4 r8;
-      width=8;
-      length=1;
-      lengthGrowth=1;
-      alpha=1;
+      width=1;
+      length=0.5;
+      lengthGrowth=0.1;
+      alpha=0.5;
       alphadecay=0.08;
       color=1,0.75,0.5;
       alwaysVisible=1;
@@ -208,107 +184,13 @@
   }
   
   [groundflash] {
-    flashsize=48;
+    flashsize=12;
     flashalpha=1;
-    circlegrowth=10;
+    circlegrowth=3;
     circlealpha=0;
     ttl=12;
     color=1,0.75,0.5;
   }
 }
 
-[HE_Large_Wreck_Light] {
-  [single] {
-    class=CExpGenSpawner;
-    [properties]{
-      dir=dir;
-      pos=0, 0, 0;
-      damage=i1;
-      delay=i1;
-      explosionGenerator=custom:HE_Large_Wreck_Light_Single;
-    }
-    air=1;
-    water=1;
-    ground=1;
-    count=4;
-  }
-}
 
-[HE_Large_Wreck_Light_Single] {
-  [smoke] {
-    class=CSimpleParticleSystem;
-    [properties] {
-      sizeGrowth=4 d-1 r1;
-      sizeMod=0.5;
-      pos=-2 r4, -2 r4, -2 r4;
-      emitVector=dir;
-      gravity=-0.05 r0.1, -0.05 r0.1, -0.05 r0.1;
-      colorMap=0.1 0.1 0.1 0.5  0 0 0 0;
-      Texture=smokesmall;
-      airdrag=0.75;
-      particleLife=48;
-      particleLifeSpread=16;
-      numParticles=1;
-      particleSpeed=d4 i0.5;
-      particleSpeedSpread=1;
-      particleSize=1;
-      particleSizeSpread=1;
-      emitRot=0;
-      emitRotSpread=0;
-      directional=1;
-      alwaysVisible=0;
-    }
-    air=1;
-    water=1;
-    ground=1;
-    count=8;
-  }
-}
-
-[HE_Large_Wreck_Dark] {
-  [single] {
-    class=CExpGenSpawner;
-    [properties]{
-      dir=dir;
-      pos=0, 0, 0;
-      damage=i1;
-      delay=i1;
-      explosionGenerator=custom:HE_Large_Wreck_Dark_Single;
-    }
-    air=1;
-    water=1;
-    ground=1;
-    count=4;
-  }
-}
-
-[HE_Large_Wreck_Dark_Single] {
-  [smoke] {
-    class=CSimpleParticleSystem;
-    [properties] {
-      sizeGrowth=4 d-1 r1;
-      sizeMod=0.5;
-      pos=-2 r4, -2 r4, -2 r4;
-      emitVector=dir;
-      gravity=-0.05 r0.1, -0.05 r0.1, -0.05 r0.1;
-      colorMap=0.05 0.05 0.05 0.5  0 0 0 0;
-      Texture=smokesmall;
-      airdrag=0.75;
-      particleLife=48;
-      particleLifeSpread=16;
-      numParticles=1;
-      particleSpeed=d4 i0.5;
-      particleSpeedSpread=1;
-      particleSize=1;
-      particleSizeSpread=1;
-      emitRot=0;
-      emitRotSpread=0;
-      directional=1;
-      alwaysVisible=0;
-    }
-    air=1;
-    water=1;
-    ground=1;
-    count=8;
-  }
-}

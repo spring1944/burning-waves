@@ -13,7 +13,7 @@
   canAttack=1;
   canMove=1;
   category=SHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -7.0 0.0;
+  collisionVolumeOffsets=0.0 0.0 0.0;
   collisionVolumeScales=10.0 10.0 43.0;
   collisionVolumeType=box;
   corpse=USLCSL_dead;
@@ -35,7 +35,7 @@
   minWaterDepth=10;
   movementClass=BOAT_LandingCraft;
   noChaseCategory=FLAG AIR MINE;
-  objectName=USLCSL;
+  objectName=USLCSL.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {

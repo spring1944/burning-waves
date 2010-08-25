@@ -56,7 +56,7 @@
   }
   showNanoFrame=0;
   Side=US;
-  sightDistance=200;
+  sightDistance=1500;
   smoothAnim=1;
   stealth=1;
   steeringmode=1;
@@ -101,7 +101,5 @@
   onlyTargetCategory6=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir6=0 0 1;
   weaponSlaveTo6=1;
-
-  weapon7=Medium_Tracer;
 }
 

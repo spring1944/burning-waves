@@ -29,8 +29,8 @@
   range=2125;
   reloadTime=1;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
-  size=0.0001;
+  rgbColor=1.0 0.75 0.0;
+  size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=600;
@@ -71,9 +71,9 @@
   range=730;
   reloadTime=3;
   rendertype=1;
-  rgbColor=1.0 0.5 0.0;
+  rgbColor=1.0 0.75 0.0;
   separation=2;
-  size=1;
+  size=2;
   sizeDecay=0;
   soundHit=GEN_Explo_1;
   soundStart=GER_20mm;
@@ -116,9 +116,9 @@
   range=730;
   reloadTime=3;
   rendertype=1;
-  rgbColor=1.0 0.5 0.0;
+  rgbColor=1.0 0.75 0.0;
   separation=2;
-  size=1e-13;
+  size=2;
   sizeDecay=0;
   soundHit=GEN_Explo_1;
   soundStart=GER_20mm;

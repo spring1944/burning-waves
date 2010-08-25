@@ -11,7 +11,7 @@
   buildTime=1600;
   canMove=1;
   category=SHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -1.75 0.0;
+  collisionVolumeOffsets=0.0 0.0 0.0;
   collisionVolumeScales=10.0 7.0 32.0;
   collisionVolumeType=box;
   corpse=USLCT_dead;
@@ -35,7 +35,7 @@
   acceleration=0.01;
   movementClass=BOAT_LandingCraft;
   noChaseCategory=FLAG AIR MINE;
-  objectName=USLCT;
+  objectName=USLCT.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {

@@ -2,7 +2,7 @@
   name=1.1" Chicago Piano AA system;
   areaOfEffect=6;
   canAttackGround=0;
-  collisionSize=2;
+  collisionSize=1;
   craterBoost=0;
   craterMult=0;
   [customParams] {
@@ -22,9 +22,9 @@
   range=1500;
   reloadTime=0.12;
   rendertype=1;
-  rgbColor=1.0 1.0 0.0;
+  rgbColor=1.0 0.75 0.0;
   separation=2;
-  size=1e-10;
+  size=1;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=400;

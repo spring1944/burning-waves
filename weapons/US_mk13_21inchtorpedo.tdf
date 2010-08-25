@@ -12,12 +12,13 @@
     default=50000;
   }
   edgeEffectiveness=0.5;
+  explosionGenerator=custom:HE_XLarge;
   explosionSpeed=30;
   fireStarter=70;
   guidance=0;
   lineofsight=1;
   metalPerShot=0;
-  model=mk13torpedo;
+  model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
   range=1450;
