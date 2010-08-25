@@ -1,0 +1,40 @@
+[305mm1907] {
+  name=300mm/52 (12-inch) Model 1907 Naval Gun;
+  accuracy=750;
+  areaOfEffect=120;
+  ballistic=1;
+  //burnblow=1; // proximity AA fuse
+  collisionSize=5;
+  craterBoost=0;
+  craterMult=0;
+  [customParams] {
+    damagetype=explosive;
+  }
+  [damage] {
+    default=35000;
+  }
+  edgeEffectiveness=0.25;
+  explosionGenerator=custom:HE_XXLarge;
+  explosionSpeed=30;
+  fireStarter=0;
+  id=99;
+  impulseBoost=0;
+  impulseFactor=0;
+  intensity=0.1;
+  noSelfDamage=1;
+  range=3000;
+  reloadTime=10; // 20 rpm... It has 15-22 in the book, so 20 should fit
+  rendertype=1;
+  rgbColor=0.5 0.5 0.0;
+  separation=2;
+  size=1;
+  sizeDecay=0;
+  soundHit=GEN_Explo_4;
+  soundStart=GEN_105mm;
+  stages=50;
+  targetMoveError=0.1;
+  tolerance=3000;
+  turret=1;
+  weaponVelocity=500;
+}
+
