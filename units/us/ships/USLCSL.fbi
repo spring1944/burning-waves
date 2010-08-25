@@ -63,32 +63,32 @@
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir1=0 0 1;
 
-  weapon2=twin_bofors40mmaa;
+  weapon2=twin_bofors40mmhe;
   maxAngleDif2=270;
   onlyTargetCategory2=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir2=0 0 1;
 
-  weapon3=twin_bofors40mmaa;
+  weapon3=twin_bofors40mmhe;
   maxAngleDif3=270;
   onlyTargetCategory3=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir3=0 0 -1;
 
-  weapon4=20mmOerlikonaa;
+  weapon4=20mmOerlikonhe;
   maxAngleDif4=200;
   onlyTargetCategory4=BUILDING INFANTRY SOFTVEH AIR OPENVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir4=1 0 0;
 
-  weapon5=20mmOerlikonaa;
+  weapon5=20mmOerlikonhe;
   maxAngleDif5=200;
   onlyTargetCategory5=BUILDING INFANTRY SOFTVEH AIR OPENVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir5=-1 0 0;
 
-  weapon6=20mmOerlikonaa;
+  weapon6=20mmOerlikonhe;
   maxAngleDif6=200;
   onlyTargetCategory6=BUILDING INFANTRY SOFTVEH AIR OPENVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir6=1 0 0;
 
-  weapon7=20mmOerlikonaa;
+  weapon7=20mmOerlikonhe;
   maxAngleDif7=200;
   onlyTargetCategory7=BUILDING INFANTRY SOFTVEH AIR OPENVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir7=-1 0 0;

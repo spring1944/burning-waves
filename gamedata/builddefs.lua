@@ -15,7 +15,6 @@ buildoptions =
     "uspt103",
     "uslcsl",
 	"ustacoma",
-	"usbuckley",
 	"usfletcher",
   }
 }
