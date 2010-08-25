@@ -17,11 +17,11 @@ piece base, hull, r1, r2, boats, radar,
 #define MAIN_TURRET_TURN		<15>
 #define MAIN_TURRET_PITCH		<15>
 
-#define AA40_TURRET_TURN		<30>
-#define AA40_TURRET_PITCH		<30>
+#define AA40_TURRET_TURN		<200>
+#define AA40_TURRET_PITCH		<150>
 
-#define AA20_TURRET_TURN			<30>
-#define AA20_TURRET_PITCH			<45>
+#define AA20_TURRET_TURN			<225>
+#define AA20_TURRET_PITCH			<175>
 
 //*********************Recoil
 #define MAIN_GUN_RECOIL			[2.0]

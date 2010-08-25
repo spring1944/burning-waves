@@ -18,11 +18,11 @@ piece base, hull, railings, boats,
 #define main_gun_TURN		<15>
 #define main_gun_PITCH		<15>
 
-#define AA28_TURRET_TURN		<30>
-#define AA28_TURRET_PITCH		<24>
+#define AA28_TURRET_TURN		<225>
+#define AA28_TURRET_PITCH		<175>
 
-#define AA20_TURRET_TURN		<30>
-#define AA20_TURRET_PITCH		<45>
+#define AA20_TURRET_TURN		<225>
+#define AA20_TURRET_PITCH		<175>
 
 #define TORP_TURRET_TURN		<10>
 

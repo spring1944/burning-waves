@@ -24,11 +24,11 @@ piece base, hull, railings, boats,
 #define MAIN_TURRET_TURN		<28.75>
 #define MAIN_TURRET_PITCH		<15>
 
-#define AA40_TURRET_TURN		<30>
-#define AA40_TURRET_PITCH		<30>
+#define AA40_TURRET_TURN		<200>
+#define AA40_TURRET_PITCH		<150>
 
-#define AA20_TURRET_TURN			<30>
-#define AA20_TURRET_PITCH			<45>
+#define AA20_TURRET_TURN			<225>
+#define AA20_TURRET_PITCH			<175>
 
 #define TL_TURRET_TURN			<10>
 

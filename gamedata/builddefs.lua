@@ -16,6 +16,7 @@ buildoptions =
     "uslcsl",
 	"ustacoma",
 	"usfletcher",
+	"rusgangut",
   }
 }
 if (modOptions) then
