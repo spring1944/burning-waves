@@ -26,7 +26,7 @@ end
 function gadget:GameFrame(n)
 	if (n % (1*30) < 0.1) then
 		for teamID, someThing in pairs(team) do
-			Spring.AddTeamResource(teamID, "m", tonumber(modOptions.base_income) or 200)
+			Spring.AddTeamResource(teamID, "m", tonumber(modOptions.base_income) or 500)
 		end
 	end
 end
