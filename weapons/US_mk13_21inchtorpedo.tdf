@@ -34,6 +34,6 @@
   waterWeapon=1;
   weaponAcceleration=75;
   weaponTimer=5.5;
-  weaponVelocity=150;
+  weaponVelocity=75;
 }
 

@@ -1,7 +1,6 @@
 [28mmchicagopiano] {
   name=1.1" Chicago Piano AA system;
-  areaOfEffect=15;
-  burnblow=1;
+  areaOfEffect=6;
   canAttackGround=0;
   collisionSize=2;
   craterBoost=0;
@@ -10,17 +9,17 @@
     damagetype=explosive;
   }
   [damage] {
-    default=86;
+    default=120;
   }
   edgeEffectiveness=0.5;
-  explosionGenerator=custom:HE_XSmall;
+  explosionGenerator=custom:HE_Small;
   fireStarter=0;
   id=50;
   impulseBoost=0;
   impulseFactor=0;
   intensity=0.9;
   lineofsight=1;
-  range=1400;
+  range=1500;
   reloadTime=0.12;
   rendertype=1;
   rgbColor=1.0 1.0 0.0;

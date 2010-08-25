@@ -1,7 +1,7 @@
 [5in38mk30] {
   name=5inch/38 mk30 Naval Gun;
   accuracy=470;
-  areaOfEffect=25;
+  areaOfEffect=60;
   ballistic=1;
   burnblow=1; // proximity AA fuse
   collisionSize=4;
@@ -11,7 +11,7 @@
     damagetype=explosive;
   }
   [damage] {
-    default=2900;
+    default=15000;
   }
   edgeEffectiveness=0.25;
   explosionGenerator=custom:HE_Large;
