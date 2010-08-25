@@ -1,6 +1,6 @@
 [flak3820mmaa] {
   name=2cm FlaK 30/38 High-Explosive Shells;
-  areaOfEffect=30;
+  areaOfEffect=5;
   burnblow=1;
   burst=5;
   burstRate=0.16;
@@ -17,7 +17,7 @@
     default=110;
   }
   edgeEffectiveness=0.45;
-  explosionGenerator=custom:HE_Small;
+  explosionGenerator=custom:HE_XSmall;
   explosionSpeed=30;
   fireStarter=0;
   id=50;
@@ -88,7 +88,7 @@
 [kwk3020mmhe] {
   name=2cm KwK 30 High-Explosive Shells;
   accuracy=255;
-  areaOfEffect=24;
+  areaOfEffect=5;
   ballistic=1;
   burnblow=0;
   burst=3;

@@ -17,7 +17,7 @@
     default=275;
   }
   edgeEffectiveness=0.001;
-  explosionGenerator=custom:HE_Medium;
+  explosionGenerator=custom:HE_Small;
   explosionSpeed=30;
   fireStarter=0;
   id=50;
@@ -57,7 +57,7 @@
     default=275;
   }
   edgeEffectiveness=0.25;
-  explosionGenerator=custom:HE_XSmall;
+  explosionGenerator=custom:HE_Small;
   fireStarter=0;
   id=50;
   impulseBoost=0;
@@ -100,7 +100,7 @@
     default=275;
   }
   edgeEffectiveness=1e-07;
-  explosionGenerator=custom:HE_Medium;
+  explosionGenerator=custom:HE_Small;
   explosionSpeed=30;
   fireStarter=0;
   id=50;
@@ -141,7 +141,7 @@
     default=275;
   }
   edgeEffectiveness=1e-07;
-  explosionGenerator=custom:HE_Medium;
+  explosionGenerator=custom:HE_Small;
   explosionSpeed=30;
   fireStarter=0;
   id=50;
