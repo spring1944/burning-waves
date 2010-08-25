@@ -8,6 +8,27 @@ At the beginning of a game players will be given a lump sum of "aquisition point
 
 Most combat will be between surface vessels, with submarines playing a secondary role. Likewise, aircraft, both carrier-borne and "coastal" aircraft will play a part, be it patrol/scouting, surface attack or air defense.
 
+--GAMEPLAY MODES--
+
+These are options for gameplay modes.
+
+AQUISITION POINTS: The amount of aquisition points players get to spend on units.
+
+DEPLOYMENT MODE:
+
+Full Fleet - Players buy their entire fleet and air assets before the game starts and deploy them in one go.
+
+Escalation - Players continuously receive aquisition points at a fixed rate until the amount of points runs out; they buy units during the course of the game.
+
+VICTORY CONDITIONS:
+
+Timer - After xx time runs out, game ends.
+
+Annihilation - Destroy all of your opponent's ships until they have no more and no more aquisition points.
+
+Strategic Points - Strategic points are placed on the map at random (on water). Holding more points than the enemy runs a counter, at the end of which you win.
+
+
 --BRIEF OVERVIEW OF SPECIAL FEATURES THAT MAKE A SHIP RTS COOL--
 
 
@@ -27,6 +48,4 @@ Most combat will be between surface vessels, with submarines playing a secondary
 - Surfaced: At this depth the submarine can be seen and detected on radar, and can use deck-mounted guns as well as torpedos against targets. Can be hit by surface guns.
 At all depths submarines can be hit by depth charges, but obviously when fully submerged accurate targeting is next to impossible.
 
-*Carrier and Land-Based Aircraft
 
-*Carriers will be able to 

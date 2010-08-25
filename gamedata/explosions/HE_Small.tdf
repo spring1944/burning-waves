@@ -9,14 +9,16 @@
 			emitVector=0, 1, 0;
 			gravity=0, 0, 0;
 			colorMap=0.5 0.5 0.5 1  0 0 0 0;
+          		size=0.5;
+          		length=0.5;
 			Texture=smokesmall;
 			airdrag=0.75;
 			particleLife=12;
 			particleLifeSpread=4;
 			numParticles=8;
-			particleSpeed=2;
+			particleSpeed=0.5;
 			particleSpeedSpread=1;
-			particleSize=1;
+			particleSize=0.1;
 			particleSizeSpread=0;
 			emitRot=0;
 			emitRotSpread=90;
@@ -24,7 +26,7 @@
 			alwaysVisible=0;
 		}
 		air=1;
-		water=1;
+		water=0;
 		ground=1;
 		count=1;
 	}
@@ -34,8 +36,8 @@
 		[properties]{
 			dir = -0.1 r0.2, 1, -0.1 r0.2;
 			colorMap=0.5 0.4 0.3 1  0.05 0.04 0.03 0.1;
-			size=4 r2;
-			length=8 r8;
+			size=0.5 r1;
+			length=1 r4;
 			sizeGrowth=1;
 			ttl=12;
 			frontOffset=0;
@@ -51,8 +53,8 @@
 		[properties]{
 			dir = -0.1 r0.2, 1, -0.1 r0.2;
 			colorMap=0.45 0.45 0.5 0.5  0.045 0.045 0.05 0.05; 
-			size=4 r2;
-			length=8 r8;
+			size=0.5 r1;
+			length=1 r4;
 			sizeGrowth=1;
 			ttl=12;
 			frontOffset=0;
@@ -66,7 +68,7 @@
 	[sphere] {
 		class=CSpherePartSpawner;
 		[properties] {
-			expansionSpeed=2;
+			expansionSpeed=0.5;
 			ttl=8;
 			alpha=0.125;
 			color=1,1,1;
@@ -78,9 +80,9 @@
 	}
 	
 	[groundflash] {
-		flashsize=16;
+		flashsize=4;
 		flashalpha=1;
-		circlegrowth=10;
+		circlegrowth=2.5;
 		circlealpha=0;
 		ttl=8;
 		color=1,0.75,0.5;
