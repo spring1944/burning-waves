@@ -48,4 +48,15 @@ Strategic Points - Strategic points are placed on the map at random (on water). 
 - Surfaced: At this depth the submarine can be seen and detected on radar, and can use deck-mounted guns as well as torpedos against targets. Can be hit by surface guns.
 At all depths submarines can be hit by depth charges, but obviously when fully submerged accurate targeting is next to impossible.
 
+*Logistics will play an important role for some ships, particularly the smaller ships which can not hold infinite amounts of ammunition. Torpedo-armed ships are especially prone to running out of Torpedos. Supply Ships will be available. They will have a very small resupply radius, having to physically move up next to the ship they wish to resupply.
+
+*Special Units: Each faction will have some unique traits, abilities or units which the others do not, such as:
+
+-German "Milchkuh" Supply Submarine will allow Germany to re-arm U-Boats with a stealthy submergable submarine. They will need to surface fully in order to resupply. They will ONLY be able to resupply U-Boats; surface ships must rely on surface Supply ships to re-arm.
+
+-German Fritz-X Guided Bomb: Carried by a medium bomber, this will allow Germany to bomb enemy ships from outside of anti-aircraft range. The bombs themselves however can be shot down, but are hard targets to hit.
+
+-Japanese Kamikaze aircraft loaded with bombs and explosives can carry out suicide attacks against enemy ships, provided they can get through the anti-aircraft fire.
+
+-Japanese Midget Submarines can remain undetected (cloaked) even at periscope depth, only revealing themselves when they fire one of their two torpedos at an unsuspecting target.
 
