@@ -17,10 +17,6 @@
   collisionVolumeType=box;
   corpse=USPT103_dead;
   [customParams] {
-    lowammolevel=1;
-    maxammo=4;
-    weaponcost=40;
-    weaponswithammo=4;
     hasturnbutton=1;
   }
   energyMake=0;
