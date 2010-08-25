@@ -1,7 +1,7 @@
 [unitinfo] {
   unitname=RUSGangut;
   name=Soviet Battleship;
-  description=Capital Ship;
+  description=Hilarious ship of death and destruction;
   acceleration=0.035;
   activateWhenBuilt=1;
   //buildPic=Destroyersall.png;
@@ -13,8 +13,8 @@
   canAttack=1;
   canMove=1;
   category=LARGESHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 -50.0 0.0;
-  collisionVolumeScales=85.0 130.0 600.0;
+  collisionVolumeOffsets=0.0 0.0 0.0;
+  collisionVolumeScales=25.0 30.0 150.0;
   collisionVolumeType=box;
   corpse=RUSGangut_dead;
   [customParams] {
@@ -34,7 +34,7 @@
   minWaterDepth=20;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
-  objectName=RUSGangut;
+  objectName=RUSGangut.S3O;
   radarDistance=4000;
   script=rusgangut.lua;
   seismicSignature=0;
