@@ -6,11 +6,16 @@
   activateWhenBuilt=1;
   airSightDistance=1700;
   brakeRate=0.001;
+  builder=1;
   buildCostEnergy=0;
-  buildCostMetal=20000;
-  buildTime=20000;
+  buildCostMetal=300000;
+  BuildDistance=100000;
+  buildTime=300000;
   canAttack=1;
+  canBeAssisted=0;
   canMove=1;
+  canRepair=0;
+  canReclaim=0;
   category=LARGESHIP MINETRIGGER;
   collisionVolumeOffsets=0.0 0.0 0.0;
   collisionVolumeScales=30.0 27.0 243.0;//80.0 130.0 520.0;
@@ -28,7 +33,7 @@
   footprintZ=10;
   iconType=destroyer;
   mass=33003380;
-  maxDamage=33003380;
+  maxDamage=1905000;
   maxReverseVelocity=0.5;
   maxVelocity=2.475;
   acceleration=0.001;
@@ -51,13 +56,17 @@
     explosionGenerator9=custom:SMALL_MUZZLEDUST;
   }
   showNanoFrame=0;
+  showNanoSpray=0;
   sightDistance=1500;
   smoothAnim=0;
   stealth=0;
-  TEDClass=SHIP;
+  
+  TEDClass=PLANT;
   turninplace=0;
   turnRate=20;
-
+  workerTime=1500;
+  
+  
   weapon10=8_5xtwin_bofors40mmhe;
   maxAngleDif10=200;
   onlyTargetCategory10=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;

@@ -93,6 +93,23 @@ piece base, hull, railings, boats,
 #include "damageSmoke.h"
 static-var	CurrentSpeed, bMoving, aa28_flare, torp_flare, oldXZ, oldHeading;
 
+
+StartBuilding(buildheading, pitch)
+{
+set INBUILDSTANCE to 1;
+}
+
+StopBuilding()
+{
+set INBUILDSTANCE to 0;
+}
+
+QueryNanoPiece(piecenum)
+{
+piecenum = hull;
+}
+
+
 WorkingLoop()
 {
 	while(TRUE)

@@ -17,6 +17,13 @@ buildoptions =
 	"ustacoma",
 	"usfletcher",
 	"rusgangut",
+	"usessex",
+  },
+  
+  usessex = 
+  {
+  "us_sortie_interceptor",
+  "us_sortie_fighter_bomber",
   }
 }
 if (modOptions) then
