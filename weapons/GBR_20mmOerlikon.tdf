@@ -1,9 +1,8 @@
 [20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
+  accuracy=250;
   burnblow=1;
-  burst=5;
-  burstRate=0.16;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -27,13 +26,12 @@
   lineofsight=1;
   predictBoost=0.99;
   range=1500;
-  reloadTime=1.5;
+  reloadTime=0.3;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   //size=0.5;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
-  sprayAngle=475;
   tolerance=700;
   turret=1;
   weaponTimer=1;
@@ -48,9 +46,8 @@
 [twin_20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
+  accuracy=250;
   burnblow=1;
-  burst=5;
-  burstRate=0.16;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -74,13 +71,12 @@
   lineofsight=1;
   predictBoost=0.99;
   range=1500;
-  reloadTime=0.75;
+  reloadTime=0.15;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
-  sprayAngle=475;
   tolerance=700;
   turret=1;
   weaponTimer=1;
@@ -95,8 +91,7 @@
 [20mmOerlikonhe] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
-  burst=5;
-  burstRate=0.16;
+  accuracy=250;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -120,7 +115,7 @@
   lineofsight=1;
   predictBoost=0.99;
   range=1500;
-  reloadTime=1.5;
+  reloadTime=0.3;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.2;
@@ -141,8 +136,7 @@
 [twin_20mmOerlikonhe] {
   name=20mm Oerlikon twin-gun High-Explosive Shells;
   areaOfEffect=5;
-  burst=5;
-  burstRate=0.16;
+  accuracy=250;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -166,13 +160,12 @@
   lineofsight=1;
   predictBoost=0.99;
   range=1500;
-  reloadTime=0.75;
+  reloadTime=0.15;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
-  sprayAngle=475;
   tolerance=700;
   turret=1;
   weaponTimer=1;
@@ -187,8 +180,7 @@
 [8xtwin_20mmOerlikonhe] {
   name=eight 20mm Oerlikon twin-gun High-Explosive Shells;
   areaOfEffect=5;
-  burst=5;
-  burstRate=0.16;
+  accuracy=250;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -212,13 +204,12 @@
   lineofsight=1;
   predictBoost=0.99;
   range=1500;
-  reloadTime=0.09;
+  reloadTime=0.0375;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
-  sprayAngle=475;
   tolerance=700;
   turret=1;
   weaponTimer=1;

@@ -1,9 +1,8 @@
 [bofors40mmaa] {
   name=40mm Bofors Anti-Aircraft Gun;
   areaOfEffect=7;
+  accuracy=500;
   burnblow=1;
-  burst=4;
-  burstRate=0.5;
   canAttackGround=0;
   collisionSize=1.5;
   craterBoost=0.2;
@@ -27,13 +26,12 @@
   lineofsight=1;
   predictBoost=0.9;
   range=1750;
-  reloadTime=1.5;
+  reloadTime=0.4;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
-  sprayAngle=750;
   tolerance=1400;
   turret=1;
   weaponTimer=1;
@@ -48,8 +46,7 @@
 [bofors40mmhe] {
   name=40mm Bofors Anti-Aircraft Gun;
   areaOfEffect=7;
-  burst=2;
-  burstRate=0.5;
+  accuracy=500;
   collisionSize=1.5;
   craterBoost=0;
   craterMult=0;
@@ -70,14 +67,13 @@
   intensity=0.9;
   lineofsight=1;
   range=1750;
-  reloadTime=1.625;
+  reloadTime=0.4;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   separation=2;
   size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
-  sprayAngle=400;
   stages=50;
   targetMoveError=0.1;
   tolerance=700;
@@ -94,9 +90,8 @@
 [twin_bofors40mmaa] {
   name=2x 40mm Bofors Anti-Aircraft Gun;
   areaOfEffect=7;
+  accuracy=500;
   burnblow=1;
-  burst=4;
-  burstRate=0.5;
   canAttackGround=0;
   collisionSize=1.5;
   craterBoost=0.2;
@@ -120,13 +115,12 @@
   lineofsight=1;
   predictBoost=0.9;
   range=1750;
-  reloadTime=1.125;
+  reloadTime=0.2;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
-  sprayAngle=1050;
   tolerance=700;
   turret=1;
   weaponTimer=1;
@@ -141,8 +135,7 @@
 [twin_bofors40mmhe] {
   name=2x 40mm Bofors Anti-Aircraft Gun;
   areaOfEffect=7;
-  burst=4;
-  burstRate=0.5;
+  accuracy=500;
   canAttackGround=0;
   collisionSize=1.5;
   craterBoost=0.2;
@@ -166,13 +159,12 @@
   lineofsight=1;
   predictBoost=0.9;
   range=1750;
-  reloadTime=1.125;
+  reloadTime=0.2;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
-  sprayAngle=1050;
   tolerance=700;
   turret=1;
   weaponTimer=1;
@@ -185,10 +177,9 @@
 }
 
 [8_5xtwin_bofors40mmhe] {
-  name=2x 40mm Bofors Anti-Aircraft Gun;
+  name=A lot of Bofors guns.;
   areaOfEffect=7;
-  burst=4;
-  burstRate=0.5;
+  accuracy=500;
   canAttackGround=0;
   collisionSize=1.5;
   craterBoost=0.2;
@@ -212,13 +203,12 @@
   lineofsight=1;
   predictBoost=0.9;
   range=1750;
-  reloadTime=.132;
+  reloadTime=0.01;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
-  sprayAngle=1050;
   tolerance=700;
   turret=1;
   weaponTimer=1;

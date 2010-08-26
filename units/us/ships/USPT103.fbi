@@ -82,13 +82,13 @@
   onlyTargetCategory5=AIR;
   weaponMainDir5=0 0 -1;
 
-  weapon6=flak3820mmaa;
+  weapon6=20mmOerlikonaa;
   onlyTargetCategory6=AIR;
   weaponMainDir6=0 0 1;
   
-  weapon7=kwk3020mmhe;
+  weapon7=20mmOerlikonhe;
   onlyTargetCategory7=BUILDING INFANTRY SOFTVEH OPENVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir=0 0 1;
+  weaponMainDir7=0 0 1;
 
   weapon8=m2browningaa;
   onlyTargetCategory8=AIR;
