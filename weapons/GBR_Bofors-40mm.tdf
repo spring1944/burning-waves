@@ -83,7 +83,7 @@
   tolerance=700;
   turret=1;
   weaponTimer=1;
-  weaponVelocity=1000;
+  weaponVelocity=500;
 
   beamweapon=1;
   thickness=0.3;
@@ -176,7 +176,7 @@
   tolerance=700;
   turret=1;
   weaponTimer=1;
-  weaponVelocity=1000;
+  weaponVelocity=500;
 
   beamweapon=1;
   thickness=0.3;
@@ -222,7 +222,7 @@
   tolerance=700;
   turret=1;
   weaponTimer=1;
-  weaponVelocity=1000;
+  weaponVelocity=500;
 
   beamweapon=1;
   thickness=0.3;
