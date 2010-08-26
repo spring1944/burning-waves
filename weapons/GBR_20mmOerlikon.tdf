@@ -213,7 +213,7 @@
   predictBoost=0.99;
   range=1500;
   reloadTime=0.09;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
   size=2;
   soundHit=GEN_Explo_Flak1;
@@ -223,4 +223,9 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=1000;
+
+  beamweapon=1;
+  thickness=0.2;
+  corethickness=0.35;
+  duration=0.003;
 }
