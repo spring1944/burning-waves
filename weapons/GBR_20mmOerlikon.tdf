@@ -28,9 +28,9 @@
   predictBoost=0.99;
   range=1500;
   reloadTime=1.5;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=2;
+  //size=0.5;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -38,6 +38,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
+
+  beamweapon=1;
+  thickness=0.15;
+  corethickness=0.2;
+  duration=0.003;
 }
 
 [twin_20mmOerlikonaa] {
@@ -70,9 +75,9 @@
   predictBoost=0.99;
   range=1500;
   reloadTime=0.75;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=2;
+  size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -80,6 +85,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
+
+  beamweapon=1;
+  thickness=0.25;
+  corethickness=0.5;
+  duration=0.003;
 }
 
 [20mmOerlikonhe] {
@@ -111,9 +121,9 @@
   predictBoost=0.99;
   range=1500;
   reloadTime=1.5;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=2;
+  size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -121,6 +131,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=1000;
+
+  beamweapon=1;
+  thickness=0.25;
+  corethickness=0.5;
+  duration=0.003;
 }
 
 [twin_20mmOerlikonhe] {
@@ -152,9 +167,9 @@
   predictBoost=0.99;
   range=1500;
   reloadTime=0.75;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=2;
+  size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=475;
@@ -162,4 +177,9 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=1000;
+
+  beamweapon=1;
+  thickness=0.2;
+  corethickness=0.35;
+  duration=0.003;
 }

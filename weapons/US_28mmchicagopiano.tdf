@@ -21,10 +21,10 @@
   lineofsight=1;
   range=1500;
   reloadTime=0.12;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
   separation=2;
-  size=1;
+  size=0.2;
   soundHit=GEN_Explo_Flak1;
   soundStart=GER_20mm;
   sprayAngle=400;
@@ -34,5 +34,10 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=2000;
+
+  beamweapon=1;
+  thickness=0.25;
+  corethickness=0.5;
+  duration=0.005;
 }
 

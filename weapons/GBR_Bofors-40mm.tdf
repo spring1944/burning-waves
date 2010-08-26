@@ -28,9 +28,9 @@
   predictBoost=0.9;
   range=1750;
   reloadTime=1.5;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=3;
+  size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
   sprayAngle=750;
@@ -38,6 +38,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
+
+  beamweapon=1;
+  thickness=0.3;
+  corethickness=0.5;
+  duration=0.005;
 }
 
 [bofors40mmhe] {
@@ -66,10 +71,10 @@
   lineofsight=1;
   range=1750;
   reloadTime=1.625;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
   separation=2;
-  size=3;
+  size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
   sprayAngle=400;
@@ -79,6 +84,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=1000;
+
+  beamweapon=1;
+  thickness=0.3;
+  corethickness=0.5;
+  duration=0.005;
 }
 
 [twin_bofors40mmaa] {
@@ -111,9 +121,9 @@
   predictBoost=0.9;
   range=1750;
   reloadTime=1.125;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=3;
+  size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
   sprayAngle=1050;
@@ -121,6 +131,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
+
+  beamweapon=1;
+  thickness=0.3;
+  corethickness=0.5;
+  duration=0.005;
 }
 
 [twin_bofors40mmhe] {
@@ -152,9 +167,9 @@
   predictBoost=0.9;
   range=1750;
   reloadTime=1.125;
-  rendertype=1;
+  rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=3;
+  size=0.3;
   soundHit=GEN_Explo_Flak1;
   soundStart=GEN_37mmAA;
   sprayAngle=1050;
@@ -162,6 +177,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=1000;
+
+  beamweapon=1;
+  thickness=0.3;
+  corethickness=0.5;
+  duration=0.005;
 }
 
 

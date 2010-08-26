@@ -29,7 +29,7 @@
   reloadTime=4;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1;
+  size=0.5;
   soundStart=US_50CAL;
   soundTrigger=1;
   sprayAngle=300;
@@ -38,6 +38,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=3000;
+
+  beamweapon=1;
+  thickness=0.1;
+  corethickness=0.15;
+  duration=0.002;
 }
 
 [m2browningaa] {
@@ -64,7 +69,7 @@
   reloadTime=1.5;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1;
+  size=0.5;
   soundStart=US_50CAL;
   soundTrigger=1;
   sprayAngle=250;
@@ -72,6 +77,11 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=3000;
+
+  beamweapon=1;
+  thickness=0.1;
+  corethickness=0.15;
+  duration=0.002;
 }
 
 [m2browningamg] {
@@ -100,7 +110,7 @@
   reloadTime=0.6;
   rendertype=0;
   rgbColor=1.0 0.75 0.0;
-  size=1;
+  size=0.5;
   soundStart=US_50CALAir;
   soundTrigger=1;
   sprayAngle=250;
@@ -108,5 +118,10 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=3000;
+
+  beamweapon=1;
+  thickness=0.1;
+  corethickness=0.15;
+  duration=0.002;
 }
 
