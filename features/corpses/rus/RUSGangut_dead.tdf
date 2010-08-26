@@ -7,7 +7,7 @@
   footprintZ=8;
   height=15;
   hitdensity=50;
-  object=RUSGangut;
+  object=RUSGangut.S3O;
   reclaimable=1;
 }
 
