@@ -1,0 +1,13 @@
+[USEssex_dead] {
+  description=Sunk Essex class;
+  blocking=0;
+  damage=2500000;
+  energy=5000;
+  footprintX=8;
+  footprintZ=8;
+  height=15;
+  hitdensity=70;
+  object=tempEssex.S3O;
+  reclaimable=1;
+}
+

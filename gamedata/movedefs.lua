@@ -105,6 +105,14 @@ local moveDefs 	=	 {
 		crushStrength	=	10,
 		heatmapping		=	false,
 	},
+	
+	{
+		name					=	"BOAT_Carrier",
+		footprintX		=	12,
+		minWaterDepth	=	20,
+		crushStrength	=	10,
+		heatmapping		=	false,
+	},
 	{
 		name					=	"BOAT_LandingCraft",
 		footprintX		=	16,
