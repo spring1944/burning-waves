@@ -13,7 +13,6 @@ buildoptions =
   usboatyard =
   {
     "uspt103",
-    "uslcsl",
 	"ustacoma",
 	"usfletcher",
 	"rusgangut",
