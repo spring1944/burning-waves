@@ -313,27 +313,27 @@ local iconTypes = {
 	destroyer = {
 		bitmap		=	"icons/destroyer.tga",
 		size			=	4,
-		distance	=	0.15,
+		distance	=	0.6,
 	},
 	torpboat = {
 		bitmap		=	"icons/t-boat.png",
-		size			=	3,
-		distance	=	0.15,
+		size			=	2,
+		distance	=	0.25,
 	},
 	gunboat = {
 		bitmap		=	"icons/g-boat.png",
 		size			=	3,
-		distance	=	0.15,
+		distance	=	0.5,
 	},
 	landingship = {
 		bitmap		=	"icons/l-boat.png",
 		size			=	3,
-		distance	=	0.15,
+		distance	=	0.4,
 	},
 	transportship = {
 		bitmap		=	"icons/transportship.tga",
 		size			=	4,
-		distance	=	0.15,
+		distance	=	0.4,
 	},
 	transportplane = {
 		bitmap		=	"icons/transportplane.tga",
