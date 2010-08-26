@@ -1,6 +1,6 @@
 [305mm1907] {
   name=300mm/52 (12-inch) Model 1907 Naval Gun;
-  accuracy=750;
+  accuracy=500;
   areaOfEffect=120;
   ballistic=1;
   //burnblow=1; // proximity AA fuse

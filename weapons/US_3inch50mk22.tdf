@@ -1,6 +1,6 @@
 [3in50mk22] {
   name=mk22 3inch/50 Naval AA Gun;
-  accuracy=170;
+  accuracy=100;
   areaOfEffect=35;
   ballistic=1;
   collisionSize=4;
