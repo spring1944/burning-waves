@@ -12,6 +12,8 @@
   BuildDistance=100000;
   buildTime=300000;
   canAttack=1;
+  canAssist=0;
+  canRestore=0;
   canBeAssisted=0;
   canMove=1;
   canRepair=0;

@@ -15,9 +15,10 @@
   footprintZ=1;
   idleAutoHeal=0;
   maxDamage=1e+06;
-  maxSlope=82;
+  maxSlope=820;
   maxVelocity=0.01;
-  movementClass=KBOT_Infantry;
+  maxWaterDepth=100000;
+  movementClass=BOAT_Carrier;
   objectName=MortarShell.S3O;
   selfDestructAs=noweapon;
   [sfxtypes] {
