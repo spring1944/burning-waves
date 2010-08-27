@@ -33,7 +33,7 @@
   startVelocity=250;
   tolerance=9000;
   tracks=1;
-  turnRate=850;
+  turnRate=700;
   turret=1;
   waterWeapon=1;
   weaponAcceleration=75;

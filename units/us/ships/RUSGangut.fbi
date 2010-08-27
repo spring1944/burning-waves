@@ -18,7 +18,7 @@
   collisionVolumeType=box;
   corpse=RUSGangut_dead;
   [customParams] {
-    maxammo=20;
+    maxammo=30;
     weaponcost=0;
     weaponswithammo=4;
     dontCount=1;
