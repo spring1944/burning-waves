@@ -64,7 +64,7 @@
   }
   showNanoFrame=0;
   showNanoSpray=0;
-  sightDistance=1800;
+  sightDistance=1900;
   smoothAnim=0;
   stealth=0;
   

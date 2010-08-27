@@ -61,7 +61,7 @@
     explosionGenerator9=custom:LARGE_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=1800;
+  sightDistance=1900;
   smoothAnim=0;
   SoundCategory=RUSBoat;
   stealth=0;

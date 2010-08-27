@@ -1,7 +1,7 @@
 [20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
-  accuracy=250;
+  accuracy=150;
   burnblow=1;
   canAttackGround=0;
   collisionSize=1;
@@ -36,7 +36,7 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
-
+  targetMoveError=0.1;
   beamweapon=1;
   thickness=0.15;
   corethickness=0.2;
@@ -46,7 +46,7 @@
 [twin_20mmOerlikonaa] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
-  accuracy=250;
+  accuracy=150;
   burnblow=1;
   canAttackGround=0;
   collisionSize=1;
@@ -81,7 +81,7 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=5000;
-
+  targetMoveError=0.1;
   beamweapon=1;
   thickness=0.25;
   corethickness=0.5;
@@ -91,7 +91,7 @@
 [20mmOerlikonhe] {
   name=20mm Oerlikon single-gun High-Explosive Shells;
   areaOfEffect=5;
-  accuracy=250;
+  accuracy=150;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -126,7 +126,7 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=500;
-
+  targetMoveError=0.1;
   beamweapon=1;
   thickness=0.25;
   corethickness=0.5;
@@ -136,7 +136,7 @@
 [twin_20mmOerlikonhe] {
   name=20mm Oerlikon twin-gun High-Explosive Shells;
   areaOfEffect=5;
-  accuracy=250;
+  accuracy=150;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -170,7 +170,7 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=500;
-
+  targetMoveError=0.1;
   beamweapon=1;
   thickness=0.2;
   corethickness=0.35;
@@ -180,7 +180,7 @@
 [8xtwin_20mmOerlikonhe] {
   name=eight 20mm Oerlikon twin-gun High-Explosive Shells;
   areaOfEffect=5;
-  accuracy=250;
+  accuracy=150;
   canAttackGround=0;
   collisionSize=1;
   craterBoost=0;
@@ -214,7 +214,7 @@
   turret=1;
   weaponTimer=1;
   weaponVelocity=500;
-
+  targetMoveError=0.1;
   beamweapon=1;
   thickness=0.2;
   corethickness=0.35;

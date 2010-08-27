@@ -86,7 +86,7 @@
 
 [m2browningamg] {
   name=.50 Caliber M2 Browning Machinegun in Aircraft;
-  areaOfEffect=1;
+  areaOfEffect=2;
   burnblow=1;
   burst=6;
   burstRate=0.085;

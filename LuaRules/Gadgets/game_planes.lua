@@ -388,13 +388,13 @@ function gadget:UnitFinished(unitID, unitDefID, teamID)
   local sortie = sortieDefs[unitDefID]
   local ud = UnitDefs[unitDefID]
   if ud.customParams.carrier then
-	Spring.Echo("Carrier!")
+	--Spring.Echo("Carrier!")
 	local wing1Def = UnitDefNames[ud.customParams.wing1]
 	local wing1DefID = wing1Def.id
 	local wing2Def = UnitDefNames[ud.customParams.wing2]
 	local wing2DefID = wing2Def.id
-	Spring.Echo(wing1DefID)
-	Spring.Echo(sortieDefs[wing1DefID])
+	--Spring.Echo(wing1DefID)
+	--Spring.Echo(sortieDefs[wing1DefID])
 	ModifyStockpile(teamID, sortieDefs[wing1DefID], tonumber(ud.customParams.wing1num))
 	ModifyStockpile(teamID, sortieDefs[wing2DefID], tonumber(ud.customParams.wing2num))
   end
@@ -469,9 +469,13 @@ function gadget:GameFrame(n)
       local ux, uy, uz = GetUnitPosition(unitID)
       if vDistanceToMapEdge(ux, uy, uz) <= RETREAT_TOLERANCE then
 	    local planeSortieDef = UnitDefNames[unitDef.customParams.sortiename]
-		local planeSortieDefID = planeSortieDef.id
-        DestroyUnit(unitID, false, true)
-		ModifyStockpile(teamID, sortieDefs[planeSortieDefID], 1)
+		if planeSortieDef ~= nil then
+			local planeSortieDefID = planeSortieDef.id
+			DestroyUnit(unitID, false, true)
+			ModifyStockpile(teamID, sortieDefs[planeSortieDefID], 1)
+		else
+			DestroyUnit(unitID, false, true)
+		end
 		--Spring.Echo("Plane safe! " .. depositReturn .. " Command returned!")
       end
     end

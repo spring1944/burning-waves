@@ -22,7 +22,7 @@ local GAIA_TEAM_ID = Spring.GetGaiaTeamID()
 
 function gadget:Initialize()
 	local allTeams = Spring.GetAllyTeamList()
-	Spring.Echo(allTeams)
+	--Spring.Echo(allTeams)
 	for i = 0, #allTeams-1 do
       teamPoints[i] = 0
     end
@@ -44,7 +44,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, teamID, attackerID)
 end
 
 function gadget:GameFrame(n)
-	if (n % (5*30) < 0.1) then
+	if (n % (8*30) < 0.1) then
 		local allTeams = Spring.GetAllyTeamList()
 		local winningTeam = 1
 		local winningTeamScore = 0
