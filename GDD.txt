@@ -63,3 +63,17 @@ At all depths submarines can be hit by depth charges, but obviously when fully s
 *Capturing Enemy Crew
 
 When ships sink, depending on the manner of their sinking, some of the crew will be able to escape aboard lifecraft. During games in which Victory Points are being used, you can capture enemy crew for some extra points, or rescue your own to prevent the enemy from doing the same to yours.
+
+
+
+*Ship Mechanics
+
+Ships have a variety of different attributes that can be affected by different weapons, altering its performance.
+
+Hull - The Hull primarily houses engine and boiler rooms and propulsion as well as ammunition and fuel stores. 
+
+Upper Deck - Houses everything else, from radar masts, gun turrets, secondary armaments, etc.
+
+Certain weapons can only damage certain parts of the ship. Torpedos, for instance, can only damage the hull; they can't leap out of the water and hit a turret. Small-caliber gunfire, such as from anti-aircraft guns, or from main armaments too weak to penetrate the hull armour, can only damage the upper deck facilities. Some weapons can potentially damage both; heavy gun fire able to penetrate the hull armour can punch through it, or hit the upper deck facilities. Bombs will often penetrate straight through the upper deck and damage the internal hull. 
+
+Each damaging shot that lands on a ship should have a potential for causing damage to some system or function of the ship. Overall, of course, what sinks a ship is the destruction of enough of its hull that it floods and sinks. Sometimes this can be done by the detonation of ammunition stores. However, most shots will affect attributes of the ship, such as reducing its speed or stopping the ship entirely, destroying individual gun emplacements, destroy command and communication capabilities which cause a general slowdown in all operations, destroying radar which removes its ability to fire outside of LOS, damaging fuel stores that can cause a ship to prematurely run out of fuel, etc.  
