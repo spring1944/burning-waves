@@ -7,7 +7,7 @@
   footprintZ=8;
   height=15;
   hitdensity=70;
-  object=USBuckley_dead;
+  object=USBuckley_dead.S3O;
   reclaimable=1;
 }
 
