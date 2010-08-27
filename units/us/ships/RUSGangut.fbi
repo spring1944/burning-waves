@@ -44,7 +44,7 @@
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
   objectName=RUSGangut.S3O;
-  radarDistance=4000;
+  radarDistance=5500;
   script=rusgangut.lua;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
@@ -61,7 +61,7 @@
     explosionGenerator9=custom:LARGE_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=2125;
+  sightDistance=1800;
   smoothAnim=0;
   SoundCategory=RUSBoat;
   stealth=0;

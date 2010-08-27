@@ -33,7 +33,7 @@
   maxDamage=4000;
   maxReverseVelocity=0.75;
   maxVelocity=3; // 43 knots
-  acceleration=0.02;
+  acceleration=0.03;
   minWaterDepth=10;
   movementClass=BOAT_Medium;
   noChaseCategory=FLAG AIR MINE;
@@ -53,7 +53,7 @@
     explosionGenerator9=custom:SMALL_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=2125;
+  sightDistance=1800;
   smoothAnim=0;
   stealth=1;
   TEDClass=SHIP;

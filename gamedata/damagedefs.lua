@@ -35,7 +35,7 @@ local damagedefs = {
   },
   explosive = {
     infantry = 9,
-	ships = 7/4,
+	ships = 2,
     unarmouredvehicles = 1,
     armouredvehicles = 1/3,
     lightbuildings = 2/3,

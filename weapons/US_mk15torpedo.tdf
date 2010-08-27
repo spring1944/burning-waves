@@ -2,7 +2,7 @@
   name=mk.15 21inch torpedo;
   areaOfEffect=32;
   avoidFriendly=1;
-  burnblow=1;
+  burnblow=0;
   burst=3;
   burstRate=1;
   canAttackGround=0;
@@ -23,7 +23,7 @@
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=2160;
+  range=1600;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
@@ -33,7 +33,7 @@
   startVelocity=250;
   tolerance=9000;
   tracks=1;
-  turnRate=700;
+  turnRate=600;
   turret=1;
   waterWeapon=1;
   weaponAcceleration=75;

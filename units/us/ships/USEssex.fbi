@@ -64,7 +64,7 @@
   }
   showNanoFrame=0;
   showNanoSpray=0;
-  sightDistance=2125;
+  sightDistance=1800;
   smoothAnim=0;
   stealth=0;
   
@@ -72,7 +72,7 @@
   turninplace=0;
   turnRate=20;
   workerTime=1500;
-  
+  radarDistance=6500;
   
   weapon10=8_5xtwin_bofors40mmhe;
   maxAngleDif10=200;

@@ -39,7 +39,7 @@
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
   objectName=USFletcher.S3O;
-  radarDistance=4000;
+  radarDistance=4800;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -55,7 +55,7 @@
     explosionGenerator9=custom:XLARGE_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=2125;
+  sightDistance=1800;
   smoothAnim=0;
   stealth=0;
   TEDClass=SHIP;
