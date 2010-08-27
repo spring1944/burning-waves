@@ -22,6 +22,7 @@
     weaponcost=0;
     weaponswithammo=4;
     dontCount=1;
+	hasturnbutton=1;
   }
   energyMake=0;
   energyUse=0;

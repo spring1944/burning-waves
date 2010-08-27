@@ -18,6 +18,7 @@ buildoptions =
 	"rusgangut",
 	"usessex",
 	"uslct",
+	"us_sortie_recon",
   },
   
   usessex = 
