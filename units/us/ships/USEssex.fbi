@@ -38,7 +38,7 @@
   floater=1;
   footprintX=10;
   footprintZ=10;
-  iconType=destroyer;
+  iconType=carrier;
   mass=33003380;
   maxDamage=1905000;
   maxReverseVelocity=0.5;

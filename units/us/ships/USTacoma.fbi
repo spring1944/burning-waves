@@ -29,7 +29,7 @@
   floater=1;
   footprintX=5;
   footprintZ=5;
-  iconType=destroyer;
+  iconType=frigate;
   mass=128400;
   maxDamage=128400;
   maxReverseVelocity=0.5;
