@@ -19,7 +19,7 @@
   canPatrol=1;
   CanStop=1;
   category=AIR;
-  cruiseAlt=580;
+  cruiseAlt=400;
   [customParams] {
     enginesound=spitfireb-;
     enginesoundnr=18;
@@ -28,8 +28,8 @@
   }
   drag=0.1;
   explodeAs=Vehicle_Explosion_Med;
-  footprintX=4;
-  footprintZ=4;
+  footprintX=1;
+  footprintZ=1;
   iconType=recon;
   idleAutoHeal=2;
   idleTime=1800;
@@ -38,11 +38,11 @@
   maxBank=0.1;
   maxDamage=34.5;
   maxElevator=0.005;
-  maxFuel=60;
+  maxFuel=120;
   maxPitch=0.1;
   maxRudder=0.005;
   maxSlope=10;
-  maxVelocity=16;
+  maxVelocity=4;
   maxWaterDepth=0;
   moverate1=4;
   myGravity=0.6;
