@@ -9,7 +9,7 @@
     damagetype=shapedcharge;
   }
   [damage] {
-    default=50000;
+    default=55000;
   }
   edgeEffectiveness=0.5;
   explosionGenerator=custom:HE_XLarge;
