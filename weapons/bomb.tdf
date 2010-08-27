@@ -26,6 +26,7 @@
   rendertype=4;
   soundHit=GEN_Explo_9;
   startVelocity=400;
+  targetMoveError=0.1;
   texture1=none;
   tolerance=4000;
   trajectoryHeight=0.15;

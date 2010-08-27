@@ -8,9 +8,9 @@
   brakeRate=0.005;
   builder=1;
   buildCostEnergy=0;
-  buildCostMetal=300000;
+  buildCostMetal=270000;
   BuildDistance=100000;
-  buildTime=300000;
+  buildTime=270000;
   canAttack=1;
   canAssist=0;
   canRestore=0;
@@ -59,7 +59,7 @@
   }
   showNanoFrame=0;
   showNanoSpray=0;
-  sightDistance=1500;
+  sightDistance=2125;
   smoothAnim=0;
   stealth=0;
   

@@ -7,9 +7,9 @@
   bmcode=1;
   brakeRate=5;
   buildCostEnergy=0;
-  buildCostMetal=1080;
+  buildCostMetal=720;
   buildPic=USP51DMustang.png;
-  buildTime=1080;
+  buildTime=720;
   canAttack=1;
   canDropFlare=1;
   canFly=1;
@@ -36,11 +36,11 @@
   maxBank=1;
   maxDamage=346.5;
   maxElevator=0.0043;
-  maxFuel=200;
+  maxFuel=120;
   maxPitch=0.34;
   maxRudder=0.0035;
   maxSlope=10;
-  maxVelocity=30;
+  maxVelocity=13;
   maxWaterDepth=0;
   moverate1=4; //does this tag even work?
   myGravity=0.6;
@@ -56,7 +56,7 @@
   }
   showNanoFrame=0;
   Side=US;
-  sightDistance=2500;
+  sightDistance=2125;
   smoothAnim=1;
   stealth=1;
   steeringmode=1;

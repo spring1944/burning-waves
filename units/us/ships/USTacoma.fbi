@@ -52,7 +52,7 @@
     explosionGenerator9=custom:SMALL_MUZZLEDUST;
   }
   showNanoFrame=0;
-  sightDistance=2500;
+  sightDistance=2125;
   smoothAnim=0;
   stealth=0;
   TEDClass=SHIP;

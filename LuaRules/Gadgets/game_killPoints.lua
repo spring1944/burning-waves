@@ -16,23 +16,29 @@ end
 if (gadgetHandler:IsSyncedCode()) then
 
 local teamPoints = {}
-local gameLength = tonumber(modOptions.game_length)*60) or 600) * 30
+local gameLength = ((tonumber(modOptions.game_length) or 10) * 60) * 30 --minutes, times seconds, times frames
 local GAIA_TEAM_ID = Spring.GetGaiaTeamID()
 
 
 function gadget:Initialize()
 	local allTeams = Spring.GetTeamList()
-	for i = 1, #allTeams do
+	for i = 1, #allTeams-1 do
       teamPoints[i] = 0
+	  Spring.Echo("Team"..i.." exists!")
     end
 end
 
 
 function gadget:UnitDestroyed(unitID, unitDefID, teamID, attackerID)
-	local attackerTeamID = Spring.GetUnitTeam(attackerID) + 1
-	if attackerTeamID ~= nil then
-		local ud = UnitDefs[unitDefID]
-		teamPoints[attackerTeamID] = teamPoints[attackerTeamID] + ud.metalCost
+	if attackerID ~= nil then
+		local attackerTeamID = Spring.GetUnitTeam(attackerID) + 1
+		Spring.Echo(attackerTeamID)
+		--if attackerTeamID ~= nil then
+			local ud = UnitDefs[unitDefID]
+			if attackerTeamID ~= teamID then
+				teamPoints[attackerTeamID] = teamPoints[attackerTeamID] + ud.metalCost
+			end
+		--end
 	end
 end
 
@@ -49,7 +55,7 @@ function gadget:GameFrame(n)
 			end
 		end
 		Spring.Echo("Team "..winningTeam.." is winning!")
-		if n >= (gameLength/30) then
+		if n >= (gameLength) then
 			Spring.Echo("Team "..winningTeam.." has won!")
 			for i = 1, #allTeams-1 do
 				if i ~= winningTeam then
