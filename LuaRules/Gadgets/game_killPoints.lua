@@ -33,12 +33,12 @@ function gadget:UnitDestroyed(unitID, unitDefID, teamID, attackerID)
 	if attackerID ~= nil then
 		local attackerTeamID = Spring.GetUnitTeam(attackerID) + 1
 		Spring.Echo(attackerTeamID)
-		--if attackerTeamID ~= nil then
+		if attackerTeamID ~= nil and attackerTeamID ~= GAIA_TEAM_ID then
 			local ud = UnitDefs[unitDefID]
 			if attackerTeamID ~= teamID then
 				teamPoints[attackerTeamID] = teamPoints[attackerTeamID] + ud.metalCost
 			end
-		--end
+		end
 	end
 end
 

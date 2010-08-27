@@ -157,11 +157,6 @@ local sortieDefs = {
   
   us_sortie_interceptor = {
     "usp51dmustang",
-    "usp51dmustang",
-    "usp51dmustang",
-    "usp51dmustang",
-	"usp51dmustang",
-    "usp51dmustang",
     
     delay = 10,
     weight = 1,
@@ -169,8 +164,6 @@ local sortieDefs = {
   
   us_sortie_fighter_bomber = {
     "usp47thunderbolt",
-    "usp47thunderbolt",
-	"usp47thunderbolt",
     
     delay = 25,
     weight = 1,

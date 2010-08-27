@@ -25,6 +25,11 @@
   corpse=USEssex_dead;
   [customParams] {
     dontCount=1;
+	carrier=1;
+	wing1=us_sortie_interceptor;
+	wing2=us_sortie_fighter_bomber;
+	wing1num=36;
+	wing2num=36;
     hasturnbutton=1;
   }
   energyMake=0;

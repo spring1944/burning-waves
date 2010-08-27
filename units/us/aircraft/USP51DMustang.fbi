@@ -24,6 +24,7 @@
     enginesoundnr=16;
     feartarget=1;
     proptexture=prop3.tga;
+	sortiename=us_sortie_interceptor;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=1;

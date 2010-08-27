@@ -1,7 +1,7 @@
 [unitinfo] {
   unitname=us_sortie_fighter_bomber;
   name=Fighter-Bomber Sortie;
-  description=3 x P-47D Thunderbolt;
+  description=1 x P-47D Thunderbolt;
   acceleration=0.1;
   brakeRate=1;
   buildCostEnergy=0;
