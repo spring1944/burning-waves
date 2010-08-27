@@ -29,7 +29,7 @@
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
-  sprayAngle=500;
+  sprayAngle=50;
   startVelocity=250;
   tolerance=9000;
   tracks=1;
