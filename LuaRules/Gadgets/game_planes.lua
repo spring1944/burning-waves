@@ -16,6 +16,7 @@ local sqrt = math.sqrt
 local sin, cos, atan2 = math.sin, math.cos, math.atan2
 
 local airfieldCapacity = 72
+local canRequisition = true
 
 local CMD_PLANES = 34400
 local PATROL_DISTANCE = 1000
@@ -255,6 +256,7 @@ end
 
 local function SpawnFlight(teamID, sortie, sx, sy, sz, cmdParams)
   local tx, ty, tz
+  canRequisition = true
   if #cmdParams == 1 then
     tx, ty, tz = GetUnitPosition(cmdParams[1])
     if not tx then
@@ -320,6 +322,7 @@ local function ModifyStockpile(teamID, sortie, amount)
   local cmdID = sortie.cmdDesc.id
   local rulesParamName = "game_planes.stockpile" .. cmdID
   local stockpile = GetTeamRulesParam(teamID, rulesParamName) or 0
+
   stockpile = stockpile + amount
   SetTeamRulesParam(teamID, rulesParamName, stockpile)
 
@@ -328,19 +331,20 @@ local function ModifyStockpile(teamID, sortie, amount)
   local disabled = (stockpile <= 0)
 
   local editTable = {
-    name = stockpile .. " Ready",
-    disabled = disabled,
+  name = stockpile .. " Ready",
+  disabled = disabled,
+ 
   }
 
-  for unitID, _ in pairs(radios[teamID]) do
-    local cmdDescs = GetUnitCmdDescs(unitID)
-    for i = 1, #cmdDescs do
-      local cmdDesc = cmdDescs[i]
-      if cmdDesc.id == cmdID then
-        EditUnitCmdDesc(unitID, i, editTable)
-      end
-    end
-  end
+	for unitID, _ in pairs(radios[teamID]) do
+		local cmdDescs = GetUnitCmdDescs(unitID)
+		for i = 1, #cmdDescs do
+		  local cmdDesc = cmdDescs[i]
+		  if cmdDesc.id == cmdID then
+		EditUnitCmdDesc(unitID, i, editTable)
+		  end
+		end
+	end
 end
 
 function gadget:Initialize()
@@ -428,6 +432,7 @@ function gadget:AllowCommand(unitID, unitDefID, teamID, cmdID, cmdParams, cmdOpt
     if stockpile > 0 then
       ModifyStockpile(teamID, sortie, -1)
       local sx, sy, sz = GetSpawnPoint(teamID, #sortie)
+	  canRequisition = false
       DelayCall(SpawnFlight, {teamID, sortie, sx, sy, sz, cmdParams}, sortie.delay * 30)
       SendMessageToTeam(teamID, sortie.name .. " ordered. ETE " .. (sortie.delay or 0) .. "s.")
       local _, _, _, _, _, allyTeam = Spring.GetTeamInfo(teamID)
@@ -497,7 +502,18 @@ function gadget:AllowUnitBuildStep(builderID, builderTeam, unitID, unitDefID, pa
 
   local rulesParamName = "game_planes.weight"
   local weight = GetTeamRulesParam(builderTeam, rulesParamName) or 0
-
+    local activeTeamPlanes = 0
+  for unitID, state in pairs(planeStates) do
+    local activePlaneTeamID = GetUnitTeam(unitID)
+	if activePlaneTeamID == builderTeam then
+		activeTeamPlanes = activeTeamPlanes + 1
+	end
+  end
+  if activeTeamPlanes > 0 or canRequisition == false then
+	SendMessageToTeam(builderTeam, "Wait for all sorties to return before requisitioning more aircraft.")
+    return false
+  end
+  
   if weight > airfieldCapacity then
     return false
   end
