@@ -22,7 +22,7 @@
     armor_rear=175;
     armor_side=175;
     armor_top=31;
-    maxammo=30;
+    maxammo=40;
     weaponcost=0;
     weaponswithammo=4;
     dontCount=1;

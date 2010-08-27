@@ -16,14 +16,14 @@ end
 if (gadgetHandler:IsSyncedCode()) then
 
 local teamPoints = {}
-local gameLength = ((tonumber(modOptions.game_length) or 10) * 60) * 30 --minutes, times seconds, times frames
+local gameLength = ((tonumber(modOptions.game_length) or 2) * 60) * 30 --minutes, times seconds, times frames
 local GAIA_TEAM_ID = Spring.GetGaiaTeamID()
 
 
 function gadget:Initialize()
 	local allTeams = Spring.GetAllyTeamList()
-	--Spring.Echo(allTeams)
-	for i = 0, #allTeams-1 do
+	Spring.Echo(allTeams)
+	for i = 0, #allTeams-2 do
       teamPoints[i] = 0
     end
 end
@@ -44,24 +44,24 @@ function gadget:UnitDestroyed(unitID, unitDefID, teamID, attackerID)
 end
 
 function gadget:GameFrame(n)
-	if (n % (8*30) < 0.1) then
-		local allTeams = Spring.GetAllyTeamList()
-		local winningTeam = 1
+	if (n % (15*30) < 0.1) then
+		local allAllyTeams = Spring.GetAllyTeamList()
+		local allTeams = Spring.GetTeamList()
+		local winningTeam = 0
 		local winningTeamScore = 0
-		for i = 0, #allTeams-1 do
-			if i ~= GAIA_TEAM_ID then
-				Spring.Echo("Team "..i.." points: "..teamPoints[i])
-				if teamPoints[i] > winningTeamScore then
-					winningTeam = i
-					winningTeamScore = teamPoints[i]
-				end
+		for i = 0, #allAllyTeams-2 do
+			Spring.Echo("Team "..i.." points: "..teamPoints[i])
+			if teamPoints[i] > winningTeamScore then
+				winningTeam = i
+				winningTeamScore = teamPoints[i]
 			end
 		end
 		Spring.Echo("Team "..winningTeam.." is winning!")
 		if n >= (gameLength) then
 			Spring.Echo("Team "..winningTeam.." has won!")
 			for i = 0, #allTeams-1 do
-				if i ~= winningTeam then
+				local _, _, _, _, _, teamAllyTeam = Spring.GetTeamInfo(i)
+				if teamAllyTeam ~= winningTeam then
 					for _,u in ipairs(Spring.GetTeamUnits(i)) do
 						Spring.TransferUnit(u, GAIA_TEAM_ID, false)
 						Spring.SetUnitNeutral(u, true)

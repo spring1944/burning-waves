@@ -17,7 +17,7 @@
   collisionVolumeType=box;
   corpse=USFletcher_dead;
   [customParams] {
-    maxammo=30;
+    maxammo=40;
     weaponcost=0;
     weaponswithammo=5;
     dontCount=1;

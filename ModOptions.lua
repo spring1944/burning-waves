@@ -123,69 +123,6 @@ local options = {
 	desc   = 'Sets various options related to the in-game resources, Command and Logistics',
 	type   = 'section',
   },
-  {
-    key    = "command_mult",
-    name   = "Command Point Income/Battle Significance",
-    desc   = "Sets level of Command Point income - use to adjust maps that provide too much or too little command points (key = 'command_mult')",
-    type   = "list",
-	section= '3resources',
-    def    = "2",
-    items  =
-    {
-	  {
-        key  = "0",
-        name = "Very Low",
-        desc = "Very limited resources. Nothing but a minor skirmish, you must make the most of what resources you have.",
-      },
-      {
-        key  = "1",
-        name = "Low",
-        desc = "Limited Command Points. This battle is insignificant, and you will be struggling to maintain infantry battalions",
-      },
-      {
-        key  = "2",
-        name = "Normal",
-        desc = "Standard Command Points. The supreme commanders are keeping an eye on the outcome of this engagement. Expect medium numbers of infantry with considerable vehicle support, with armor and gun batteries appearing later.",
-      },
-      {
-        key  = "3",
-        name = "High",
-        desc = "Abundant Command Points. The command has deemed this battle vital. You must win at all costs, and your available resources reflect that urgency.",
-      },
-	  {
-        key  = "4",
-        name = "Very High",
-        desc = "Excessive Command Points. High command has an emotional attachment to your skirmish, and they want it won.",
-      },
-    },
-  },
-
-    {
-    key    = "logistics_period",
-    name   = "Logistics Resupply Frequency",
-    desc   = "Sets the gap between Logistics Resupply (key = 'logistics_period')",
-    type   = "list",
-	section= '3resources',
-    def    = "450",
-    items  =
-    {
-      {
-        key  = "675",
-        name = "Low - 11.25 minute gap",
-        desc = "Limited logistics supply. Conservative play - storage buildings and well supplied infantry are the order of the day.",
-      },
-      {
-        key  = "450",
-        name = "Normal - 7.5 minute gap",
-        desc = "Normal logistics supply. Supplies come on a frequent enough basis to keep the warmachine rumbling, but beware of large artillery batteries or armored thrusts.",
-      },
-      {
-        key  = "225",
-        name = "High - 3.75 minute gap",
-        desc = "Abundant logistics supply. Supply deliveries arrive early and often, allowing for much more aggressive play.",
-      },
-	 },
-    },
   
    {
     key    = "game_length",
@@ -212,13 +149,13 @@ local options = {
   },
   
   {
-    key    = "map_command_per_player",
-    name   = "Map Command Per Player",
-    desc   = "Sets the total command on the map to some number per player (negative to disable). (key = 'map_command_per_player')",
+    key    = "base_income",
+    name   = "Base income level",
+    desc   = "Sets the baseline income level for all teams.. (key = 'base_income')",
     type   = "number",
-    def    = -10,
-    min    = -10,
-    max    = 200,
+    def    = 750,
+    min    = 100,
+    max    = 1250,
 	section= '3resources',
     step   = 10,
   },
@@ -246,30 +183,6 @@ local options = {
 	section= '1balance',
     step   = 0.05,
   },]]--
-  
-  	{
-		key = "prisoner_income",
-		name = "Command Income per tick per prisoner",
-		desc = "Changes the amount you recieve for holding prisoners (key = 'prisoner_income')",
-	    type   = "number",
-		def    = 0,
-		min    = 0,
-		max    = 5,
-		section= '1balance',
-		step   = 0.25,
-	},
-
-  	{
-		key = "air_fear_mult",
-		name = "Aircraft fear tolerance multiplier",
-		desc = "Changes the amount of AA fire required to scare off a plane (key = 'air_fear_mult')",
-	    type   = "number",
-		def    = 1,
-		min    = 0,
-		max    = 100,
-		section= '1balance',
-		step   = 1,
-	},
 
 	{
 	key    = '4other',
@@ -298,18 +211,6 @@ local options = {
 	section = '4other',
     step   = 0.1,
 	},
-
-	{
-    key    = "weapon_bulletdamage_mult",
-    name   = "Bullet Damage Multiplier",
-    desc   = 'Multiplies the damage of smallarms (high smallarms damage best used with high range multipliers)',
-    type   = "number",
-    def    = 1.0,
-    min	   = 0.1,
-    max    = 10.0,
-	section = '4other',
-    step   = 0.1,
-	},
 	
 	 {
     key    = "unit_los_mult",
@@ -322,27 +223,7 @@ local options = {
 	section = '4other',
     step   = 0.1,
   },
-  
-	{
-		key = "smoke_mult",
-		name = "Smoke Duration Multiplier",
-		desc = "Multiplies the duration of smoke shells",
-		type = "number",
-		def = 1.0,
-		min	   = 0.1,
-		max    = 10,
-		section = '4other',
-		step   = 0.1,
-	},
-	
-	{
-		key = "always_visible_flags",
-		name = "Always Visible Flags",
-		desc = "Flags and their capping status can be seen without LOS",
-		type = "bool",
-		def = true,
-		section = '4other',
-	},
+
 
 
 
