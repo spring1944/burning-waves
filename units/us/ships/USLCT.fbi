@@ -1,7 +1,7 @@
 [unitinfo] {
   unitname=USLCT;
-  name=LCT mk.5;
-  description=transports up to 5 tanks;
+  name=Fleet Tender;
+  description=Re-Arms and Repairs Ships;
   acceleration=0.075;
   airSightDistance=1100;
   brakeRate=0.05;
