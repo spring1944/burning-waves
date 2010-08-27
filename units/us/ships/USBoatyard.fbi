@@ -20,7 +20,7 @@
   footprintZ=1;
   iconType=factory;
   idleAutoHeal=3;
-  maxDamage=20000;
+  maxDamage=20000000000000;
   maxSlope=10;
   maxWaterDepth=0;
   objectName=dummyfactory.S3O;

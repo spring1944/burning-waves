@@ -7,8 +7,8 @@
   airSightDistance=1700;
   brakeRate=0.01;
   buildCostEnergy=0;
-  buildCostMetal=18000;
-  buildTime=18000;
+  buildCostMetal=7500;
+  buildTime=7500;
   canAttack=1;
   canMove=1;
   category=LARGESHIP MINETRIGGER;
@@ -17,6 +17,9 @@
   collisionVolumeType=box;
   corpse=USTacoma_dead;
   [customParams] {
+    maxammo=20;
+    weaponcost=0;
+    weaponswithammo=3;
     dontCount=1;
     hasturnbutton=1;
   }

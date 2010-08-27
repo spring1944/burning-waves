@@ -27,15 +27,15 @@ piece base, hull, railings, boats,
 #define TORP_TURRET_TURN		<10>
 
 //*********************Recoil
-#define MAIN_GUN_RECOIL			[2.0]
+#define MAIN_GUN_RECOIL			[0.3]
 #define MAIN_GUN_RECOIL_SPEED	[10]
 #define MAIN_GUN_BACK_SPEED		[2]
 
-#define AA40_GUN_RECOIL			[0.4]
+#define AA40_GUN_RECOIL			[0.06]
 #define AA40_GUN_RECOIL_SPEED	[10]
 #define AA40_GUN_BACK_SPEED		[4]
 
-#define AA20_GUN_RECOIL			[0.3]
+#define AA20_GUN_RECOIL			[0.045]
 #define AA20_GUN_RECOIL_SPEED	[10]
 #define AA20_GUN_BACK_SPEED		[5]
 

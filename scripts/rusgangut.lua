@@ -120,19 +120,19 @@ local AA37_TURN_SPEED = rad(200)
 local AA37_PITCH_SPEED = rad(150)
 
 -- Recoil distances
-local MAIN_RECOIL = -20
+local MAIN_RECOIL = -3
 local MAIN_RECOIL_SPEED = 40
 local MAIN_RETURN_SPEED = 5
 
-local SIDE_RECOIL = -5
+local SIDE_RECOIL = -0.75
 local SIDE_RECOIL_SPEED = 40
 local SIDE_RETURN_SPEED = 10
 
-local AA76_RECOIL = -2.5
+local AA76_RECOIL = -0.375
 local AA76_RECOIL_SPEED = 40
 local AA76_RETURN_SPEED = 15
 
-local AA37_RECOIL = -1
+local AA37_RECOIL = -0.15
 local AA37_RECOIL_SPEED = 40
 local AA37_RETURN_SPEED = 20
 

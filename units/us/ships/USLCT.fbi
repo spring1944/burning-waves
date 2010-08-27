@@ -6,9 +6,9 @@
   airSightDistance=1100;
   brakeRate=0.05;
   buildCostEnergy=0;
-  buildCostMetal=1600;
+  buildCostMetal=8600;
   buildPic=uslct.png;
-  buildTime=1600;
+  buildTime=8600;
   canMove=1;
   category=SHIP MINETRIGGER;
   collisionVolumeOffsets=0.0 0.0 0.0;
@@ -17,7 +17,7 @@
   corpse=USLCT_dead;
   [customParams] {
     ammoSupplier=1;
-    supplyRange=600;
+    supplyRange=400;
     hasturnbutton=1;
   }
   energyMake=0;
@@ -59,7 +59,7 @@
   transportMass=15000;
   transportSize=30;
   turninplace=0;
-  turnRate=65;
+  turnRate=45;
 
   weapon1=20mmOerlikonaa; //oerlikon20mm;
   maxAngleDif1=240;

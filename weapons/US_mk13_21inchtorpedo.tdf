@@ -21,20 +21,20 @@
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1450;
+  range=1740;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
   startVelocity=250;
-  tolerance=9000;
+  tolerance=6000;
   tracks=1;
-  turnRate=500;
+  turnRate=850;
   turret=1;
   waterWeapon=1;
   weaponAcceleration=75;
   weaponTimer=5.5;
-  weaponVelocity=75;
+  weaponVelocity=100;
 }
 

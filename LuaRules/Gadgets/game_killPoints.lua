@@ -22,17 +22,17 @@ local GAIA_TEAM_ID = Spring.GetGaiaTeamID()
 
 function gadget:Initialize()
 	local allTeams = Spring.GetTeamList()
-	for i = 1, #allTeams-1 do
+	Spring.Echo(allTeams)
+	for i = 0, #allTeams-1 do
       teamPoints[i] = 0
-	  Spring.Echo("Team"..i.." exists!")
     end
 end
 
 
 function gadget:UnitDestroyed(unitID, unitDefID, teamID, attackerID)
 	if attackerID ~= nil then
-		local attackerTeamID = Spring.GetUnitTeam(attackerID) + 1
-		Spring.Echo(attackerTeamID)
+		local attackerTeamID = Spring.GetUnitTeam(attackerID)
+		--Spring.Echo(attackerTeamID)
 		if attackerTeamID ~= nil and attackerTeamID ~= GAIA_TEAM_ID then
 			local ud = UnitDefs[unitDefID]
 			if attackerTeamID ~= teamID then
@@ -47,17 +47,19 @@ function gadget:GameFrame(n)
 		local allTeams = Spring.GetTeamList()
 		local winningTeam = 1
 		local winningTeamScore = 0
-		for i = 1, #allTeams-1 do
-			Spring.Echo("Team "..i.." points: "..teamPoints[i])
-			if teamPoints[i] > winningTeamScore then
-				winningTeam = i
-				winningTeamScore = teamPoints[i]
+		for i = 0, #allTeams-1 do
+			if i ~= GAIA_TEAM_ID then
+				Spring.Echo("Team "..i.." points: "..teamPoints[i])
+				if teamPoints[i] > winningTeamScore then
+					winningTeam = i
+					winningTeamScore = teamPoints[i]
+				end
 			end
 		end
 		Spring.Echo("Team "..winningTeam.." is winning!")
 		if n >= (gameLength) then
 			Spring.Echo("Team "..winningTeam.." has won!")
-			for i = 1, #allTeams-1 do
+			for i = 0, #allTeams-1 do
 				if i ~= winningTeam then
 					for _,u in ipairs(Spring.GetTeamUnits(i)) do
 						Spring.TransferUnit(u, GAIA_TEAM_ID, false)

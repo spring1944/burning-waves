@@ -8,8 +8,8 @@
   airSightDistance=1700;
   brakeRate=0.0075;
   buildCostEnergy=0;
-  buildCostMetal=160000;
-  buildTime=160000;
+  buildCostMetal=135000;
+  buildTime=135000;
   canAttack=1;
   canMove=1;
   category=LARGESHIP MINETRIGGER;
@@ -18,6 +18,9 @@
   collisionVolumeType=box;
   corpse=RUSGangut_dead;
   [customParams] {
+    maxammo=20;
+    weaponcost=0;
+    weaponswithammo=4;
     dontCount=1;
   }
   energyMake=0;

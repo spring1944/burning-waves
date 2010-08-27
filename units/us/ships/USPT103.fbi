@@ -6,9 +6,9 @@
   airSightDistance=3000;
   brakeRate=0.01;
   buildCostEnergy=0;
-  buildCostMetal=2300;
+  buildCostMetal=3000;
   buildPic=USPT103.png;
-  buildTime=2300;
+  buildTime=3000;
   canAttack=1;
   canMove=1;
   category=SHIP MINETRIGGER;
@@ -17,6 +17,9 @@
   collisionVolumeType=box;
   corpse=USPT103_dead;
   [customParams] {
+    maxammo=4;
+    weaponcost=0;
+    weaponswithammo=4;
     hasturnbutton=1;
   }
   energyMake=0;

@@ -17,6 +17,7 @@ buildoptions =
 	"usfletcher",
 	"rusgangut",
 	"usessex",
+	"uslct",
   },
   
   usessex = 

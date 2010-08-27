@@ -23,7 +23,7 @@
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1800;
+  range=2160;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
@@ -33,11 +33,11 @@
   startVelocity=250;
   tolerance=9000;
   tracks=1;
-  turnRate=500;
+  turnRate=850;
   turret=1;
   waterWeapon=1;
   weaponAcceleration=75;
   weaponTimer=5.5;
-  weaponVelocity=75;
+  weaponVelocity=100;
 }
 
