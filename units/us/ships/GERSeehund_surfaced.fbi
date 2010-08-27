@@ -23,20 +23,20 @@
   footprintX=8;
   footprintZ=8;
   iconType=sub;
-  mass=1700;
-  maxDamage=1700;
+  mass=128400;
+  maxDamage=128400;
   maxReverseVelocity=0.375;
   maxVelocity=0.75;
   minWaterDepth=40;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
-  objectName=GERSeehund;
+  objectName=GERSeehund.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
   }
   showNanoFrame=0;
-  sightDistance=600;
+  sightDistance=2125;
   smoothAnim=0;
   stealth=1;
   TEDClass=SHIP;
@@ -44,12 +44,12 @@
   turnRate=35;
   waterline=0;
 
-  weapon1=g7a533mmtorpedo;
+  weapon1=mk13torpedo;
   maxAngleDif1=60;
   onlyTargetCategory1=LARGESHIP SUB;
   weaponMainDir1=0 0 1;
 
-  weapon2=g7a533mmtorpedo;
+  weapon2=mk13torpedo;
   maxAngleDif2=60;
   onlyTargetCategory2=LARGESHIP SUB;
   weaponMainDir2=0 0 1;
