@@ -30,13 +30,13 @@
   soundHit=gen_explo_11;
   soundStart=watersplash;
   sprayAngle=500;
-  startVelocity=50;
+  startVelocity=250;
   tolerance=9000;
   tracks=1;
   turnRate=500;
   turret=1;
   waterWeapon=1;
-  weaponAcceleration=250;
+  weaponAcceleration=75;
   weaponTimer=5.5;
   weaponVelocity=75;
 }

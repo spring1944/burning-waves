@@ -36,7 +36,7 @@
   turnRate=500;
   turret=1;
   waterWeapon=1;
-  weaponAcceleration=250;
+  weaponAcceleration=75;
   weaponTimer=5.5;
   weaponVelocity=75;
 }

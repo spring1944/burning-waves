@@ -30,7 +30,7 @@ piece base, hull, railings, boats,
 #define AA20_TURRET_TURN			<225>
 #define AA20_TURRET_PITCH			<175>
 
-#define TL_TURRET_TURN			<10>
+#define TL_TURRET_TURN			<25>
 
 //*********************Recoil
 #define MAIN_GUN_RECOIL			[2.5]
