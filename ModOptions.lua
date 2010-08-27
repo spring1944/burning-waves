@@ -187,7 +187,18 @@ local options = {
 	 },
     },
   
-
+   {
+    key    = "game_length",
+    name   = "Game Length",
+    desc   = "Determines how long the game lasts before a winner is declared (in minutes). (key = 'game_length')",
+    type   = "number",
+    def    = 10,
+    min    = 5,
+    max    = 30,
+	section= '3resources',
+    step   = 0.5,
+  },
+  
    {
     key    = "command_storage",
     name   = "Fixed Command Storage",
