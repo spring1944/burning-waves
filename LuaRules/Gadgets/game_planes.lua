@@ -399,7 +399,7 @@ function gadget:UnitFinished(unitID, unitDefID, teamID)
 	ModifyStockpile(teamID, sortieDefs[wing2DefID], tonumber(ud.customParams.wing2num))
   end
   if not sortie then return end
-	Spring.Echo(sortie)
+	--Spring.Echo(sortie)
 	ModifyStockpile(teamID, sortie, 1)
 	DestroyUnit(unitID, false, true)
 end
