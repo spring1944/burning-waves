@@ -22,9 +22,6 @@
     armor_rear=175;
     armor_side=175;
     armor_top=31;
-    maxammo=40;
-    weaponcost=0;
-    weaponswithammo=4;
     dontCount=1;
 	hasturnbutton=1;
   }
@@ -72,22 +69,22 @@
 	weapon1=305mm1907;
 	weaponMainDir1=0 0 1;
 	maxAngleDif1=240;
-	onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+	onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH LARGESHIP DEPLOYED;
 
 	weapon2=305mm1907;
 	weaponMainDir2=0 0 -1;
 	maxAngleDif2=240;
-	onlyTargetCategory2=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+	onlyTargetCategory2=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH LARGESHIP DEPLOYED;
 
 	weapon3=305mm1907;
 	weaponMainDir3=0 0 1;
 	maxAngleDif3=240;
-	onlyTargetCategory3=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+	onlyTargetCategory3=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH LARGESHIP DEPLOYED;
 
 	weapon4=305mm1907;
 	weaponMainDir4=0 0 -1;
 	maxAngleDif4=240;
-	onlyTargetCategory4=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+	onlyTargetCategory4=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH LARGESHIP DEPLOYED;
 
 	// 120mm
 	weapon5=5in38mk30;

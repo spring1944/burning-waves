@@ -17,9 +17,6 @@
   collisionVolumeType=box;
   corpse=USTacoma_dead;
   [customParams] {
-    maxammo=40;
-    weaponcost=0;
-    weaponswithammo=3;
     dontCount=1;
     hasturnbutton=1;
   }
