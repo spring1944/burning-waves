@@ -1,0 +1,27 @@
+#define TA			// This is a TA script
+
+
+piece  base;
+
+static-var  Static_Var_1, Static_Var_2, statechg_DesiredState, statechg_StateChanging;
+
+// Signal definitions
+#define SIG_ACTIVATE			2
+
+
+
+
+Create()
+{
+	Static_Var_1 = 0;
+}
+
+
+SweetSpot(piecenum)
+{
+	piecenum = base;
+}
+
+Killed(severity, corpsetype)
+{
+}

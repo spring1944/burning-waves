@@ -1,10 +1,10 @@
 local sidedata = {
 	{
-	name = "US",
+	name = "YAR",
 	startUnit = "USBoatyard",
 	},
 	{
-	name = "US1",
+	name = "YAR1",
 	startUnit = "USBoatyard",
 	},
 }

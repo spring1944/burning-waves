@@ -23,7 +23,7 @@
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1600;
+  range=1840;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
