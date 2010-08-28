@@ -15,26 +15,26 @@
   explosionGenerator=custom:HE_XLarge;
   explosionSpeed=30;
   fireStarter=70;
-  guidance=0;
   lineofsight=1;
-  metalPerShot=0;
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1840;
+  range=1000;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
-  startVelocity=250;
-  tolerance=6000;
+  startVelocity=25;
+  tolerance=1000;
   tracks=1;
-  turnRate=500;
+  turnRate=1000;
   turret=1;
   waterWeapon=1;
   weaponAcceleration=75;
-  weaponTimer=5.5;
-  weaponVelocity=75;
+  weaponTimer=5;
+  weaponVelocity=25;
+  flighttime=5;
+  mygravity=0.1;
 }
 
