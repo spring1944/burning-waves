@@ -11,7 +11,7 @@
   canAttack=1;
   canMove=1;
   category=MINETRIGGER SUB;
-  corpse=GERSeehund_dead;
+  corpse=USBalao_dead;
   [customParams] {
     dontCount=1;
     hasturnbutton=1;
@@ -73,7 +73,5 @@
   maxAngleDif6=60;
   onlyTargetCategory6=LARGESHIP SUB;
   weaponMainDir6=0 0 1;
-
-
 }
 
