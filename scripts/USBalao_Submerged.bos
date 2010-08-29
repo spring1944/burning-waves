@@ -132,19 +132,6 @@ SweetSpot(piecenum)
 	piecenum = hull;
 }
 
-EmitWakes()
-{
-	set-signal-mask SIG_MOVE|SIG_DEATH;
-	while( TRUE )
-	{
-		emit-sfx 2 from wake1;
-		emit-sfx 2 from wake2;
-		emit-sfx 2 from wake3;
-		emit-sfx 2 from wake4;
-		sleep 300;
-	}
-}
-
 StopMoving()
 {
 	signal SIG_MOVE;
@@ -175,7 +162,6 @@ StopCatcher()
 StartMoving()
 {
 	signal SIG_MOVE;
-	start-script EmitWakes();
 	start-script StopCatcher();
 	bMoving = TRUE;
 }
