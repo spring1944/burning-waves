@@ -32,12 +32,12 @@
   sprayAngle=500;
   startVelocity=250;
   tolerance=9000;
+  turnRate=364;
   tracks=1;
-  turnRate=500;
   turret=1;
   waterWeapon=1;
-  weaponAcceleration=75;
+  weaponAcceleration=-75;
   weaponTimer=5.5;
-  weaponVelocity=75;
+  weaponVelocity=36;
 }
 

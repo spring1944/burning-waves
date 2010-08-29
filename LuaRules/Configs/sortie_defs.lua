@@ -169,6 +169,13 @@ local sortieDefs = {
     weight = 1,
   },
   
+  us_sortie_torpedo_bomber = {
+    "ustbfavenger",
+    
+    delay = 25,
+    weight = 1,
+  },
+  
   us_sortie_attack = {
     "usp51dmustangga",
     "usp51dmustangga",

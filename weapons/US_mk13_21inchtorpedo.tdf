@@ -15,27 +15,86 @@
   explosionGenerator=custom:HE_XLarge;
   explosionSpeed=30;
   fireStarter=70;
+  guidance=0;
   lineofsight=1;
+  metalPerShot=0;
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1000;
+  range=1840;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
   startVelocity=250;
-  tolerance=1000;
+  tolerance=6000;
+  turnRate=182;
   tracks=1;
-  turnRate=1000;
   turret=1;
   waterWeapon=1;
-  weaponAcceleration=75;
-  weaponTimer=5;
-  weaponVelocity=250;
-  flighttime=5;
-  mygravity=0.1;
-  submissile=1;
+  weaponAcceleration=-75;
+  weaponTimer=5.5;
+  weaponVelocity=36;
 }
+
+[mk13torpedo_air] {
+
+  name=mk.13 21inch torpedo dropped from a bomber;
+
+  areaOfEffect=32;
+
+  BounceRebound=0.1;
+  BounceSlip=2;
+
+  burnblow=0;
+
+
+  canAttackGround=1;
+  collideFriendly=1;
+  CommandFire=1;
+
+  [customParams] {
+    damagetype=shapedcharge;
+  }
+  [damage] {
+    default=55000;
+  }
+  edgeEffectiveness=0.5;
+
+  explosionSpeed=30;
+  FireSubmersed=1;
+  FixedLauncher=1;
+  tracks=1;
+  model=Bomb.S3O;
+  NumBounce=1;
+  //mygravity=0.06;
+  range=1500;
+
+  reloadTime=200;
+
+  rendertype=1;
+
+  soundHit=gen_explo_11;
+
+  soundStart=bombrel;
+
+  startVelocity=5;
+  flighttime=10;
+  tolerance=4000;
+
+  turnRate=364;
+  tracks=1;
+
+  turret=1;
+  WaterBounce=1;
+
+  waterWeapon=1;
+  weaponType=TorpedoLauncher;
+
+  weaponAcceleration=5000;
+  weaponVelocity=36;
+
+}
+
 

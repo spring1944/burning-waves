@@ -17,13 +17,13 @@
   canPatrol=1;
   CanStop=1;
   category=AIR;
-  cruiseAlt=10;
+  cruiseAlt=280;
   [customParams] {
     enginesound=p51b-;
     enginesoundnr=16;
     feartarget=1;
     proptexture=prop5.tga;
-	sortiename=us_sortie_fighter_bomber;
+	sortiename=us_sortie_torpedo_bomber;
   }
   explodeAs=Vehicle_Explosion_Med;
   fireState=0;
@@ -68,15 +68,15 @@
   wingAngle=0.1;
   wingDrag=0.1;
 
-  weapon1=mk13torpedo;
-  maxAngleDif1=20;
-  onlyTargetCategory1=LARGESHIP;
-  weaponMainDir1=0 -0.18 1;
-
-  weapon2=m2browningamg;
-  maxAngleDif2=10;
-  onlyTargetCategory2=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weapon2=mk13torpedo_air;
+  maxAngleDif2=20;
+  onlyTargetCategory2=LARGESHIP;
   weaponMainDir2=0 0 1;
+
+  weapon1=m2browningamg;
+  maxAngleDif1=10;
+  onlyTargetCategory1=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weaponMainDir1=0 0 1;
 
   weapon3=m2browningamg;
   maxAngleDif3=10;

@@ -16,7 +16,7 @@ end
 if (gadgetHandler:IsSyncedCode()) then
 
 local teamPoints = {}
-local gameLength = ((tonumber(modOptions.game_length) or 2) * 60) * 30 --minutes, times seconds, times frames
+local gameLength = ((tonumber(modOptions.game_length) or 10) * 60) * 30 --minutes, times seconds, times frames
 local GAIA_TEAM_ID = Spring.GetGaiaTeamID()
 
 

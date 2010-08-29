@@ -25,6 +25,7 @@ buildoptions =
   {
   "us_sortie_interceptor",
   "us_sortie_fighter_bomber",
+  "us_sortie_torpedo_bomber",
   }
 }
 if (modOptions) then

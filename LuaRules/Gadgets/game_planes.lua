@@ -393,10 +393,14 @@ function gadget:UnitFinished(unitID, unitDefID, teamID)
 	local wing1DefID = wing1Def.id
 	local wing2Def = UnitDefNames[ud.customParams.wing2]
 	local wing2DefID = wing2Def.id
+	local wing3Def = UnitDefNames[ud.customParams.wing3]
+	local wing3DefID = wing3Def.id
 	--Spring.Echo(wing1DefID)
 	--Spring.Echo(sortieDefs[wing1DefID])
 	ModifyStockpile(teamID, sortieDefs[wing1DefID], tonumber(ud.customParams.wing1num))
 	ModifyStockpile(teamID, sortieDefs[wing2DefID], tonumber(ud.customParams.wing2num))
+	ModifyStockpile(teamID, sortieDefs[wing3DefID], tonumber(ud.customParams.wing3num))
+	
   end
   if not sortie then return end
 	--Spring.Echo(sortie)

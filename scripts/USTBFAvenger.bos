@@ -202,27 +202,6 @@ SweetSpot(piecenum)
 	piecenum = base;
 }
 
-AimFromWeapon1(piecenum) //Coax fear 
-{
-	piecenum = fuselage;
-}
-
-QueryWeapon1(piecenum)
-{
-	piecenum = bomb;
-}
-
-AimWeapon1(heading, pitch)
-{
-	return (1);
-}
-
-FireWeapon1()
-{
-	hide bomb;
-	return (0);
-}
-
 AimFromWeapon2(piecenum) //Coax fear 
 {
 	piecenum = fuselage;
@@ -230,7 +209,7 @@ AimFromWeapon2(piecenum) //Coax fear
 
 QueryWeapon2(piecenum)
 {
-	piecenum = mg1;
+	piecenum = bomb;
 }
 
 AimWeapon2(heading, pitch)
@@ -239,6 +218,27 @@ AimWeapon2(heading, pitch)
 }
 
 FireWeapon2()
+{
+	hide bomb;
+	return (0);
+}
+
+AimFromWeapon1(piecenum) //Coax fear 
+{
+	piecenum = fuselage;
+}
+
+QueryWeapon1(piecenum)
+{
+	piecenum = mg1;
+}
+
+AimWeapon1(heading, pitch)
+{
+	return (1);
+}
+
+FireWeapon1()
 {
 	emit-sfx MG_MUZZLEFLASH from mg1;
 	emit-sfx MG_SHELLCASINGS from mg1;
