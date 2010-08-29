@@ -30,7 +30,7 @@ local morphDefs = {
     {
       into = 'usbalao',
       tech = 0,
-      time = 5,
+      time = 1,
       metal = 0,
       energy = 0,
       directional = false,
@@ -41,7 +41,7 @@ local morphDefs = {
     {
       into = 'usbalao_surfaced',
       tech = 0,
-      time = 5,
+      time = 1,
       metal = 0,
       energy = 0,
       directional = false,
@@ -49,7 +49,7 @@ local morphDefs = {
     {
       into = 'usbalao_submerged',
       tech = 0,
-      time = 5,
+      time = 1,
       metal = 0,
       energy = 0,
       directional = false,
@@ -60,7 +60,7 @@ local morphDefs = {
     {
       into = 'usbalao',
       tech = 0,
-      time = 5,
+      time = 1,
       metal = 0,
       energy = 0,
       directional = false,
