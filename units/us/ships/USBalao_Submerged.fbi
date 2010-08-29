@@ -1,14 +1,14 @@
 [unitinfo] {
-  unitname=USBalao;
+  unitname=USBalao_Submerged;
   name=Balao-Class Submarine;
-  description=Periscope Depth;
+  description=Submerged;
   acceleration=0.2;
-  airSightDistance=600;
+  airSightDistance=0;
   brakeRate=0.2;
   buildCostEnergy=0;
   buildCostMetal=42000;
   buildTime=42000;
-  buildPic=USSS_Periscope.png;
+  buildPic=USSS_Submerged.png;
   canAttack=1;
   canMove=1;
   category=MINETRIGGER SUB;
@@ -26,7 +26,7 @@
   floater=1;
   footprintX=4;
   footprintZ=4;
-  iconType=sub_periscope;
+  iconType=sub_submerged;
   mass=58000;
   maxDamage=58000;
   maxReverseVelocity=0.3;
@@ -40,47 +40,17 @@
   [sfxtypes] {
   }
   showNanoFrame=0;
-  sightDistance=1900;
+  sightDistance=0;
   smoothAnim=0;
   stealth=1;
   TEDClass=SHIP;
   turninplace=0;
   turnRate=35;
-  waterline=5;
+  waterline=20;
 
   cloakCost=0;
   cloakCostMoving=0;
   init_cloaked=1;
-  minCloakDistance=1000;
-
-  weapon1=mk14torpedo;
-  maxAngleDif1=60;
-  onlyTargetCategory1=LARGESHIP SUB;
-  weaponMainDir1=0 0 1;
-
-  weapon2=mk14torpedo;
-  maxAngleDif2=60;
-  onlyTargetCategory2=LARGESHIP SUB;
-  weaponMainDir2=0 0 1;
-
-  weapon3=mk14torpedo;
-  maxAngleDif3=60;
-  onlyTargetCategory3=LARGESHIP SUB;
-  weaponMainDir3=0 0 1;
-
-  weapon4=mk14torpedo;
-  maxAngleDif4=60;
-  onlyTargetCategory4=LARGESHIP SUB;
-  weaponMainDir4=0 0 1;
-
-  weapon5=mk14torpedo;
-  maxAngleDif5=60;
-  onlyTargetCategory5=LARGESHIP SUB;
-  weaponMainDir5=0 0 1;
-
-  weapon6=mk14torpedo;
-  maxAngleDif6=60;
-  onlyTargetCategory6=LARGESHIP SUB;
-  weaponMainDir6=0 0 1;
+  minCloakDistance=10;
 }
 

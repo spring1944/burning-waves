@@ -104,6 +104,22 @@ local iconTypes = {
 		size			=	2.5,
 		distance	=	1,
 	},
+	
+	sub_surfaced = {
+		bitmap		=	"icons/sub.tga",
+		size			=	2.5,
+		distance	=	0.5,
+	},
+	sub_periscope = {
+		bitmap		=	"icons/sub.tga",
+		size			=	2.0,
+		distance	=	0.35,
+	},
+	sub_submerged = {
+		bitmap		=	"icons/sub.tga",
+		size			=	1.5,
+		distance	=	0.2,
+	},
 }
 
 return iconTypes

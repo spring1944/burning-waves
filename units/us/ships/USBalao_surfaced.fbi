@@ -8,9 +8,13 @@
   buildCostEnergy=0;
   buildCostMetal=42000;
   buildTime=42000;
+  buildPic=USSS_Surfaced.png;
   canAttack=1;
   canMove=1;
   category=SHIP MINETRIGGER;
+  collisionVolumeOffsets=0.0 -1.0 0.0;
+  collisionVolumeScales=10.0 18.0 85.0;
+  collisionVolumeType=box;
   corpse=USBalao_dead;
   [customParams] {
     dontCount=1;
@@ -20,13 +24,13 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=8;
-  footprintZ=8;
-  iconType=sub;
-  mass=128400;
-  maxDamage=128400;
-  maxReverseVelocity=0.375;
-  maxVelocity=0.75;
+  footprintX=4;
+  footprintZ=4;
+  iconType=sub_surfaced;
+  mass=58400;
+  maxDamage=58400;
+  maxReverseVelocity=0.55;
+  maxVelocity=1.2;
   minWaterDepth=40;
   movementClass=BOAT_Destroyer;
   noChaseCategory=FLAG AIR MINE;
