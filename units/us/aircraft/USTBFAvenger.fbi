@@ -7,7 +7,7 @@
   brakeRate=5;
   buildCostEnergy=0;
   buildCostMetal=2500;
-  buildPic=USP47Thunderbolt.png;
+  buildPic=USTBFAvenger.png;
   buildTime=2500;
   canAttack=1;
   canDropFlare=1;
