@@ -29,7 +29,7 @@
   soundStart=watersplash;
   startVelocity=250;
   tolerance=6000;
-  turnRate=182;
+  turnRate=382;
   tracks=1;
   turret=1;
   waterWeapon=1;

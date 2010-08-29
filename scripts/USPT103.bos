@@ -3,7 +3,7 @@
 piece base, hull, turret_20, gun_20, barrel_20, flare_20, turret_40, sleeve_40, barrel_40, flare_40,
 	  mg_turret1, mg_guns1, mg_flare1_1, mg_flare1_2, mg_turret2, mg_guns2, mg_flare2_1, mg_flare2_2,
 	  rack1, torpedo1, rack2, torpedo2, rack3, torpedo3, rack4, torpedo4,
-	  wake1, wake2, wake3;
+	  torpedo1_fp, torpedo2_fp, torpedo3_fp, torpedo4_fp, wake1, wake2, wake3;
 
 #define BASE_SMOKE_PERIOD	40
 #define MIN_SMOKE_PERIOD	240
@@ -274,7 +274,7 @@ RestoreTurret()
 
 QueryWeapon1(piecenum)
 {
-	piecenum = torpedo1;
+	piecenum = torpedo1_fp;
 }
 
 AimFromWeapon1(piecenum)
@@ -303,7 +303,7 @@ FireWeapon1()
 
 QueryWeapon2(piecenum)
 {
-	piecenum = torpedo2;
+	piecenum = torpedo2_fp;
 }
 
 AimFromWeapon2(piecenum)
@@ -332,7 +332,7 @@ FireWeapon2()
 
 QueryWeapon3(piecenum)
 {
-	piecenum = torpedo3;
+	piecenum = torpedo3_fp;
 }
 
 AimFromWeapon3(piecenum)
@@ -361,7 +361,7 @@ FireWeapon3()
 
 QueryWeapon4(piecenum)
 {
-	piecenum = torpedo4;
+	piecenum = torpedo4_fp;
 }
 
 AimFromWeapon4(piecenum)
