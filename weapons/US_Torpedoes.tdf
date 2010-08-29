@@ -102,8 +102,6 @@
   areaOfEffect=32;
   avoidFriendly=1;
   burnblow=0;
-  burst=5;
-  burstRate=1;
   canAttackGround=0;
   collideFriendly=1;
   [customParams] {
@@ -128,7 +126,6 @@
   selfprop=1;
   soundHit=gen_explo_11;
   soundStart=watersplash;
-  sprayAngle=50;
   startVelocity=250;
   tolerance=9000;
   tracks=1;

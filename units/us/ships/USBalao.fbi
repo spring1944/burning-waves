@@ -1,7 +1,7 @@
 [unitinfo] {
-  unitname=GERSeehund_surfaced;
-  name=U-Boat XXVIIB Seehund;
-  description=Midget submarine;
+  unitname=USBalao;
+  name=Balao-Class Submarine;
+  description=Periscope Depth;
   acceleration=0.2;
   airSightDistance=600;
   brakeRate=0.2;
@@ -10,7 +10,7 @@
   buildTime=42000;
   canAttack=1;
   canMove=1;
-  category=SHIP MINETRIGGER;
+  category=MINETRIGGER SUB;
   corpse=GERSeehund_dead;
   [customParams] {
     dontCount=1;
@@ -20,17 +20,17 @@
   energyUse=0;
   explodeAs=Vehicle_Explosion_Sm;
   floater=1;
-  footprintX=8;
-  footprintZ=8;
+  footprintX=5;
+  footprintZ=5;
   iconType=sub;
-  mass=128400;
-  maxDamage=128400;
-  maxReverseVelocity=0.375;
-  maxVelocity=0.75;
+  mass=1000;
+  maxDamage=1000;
+  maxReverseVelocity=0.3;
+  maxVelocity=0.6; // 6 knots submerged
   minWaterDepth=40;
-  movementClass=BOAT_Destroyer;
+  movementClass=BOAT_Sub;
   noChaseCategory=FLAG AIR MINE;
-  objectName=GERSeehund.S3O;
+  objectName=USBalao.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -42,7 +42,7 @@
   TEDClass=SHIP;
   turninplace=0;
   turnRate=35;
-  waterline=0;
+  waterline=20;
 
   weapon1=mk14torpedo;
   maxAngleDif1=60;
@@ -53,5 +53,27 @@
   maxAngleDif2=60;
   onlyTargetCategory2=LARGESHIP SUB;
   weaponMainDir2=0 0 1;
+
+  weapon3=mk14torpedo;
+  maxAngleDif3=60;
+  onlyTargetCategory3=LARGESHIP SUB;
+  weaponMainDir3=0 0 1;
+
+  weapon4=mk14torpedo;
+  maxAngleDif4=60;
+  onlyTargetCategory4=LARGESHIP SUB;
+  weaponMainDir4=0 0 1;
+
+  weapon5=mk14torpedo;
+  maxAngleDif5=60;
+  onlyTargetCategory5=LARGESHIP SUB;
+  weaponMainDir5=0 0 1;
+
+  weapon6=mk14torpedo;
+  maxAngleDif6=60;
+  onlyTargetCategory6=LARGESHIP SUB;
+  weaponMainDir6=0 0 1;
+
+
 }
 
