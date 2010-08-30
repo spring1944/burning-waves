@@ -1,0 +1,37 @@
+[depthchargethrower] {
+  name=depthcharge;
+  accuracy=2000;
+  areaOfEffect=160;
+  color=255;
+  [customParams] {
+
+    damagetype=depthcharge;
+
+  }
+  [damage] {
+    default=50000;
+  }
+  edgeEffectiveness=0.1;
+  explosionGenerator=custom:HE_XXLarge;
+  explosionSpeed=15;
+  fireStarter=0;
+  id=28;
+  impulseFactor=1e-07;
+  leadlimit=500;
+  vlaunch=1;
+  texture1=projectile;
+  texture2=smoketrail;
+  texture3=muzzle;
+  model=MortarShell.S3O;
+  range=700;
+  reloadTime=10;
+  rendertype=1;
+  size=3.75;
+  soundHit=watersplash;
+  soundStart=GER_Panzerfaust;
+  turret=1;
+  startVelocity=200;
+  weaponVelocity=2;
+  waterweapon=1;
+  tolerance=3000;
+}
