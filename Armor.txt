@@ -3,15 +3,16 @@
 	target=99;
 
 	//US//
-	USPT103=99;
-	USFletcher=99;
-	USTacoma=99;
-	USBuckley=99;
+	USEssex=99;
 	RUSGangut=99;
 	}
 
 [UnarmouredShips]
 	{
+	USFletcher=99;
+	PT103=99;
+	USTacoma=99;
+	USBuckley=99;
 	USLCVP=99;
 	USLCT=99;
 	USBalao_Surfaced=99;
@@ -25,25 +26,11 @@
 
 [LightPlanes]
 	{
-	//**Germany**//
-	GERFi156=99;
-	GERBf109=99;
-	GERFw190=99;
-	GERJu87G=99;
-	
 	//US//
 	USL4=99;
 	USP51DMustang=99;
-	USP51DMustangGA=99;
-
-	//USSR//
-	RUSPo2=99;
-	RUSYak3=99;
-	RUSIL2=99;
-
-	//Britain//
-	GBRSpitfireMkXIV=99;
-	GBRTyphoon=99;
+	USP47Thunderbolt=99;
+	USTBFAvenger=99;
 	}
 
 [HeavyPlanes]
