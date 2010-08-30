@@ -63,6 +63,7 @@
   edgeEffectiveness=0.5;
 
   explosionSpeed=30;
+  explosionGenerator=custom:HE_XLarge;
   FireSubmersed=1;
   FixedLauncher=1;
   tracks=1;
