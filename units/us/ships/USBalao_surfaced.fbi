@@ -59,42 +59,42 @@
   waterline=0;
 
   weapon1=mk14torpedo;
-  maxAngleDif1=60;
+  maxAngleDif1=10;
   onlyTargetCategory1=LARGESHIP SUB;
   weaponMainDir1=0 0 1;
 
   weapon2=mk14torpedo;
-  maxAngleDif2=60;
-  onlyTargetCategory2=LARGESHIP SUB;
-  weaponMainDir2=0 0 1;
-
-  weapon1=mk14torpedo;
-  maxAngleDif1=60;
-  onlyTargetCategory1=LARGESHIP SUB;
-  weaponMainDir1=0 0 1;
-
-  weapon2=mk14torpedo;
-  maxAngleDif2=60;
+  maxAngleDif2=10;
   onlyTargetCategory2=LARGESHIP SUB;
   weaponMainDir2=0 0 1;
 
   weapon3=mk14torpedo;
-  maxAngleDif3=60;
+  maxAngleDif3=10;
   onlyTargetCategory3=LARGESHIP SUB;
   weaponMainDir3=0 0 1;
 
   weapon4=mk14torpedo;
-  maxAngleDif4=60;
+  maxAngleDif4=10;
+  onlyTargetCategory4=LARGESHIP SUB;
+  weaponMainDir2=0 0 1;
+
+  weapon3=mk14torpedo;
+  maxAngleDif3=10;
+  onlyTargetCategory3=LARGESHIP SUB;
+  weaponMainDir3=0 0 1;
+
+  weapon4=mk14torpedo;
+  maxAngleDif4=10;
   onlyTargetCategory4=LARGESHIP SUB;
   weaponMainDir4=0 0 1;
 
   weapon5=mk14torpedo;
-  maxAngleDif5=60;
+  maxAngleDif5=10;
   onlyTargetCategory5=LARGESHIP SUB;
   weaponMainDir5=0 0 1;
 
   weapon6=mk14torpedo;
-  maxAngleDif6=60;
+  maxAngleDif6=10;
   onlyTargetCategory6=LARGESHIP SUB;
   weaponMainDir6=0 0 1;
 
