@@ -1,0 +1,32 @@
+[depthcharge] {
+  name=Depth charge;
+  areaOfEffect=100;
+  ballistic=1;
+  cegTag=Flametrail;
+  burnblow=1;
+  collideFriendly=0;
+  [customParams] {
+    damagetype=depthcharge;
+  }
+  [damage] {
+    default=10000;
+  }
+  edgeEffectiveness=0.1;
+  explosionGenerator=custom:HE_XXLarge;
+  explosionSpeed=30;
+  flightTime=0.1;
+  impulseFactor=0.01;
+  model=Bomb.S3O;
+  range=30;
+  reloadTime=3;
+  rendertype=4;
+  soundHit=GEN_Explo_9;
+  targetMoveError=0.1;
+  texture1=none;
+  tolerance=10000;
+  trajectoryHeight=0.5;
+  turret=1;
+  waterweapon=0;
+  weaponType=Cannon;
+  weaponVelocity=100;
+}
