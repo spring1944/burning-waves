@@ -5,9 +5,9 @@
   acceleration=0.1;
   brakeRate=1;
   buildCostEnergy=0;
-  buildCostMetal=28000;
+  buildCostMetal=34000;
   buildPic=USPT103.png;
-  buildTime=28000;
+  buildTime=34000;
   canMove=1;
   category=FLAG;
   explodeAs=noweapon;

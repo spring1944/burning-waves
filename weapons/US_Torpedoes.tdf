@@ -1,7 +1,13 @@
 [mk13torpedo] {
   name=Mk.13 22inch Torpedo launched from PT Boats;
+
   areaOfEffect=32;
   avoidFriendly=1;
+
+  weapontype=LaserCannon;
+  
+  cegtag=torptrail;
+  
   burnblow=0;
   canAttackGround=0;
   collideFriendly=1;
@@ -9,33 +15,31 @@
     damagetype=shapedcharge;
   }
   [damage] {
-    default=55000;
+    default=150000;
   }
   edgeEffectiveness=0.5;
   explosionGenerator=custom:HE_XLarge;
   explosionSpeed=30;
   fireStarter=70;
   guidance=0;
-  lineofsight=1;
+  
   metalPerShot=0;
   model=Torpedo.S3O;
   noautorange=1;
-  propeller=1;
-  range=1840;
+  //NumBounce=5;
+  range=2040;
   reloadTime=60;
   rendertype=1;
-  selfprop=1;
+
   soundHit=gen_explo_11;
   soundStart=watersplash;
-  startVelocity=250;
+  startVelocity=10;
+  trajectoryHeight=0.25;
   tolerance=6000;
-  turnRate=382;
-  tracks=1;
-  turret=1;
+  turret=0;
   waterWeapon=1;
-  weaponAcceleration=-75;
-  weaponTimer=5.5;
-  weaponVelocity=36;
+  weaponAcceleration=200;
+  weaponVelocity=175;
 }
 
 [mk13torpedo_air] {
@@ -58,7 +62,7 @@
     damagetype=shapedcharge;
   }
   [damage] {
-    default=55000;
+    default=150000;
   }
   edgeEffectiveness=0.5;
 
@@ -70,7 +74,7 @@
   model=Bomb.S3O;
   NumBounce=1;
   //mygravity=0.06;
-  range=1500;
+  range=1800;
 
   reloadTime=200;
 
@@ -109,7 +113,7 @@
     damagetype=shapedcharge;
   }
   [damage] {
-    default=55000;
+    default=150000;
   }
   edgeEffectiveness=0.5;
   explosionGenerator=custom:HE_XLarge;
@@ -121,7 +125,7 @@
   model=Torpedo.S3O;
   noautorange=1;
   propeller=1;
-  range=1840;
+  range=2040;
   reloadTime=60;
   rendertype=1;
   selfprop=1;
@@ -137,7 +141,7 @@
   weaponTimer=5.5;
   weaponVelocity=36;
 }
-
+/*
 [mk15torpedo] {
   name=Mk.15 21inch Torpedo launched from Destroyers;
   areaOfEffect=32;
@@ -151,7 +155,7 @@
     damagetype=shapedcharge;
   }
   [damage] {
-    default=55000;
+    default=150000;
   }
   edgeEffectiveness=0.5;
   explosionGenerator=custom:HE_XLarge;
@@ -180,3 +184,48 @@
   weaponTimer=5.5;
   weaponVelocity=36;
 }
+*/
+[mk15torpedo] {
+  name=Mk.15 22inch Torpedo launched from PT destroyers;
+
+  areaOfEffect=32;
+  avoidFriendly=1;
+  burst=3;
+  burstRate=1;
+  weapontype=LaserCannon;
+  
+  cegtag=torptrail;
+  
+  burnblow=0;
+  canAttackGround=0;
+  collideFriendly=1;
+  [customParams] {
+    damagetype=shapedcharge;
+  }
+  [damage] {
+    default=150000;
+  }
+  edgeEffectiveness=0.5;
+  explosionGenerator=custom:HE_XLarge;
+  explosionSpeed=30;
+  fireStarter=70;
+  guidance=0;
+  
+  metalPerShot=0;
+  model=Torpedo.S3O;
+  noautorange=1;
+  //NumBounce=5;
+  range=1840;
+  reloadTime=60;
+  rendertype=1;
+  sprayAngle=500;
+  soundHit=gen_explo_11;
+  soundStart=watersplash;
+  startVelocity=10;
+  trajectoryHeight=0.25;
+  tolerance=9000;
+  turret=1;
+  waterWeapon=1;
+  weaponAcceleration=200;
+  weaponVelocity=175;
+ }

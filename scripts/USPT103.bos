@@ -680,7 +680,7 @@ ShotWeapon11()
 Killed(severity, corpsetype)
 {
 	signal SIG_DEATH;
-	if (severity<99)
+	if (severity<150)
 	{
 		corpsetype = 1;
 		turn hull to z-axis HULL_LIST_ANGLE_Z speed HULL_LIST_SPEED;

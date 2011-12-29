@@ -158,7 +158,7 @@ local function SetStartResources(teamID)
 	local commandStorage = tonumber(modOptions.command_storage) or 1000
 	SetTeamResource(teamID, "ms", commandStorage)
 	-- and teams start with 1k command
-	SetTeamResource(teamID, "m", 1000)
+	--SetTeamResource(teamID, "m", tonumber(modOptions.StartMetal))
 end
 
 

@@ -1,9 +1,14 @@
 local messages = {
-	["Team%i(%s) is no more"] = {
-		"Team%i(%s) was not Jack Sparrow.",
-		"Team%i(%s) sank.",
-		"Team%i(%s) is sharkbait.",
-		"Team%i(%s) preferred the lobster.",
+	["Team %i (lead by %s) is no more"] = {
+		"%s was not Jack Sparrow.",
+		"%s sank.",
+		"%s is sharkbait.",
+		"%s preferred the lobster.",
+	},
+	
+	["Player %1 (%s) resigned and is now spectating!"] = {
+		"%s set sail for sunnier seas.",
+		"%s had enough of this fighting business."
 	}
 }
 

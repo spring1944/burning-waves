@@ -1091,7 +1091,6 @@ Killed(severity, corpsetype)
 		wait-for-turn hull around z-axis;
 		return (TRUE);
 	}
-	corpsetype = 2;
-	explode hull type		SHATTER|BITMAP;
+	corpsetype = 1;
 	return (TRUE);
 }

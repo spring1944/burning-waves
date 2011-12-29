@@ -19,7 +19,7 @@
   canRepair=0;
   canReclaim=0;
   category=LARGESHIP MINETRIGGER;
-  collisionVolumeOffsets=0.0 0.0 0.0;
+  collisionVolumeOffsets=0.0 -2.0 0.0;
   collisionVolumeScales=30.0 27.0 243.0;//80.0 130.0 520.0;
   collisionVolumeType=box;
   corpse=USEssex_dead;
