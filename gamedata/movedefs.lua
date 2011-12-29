@@ -1,68 +1,12 @@
 local moveDefs 	=	 {
 	{
-		name					=	"KBOT_Infantry",
-		footprintX		=	1,
-		maxWaterDepth	=	10,
-		maxSlope			=	36,
-		crushStrength	=	0,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"TANK_Truck",
-		footprintX		=	3,
-		maxWaterDepth	=	5,
-		maxSlope			=	17,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"TANK_Car",
-		footprintX		=	2,
-		maxWaterDepth	=	8,
-		maxSlope			=	18,
-		heatmapping		=	false,
-	},
-	{
 		name					=	"TANK_Light",
 		footprintX		=	2,
 		maxWaterDepth	=	8,
 		maxSlope			=	22,
 		heatmapping		=	false,
 	},
-	{
-		name					=	"TANK_Medium",
-		footprintX		=	3,
-		maxWaterDepth	=	10,
-		maxSlope			=	21,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"TANK_Heavy",
-		footprintX		=	3,
-		maxWaterDepth	=	15,
-		maxSlope			=	20,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"TANK_SuperHeavy",
-		footprintX		=	4,
-		maxWaterDepth	=	15,
-		maxSlope			=	18,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"TANK_VeryLarge",
-		footprintX		=	5,
-		maxWaterDepth	=	15,
-		maxSlope			=	10,
-		heatmapping		=	false,
-	},
-	{
-		name					=	"KBOT_Gun",
-		footprintX		=	2,
-		maxWaterDepth	=	5,
-		maxSlope			=	24,
-		heatmapping		=	false,
-	},
+	
 	{
 		name					=	"BOAT_Small",
 		footprintX		=	1,
@@ -121,15 +65,6 @@ local moveDefs 	=	 {
 		heatmapping		=	false,
 	},
 	{
-		name					=	"HOVER_AmphibTruck",
-		footprintX		=	3,
-		footprintY		=	3,
-		MaxSlope		=	17,
-		MaxWaterSlope		=	255,
-		crushStrength		=	10,
-		heatmapping		=	false,
-	},
-	{
 		name					=	"BOAT_Sub",
 		footprintX		=	8,
 		minWaterDepth	=	40,
@@ -137,13 +72,6 @@ local moveDefs 	=	 {
 		submarine	=	1,
 		heatmapping		=	false,
 	},
-	{
-		name					=	"TANK_Truck_deep",
-		footprintX		=	3,
-		maxWaterDepth	=	70,
-		maxSlope			=	30,
-		heatmapping		=	false,
-	}
 }
 
 return moveDefs

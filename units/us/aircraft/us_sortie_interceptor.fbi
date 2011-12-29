@@ -18,7 +18,7 @@
   maxSlope=820;
   maxVelocity=0.01;
   maxWaterDepth=100000;
-  movementClass=BOAT_Carrier;
+  movementClass=TANK_Light;
   objectName=MortarShell.S3O;
   selfDestructAs=noweapon;
   [sfxtypes] {

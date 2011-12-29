@@ -60,40 +60,46 @@
   turninplace=0;
   turnRate=67;
 
-  weapon1=depthchargethrower;
+
+
+
+  //cannons
+  weapon1=3in50mk22;
   maxAngleDif1=270;
-  onlyTargetCategory1=SUB;
-  weaponMainDir1=1 0 1;
-
-  weapon2=depthchargethrower;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weaponMainDir1=0 0 1;
+  
+  weapon2=3in50mk22;
   maxAngleDif2=270;
-  onlyTargetCategory2=SUB;
-  weaponMainDir2=-1 0 1;
+  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weaponMainDir2=0 0 1;
 
-  weapon3=depthchargethrower;
+  weapon3=3in50mk22;
   maxAngleDif3=270;
-  onlyTargetCategory3=SUB;
-  weaponMainDir3=-1 0 0;
-
+  onlyTargetCategory3=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weaponMainDir3=0 0 -1;
+  
+  //depth charge launchers
   weapon4=depthchargethrower;
   maxAngleDif4=270;
   onlyTargetCategory4=SUB;
   weaponMainDir4=-1 0 0;
 
-  weapon5=3in50mk22;
+  weapon5=depthchargethrower;
   maxAngleDif5=270;
-  onlyTargetCategory5=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir5=0 0 1;
+  onlyTargetCategory5=SUB;
+  weaponMainDir5=1 0 1;
 
-  weapon6=3in50mk22;
+  weapon6=depthchargethrower;
   maxAngleDif6=270;
-  onlyTargetCategory6=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir6=0 0 1;
+  onlyTargetCategory6=SUB;
+  weaponMainDir6=-1 0 1;
 
-  weapon7=3in50mk22;
+  weapon7=depthchargethrower;
   maxAngleDif7=270;
-  onlyTargetCategory7=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir7=0 0 -1;
+  onlyTargetCategory7=SUB;
+  weaponMainDir7=-1 0 0;
+  //AA and such
 
   weapon8=twin_bofors40mmhe;
   maxAngleDif8=200;

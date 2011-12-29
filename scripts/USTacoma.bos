@@ -233,75 +233,9 @@ RestoreTurret()
 	turn aa20_sleeve_6 to x-axis <0> speed AA20_TURRET_PITCH;
 }
 
-QueryWeapon1(piecenum)
-{
-	piecenum = depthcharge_1;
-}
-
-AimFromWeapon1(piecenum)
-{
-	piecenum = hull;
-}
-
-AimWeapon1(heading, pitch)
-{
-	signal SIG_AIM12;
-	set-signal-mask SIG_AIM12|SIG_DEATH;
-	return (TRUE);
-}
-
-FireWeapon1()
-{
-	sleep 50;
-}
-
-QueryWeapon2(piecenum)
-{
-	piecenum = depthcharge_2;
-}
-
-AimFromWeapon2(piecenum)
-{
-	piecenum = hull;
-}
-
-AimWeapon2(heading, pitch)
-{
-	signal SIG_AIM12;
-	set-signal-mask SIG_AIM12|SIG_DEATH;
-	return (TRUE);
-}
-
-FireWeapon2()
-{
-	sleep 50;
-}
-
-QueryWeapon3(piecenum)
-{
-	piecenum = depthcharge_3;
-}
-
-AimFromWeapon3(piecenum)
-{
-	piecenum = hull;
-}
-
-AimWeapon3(heading, pitch)
-{
-	signal SIG_AIM12;
-	set-signal-mask SIG_AIM12|SIG_DEATH;
-	return (TRUE);
-}
-
-FireWeapon3()
-{
-	sleep 50;
-}
-
 QueryWeapon4(piecenum)
 {
-	piecenum = depthcharge_4;
+	piecenum = depthcharge_1;
 }
 
 AimFromWeapon4(piecenum)
@@ -323,15 +257,81 @@ FireWeapon4()
 
 QueryWeapon5(piecenum)
 {
-	piecenum = main_flare_1;
+	piecenum = depthcharge_2;
 }
 
 AimFromWeapon5(piecenum)
 {
-	piecenum = main_turret_1;
+	piecenum = hull;
 }
 
 AimWeapon5(heading, pitch)
+{
+	signal SIG_AIM12;
+	set-signal-mask SIG_AIM12|SIG_DEATH;
+	return (TRUE);
+}
+
+FireWeapon5()
+{
+	sleep 50;
+}
+
+QueryWeapon6(piecenum)
+{
+	piecenum = depthcharge_3;
+}
+
+AimFromWeapon6(piecenum)
+{
+	piecenum = hull;
+}
+
+AimWeapon6(heading, pitch)
+{
+	signal SIG_AIM12;
+	set-signal-mask SIG_AIM12|SIG_DEATH;
+	return (TRUE);
+}
+
+FireWeapon6()
+{
+	sleep 50;
+}
+
+QueryWeapon7(piecenum)
+{
+	piecenum = depthcharge_4;
+}
+
+AimFromWeapon7(piecenum)
+{
+	piecenum = hull;
+}
+
+AimWeapon7(heading, pitch)
+{
+	signal SIG_AIM12;
+	set-signal-mask SIG_AIM12|SIG_DEATH;
+	return (TRUE);
+}
+
+FireWeapon7()
+{
+	sleep 50;
+}
+
+QueryWeapon1(piecenum)
+{
+	piecenum = main_flare_1;
+}
+
+AimFromWeapon1(piecenum)
+{
+	piecenum = main_turret_1;
+}
+
+AimWeapon1(heading, pitch)
 {
 	signal SIG_AIM1;
 	set-signal-mask SIG_AIM1|SIG_DEATH;
@@ -343,7 +343,7 @@ AimWeapon5(heading, pitch)
 	return (TRUE);
 }
 
-FireWeapon5()
+FireWeapon1()
 {
 	emit-sfx MEDIUM_MUZZLEFLASH from main_flare_1;
 	emit-sfx MEDIUM_MUZZLEDUST from main_flare_1;
@@ -353,17 +353,17 @@ FireWeapon5()
 	hide main_flare_1;
 }
 
-QueryWeapon6(piecenum)
+QueryWeapon2(piecenum)
 {
 	piecenum = main_flare_2;
 }
 
-AimFromWeapon6(piecenum)
+AimFromWeapon2(piecenum)
 {
 	piecenum = main_turret_2;
 }
 
-AimWeapon6(heading, pitch)
+AimWeapon2(heading, pitch)
 {
 	signal SIG_AIM2;
 	set-signal-mask SIG_AIM2|SIG_DEATH;
@@ -375,7 +375,7 @@ AimWeapon6(heading, pitch)
 	return (TRUE);
 }
 
-FireWeapon6()
+FireWeapon2()
 {
 	emit-sfx MEDIUM_MUZZLEFLASH from main_flare_2;
 	emit-sfx MEDIUM_MUZZLEDUST from main_flare_2;
@@ -385,17 +385,17 @@ FireWeapon6()
 	hide main_flare_2;
 }
 
-QueryWeapon7(piecenum)
+QueryWeapon3(piecenum)
 {
 	piecenum = main_flare_3;
 }
 
-AimFromWeapon7(piecenum)
+AimFromWeapon3(piecenum)
 {
 	piecenum = main_turret_3;
 }
 
-AimWeapon7(heading, pitch)
+AimWeapon3(heading, pitch)
 {
 	signal SIG_AIM3;
 	set-signal-mask SIG_AIM3|SIG_DEATH;
@@ -407,7 +407,7 @@ AimWeapon7(heading, pitch)
 	return (TRUE);
 }
 
-FireWeapon7()
+FireWeapon3()
 {
 	emit-sfx MEDIUM_MUZZLEFLASH from main_flare_3;
 	emit-sfx MEDIUM_MUZZLEDUST from main_flare_3;

@@ -141,7 +141,7 @@ local options = {
     name   = "Fixed Command Storage",
     desc   = "Fixes the command storage of all players. (key = 'command_storage')",
     type   = "number",
-    def    = 10000,
+    def    = 100000,
     min    = 1000,
     max    = 5000000,
 	section= '3resources',
